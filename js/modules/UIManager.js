@@ -41,7 +41,14 @@ export class UIManager {
             mobileToggle: document.getElementById('mobile-sidebar-toggle'),
             toggleIcon: document.getElementById('toggle-icon'),
             toggleText: document.getElementById('toggle-text'),
-            quizSidebar: document.getElementById('quiz-sidebar')
+            toggleIcon: document.getElementById('toggle-icon'),
+            toggleText: document.getElementById('toggle-text'),
+            quizSidebar: document.getElementById('quiz-sidebar'),
+
+            // Grade Display
+            gradeContainer: document.getElementById('sidebar-grade-container'),
+            gradeValue: document.querySelector('.grade-value'),
+            gradeBadge: document.querySelector('.grade-badge')
         };
 
         this.bindEvents();
@@ -449,5 +456,30 @@ export class UIManager {
         });
 
         this.elements.quizLayout.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    showGrade(grade) {
+        if (!this.elements.gradeContainer) return;
+
+        this.elements.gradeContainer.classList.remove('hidden');
+        this.elements.gradeValue.textContent = grade.toFixed(2);
+
+        // Reset classes
+        this.elements.gradeBadge.className = 'grade-badge';
+
+        // Apply style based on grade
+        if (grade >= 9) {
+            this.elements.gradeBadge.classList.add('excellent');
+        } else if (grade >= 5) {
+            this.elements.gradeBadge.classList.add('pass');
+        } else {
+            this.elements.gradeBadge.classList.add('fail');
+        }
+    }
+
+    hideGrade() {
+        if (this.elements.gradeContainer) {
+            this.elements.gradeContainer.classList.add('hidden');
+        }
     }
 }

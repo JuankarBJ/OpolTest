@@ -251,6 +251,7 @@ input[type="range"] {
     border-radius: 3px;
     outline: none;
     -webkit-appearance: none;
+    appearance: none;
 }
 
 input[type="range"]::-webkit-slider-thumb {
@@ -502,6 +503,55 @@ input[type="number"]:focus {
     max-height: calc(100vh - 120px);
     display: flex;
     flex-direction: column;
+}
+
+/* Grade Display */
+#sidebar-grade-container {
+    margin-bottom: 15px;
+    animation: fadeIn 0.3s ease;
+}
+
+.grade-badge {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    background: var(--bg-body);
+    border-radius: 8px;
+    border: 2px solid var(--border);
+    font-weight: 700;
+    color: var(--text-main);
+}
+
+.grade-badge.pass {
+    background: var(--success-bg);
+    border-color: var(--success);
+    color: #2e7d32;
+}
+
+.grade-badge.fail {
+    background: var(--danger-bg);
+    border-color: var(--danger);
+    color: #c62828;
+}
+
+.grade-badge.excellent {
+    background: #e3f2fd;
+    /* Blue 50 */
+    border-color: #2196f3;
+    /* Blue 500 */
+    color: #0d47a1;
+    /* Blue 900 */
+}
+
+.grade-label {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.grade-value {
+    font-size: 1.2rem;
 }
 
 #quiz-sidebar h3 {

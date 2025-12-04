@@ -144,6 +144,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     uiManager.startQuizDisplay();
                     uiManager.renderQuestions(quizEngine.questions);
                     uiManager.enterReviewMode(quizEngine.questions, quizEngine.userAnswers);
+                    const results = quizEngine.calculateResults();
+                    uiManager.showGrade(results.finalGrade);
                     uiManager.toggleActions(true, 'review');
                     bindActionEvents();
                 } catch (err) {
@@ -315,6 +317,7 @@ document.addEventListener('DOMContentLoaded', () => {
             html,
             () => {
                 uiManager.enterReviewMode(quizEngine.questions, quizEngine.userAnswers);
+                uiManager.showGrade(results.finalGrade);
                 uiManager.toggleActions(true, 'review');
                 bindActionEvents(); // Rebind for review mode
             },
@@ -407,6 +410,7 @@ document.addEventListener('DOMContentLoaded', () => {
             quizEngine.init(questions);
 
             uiManager.startQuizDisplay();
+            uiManager.hideGrade(); // Ensure grade is hidden
             uiManager.renderQuestions(questions);
             uiManager.toggleActions(true, 'quiz');
             bindActionEvents();
