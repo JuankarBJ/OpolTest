@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const uiManager = new UIManager();
     let configData = [];
     let topicsData = [];
+    let examsData = []; // New
     let currentMode = 'random'; // 'random' or 'fixed'
     let currentBlockSize = 30;
 
@@ -46,9 +47,10 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             // Load Data
-            [configData, topicsData] = await Promise.all([
+            [configData, topicsData, examsData] = await Promise.all([
                 DataManager.loadConfig(),
-                DataManager.loadTopics()
+                DataManager.loadTopics(),
+                DataManager.loadExams()
             ]);
 
             // Render Tabs
@@ -61,13 +63,21 @@ document.addEventListener('DOMContentLoaded', () => {
                         updateAvailableQuestions();
                         uiManager.updateSelectionSummary();
                     });
-                } else {
+                } else if (tab === 'temas') {
                     uiManager.renderTopicCards(topicsData, () => {
                         updateAvailableQuestions();
                         uiManager.updateSelectionSummary();
                     });
                     // Only hide block selector initially (will be shown by updateAvailableQuestions if needed)
                     uiManager.hideBlockSelector();
+                } else if (tab === 'examenes') {
+                    uiManager.renderExamCards(examsData, () => {
+                        updateAvailableQuestions();
+                        uiManager.updateSelectionSummary();
+                    });
+                    uiManager.hideBlockSelector();
+                    // Hide mode selector for exams (always fixed)
+                    uiManager.elements.modeSelectorContainer.classList.add('hidden');
                 }
                 updateAvailableQuestions();
                 uiManager.updateSelectionSummary();
@@ -154,6 +164,21 @@ document.addEventListener('DOMContentLoaded', () => {
     function updateAvailableQuestions() {
         const { checkedBoxes, mode } = uiManager.getSelectedOptions();
 
+        if (mode === 'examenes') {
+            uiManager.hideBlockSelector();
+            if (checkedBoxes.length === 1) {
+                const exam = examsData.find(e => e.id === checkedBoxes[0].id);
+                uiManager.updateAvailableCount(exam.total_preguntas);
+                // Force input to exam total
+                uiManager.elements.input.value = exam.total_preguntas;
+                // Update preset buttons visually to show full exam selected? 
+                // Or just disable them? Let's disable them effectively by setting total.
+            } else {
+                uiManager.updateAvailableCount(0);
+            }
+            return;
+        }
+
         if (checkedBoxes.length === 1 && currentMode === 'fixed') {
             // Show block selector for both Laws and Topics
             const id = checkedBoxes[0].id;
@@ -162,7 +187,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (mode === 'leyes') {
                 const config = configData.find(t => t.id === id);
                 total = parseInt(config.total_preguntas, 10);
-            } else {
+            } else if (mode === 'temas') {
                 const topic = topicsData.find(t => t.id === id);
                 // Calculate total from sources
                 total = topic.fuentes.reduce((sum, f) => sum + f.indices.length, 0);
@@ -313,7 +338,12 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             let questions = [];
 
-            if (mode === 'temas') {
+            if (mode === 'examenes') {
+                // Exam Mode
+                const examId = checkedBoxes[0].id;
+                questions = await DataManager.fetchQuestionsByExam(examId);
+
+            } else if (mode === 'temas') {
                 // Topic Mode
                 const topicIds = checkedBoxes.map(box => box.id);
 

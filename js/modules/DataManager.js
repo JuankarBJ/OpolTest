@@ -119,4 +119,65 @@ export class DataManager {
             throw error;
         }
     }
+    static async loadExams() {
+        try {
+            const response = await fetch('data/exams.json');
+            if (!response.ok) throw new Error('Failed to load exams');
+            return await response.json();
+        } catch (error) {
+            console.error("Error loading exams:", error);
+            throw error;
+        }
+    }
+
+    static async fetchQuestionsByExam(examId) {
+        try {
+            const exams = await this.loadExams();
+            const exam = exams.find(e => e.id === examId);
+            if (!exam) throw new Error("Exam not found");
+
+            // Gather all source requests
+            const fileRequests = {};
+
+            exam.fuentes.forEach(fuente => {
+                if (!fileRequests[fuente.archivo]) {
+                    fileRequests[fuente.archivo] = new Set();
+                }
+                fuente.indices.forEach(idx => fileRequests[fuente.archivo].add(idx));
+            });
+
+            // Fetch files and extract questions
+            const promises = Object.keys(fileRequests).map(async (filePath) => {
+                const response = await fetch(filePath);
+                if (!response.ok) throw new Error(`Failed to load ${filePath}`);
+                const allQuestions = await response.json();
+                const indices = Array.from(fileRequests[filePath]);
+
+                // Extract only requested indices and preserve order if needed, 
+                // but for exams we usually want the specific set.
+                // We'll map indices to questions.
+                return indices.map(idx => {
+                    if (allQuestions[idx]) return allQuestions[idx];
+                    return null;
+                }).filter(q => q !== null);
+            });
+
+            const questionSubsets = await Promise.all(promises);
+            const allQuestions = questionSubsets.flat();
+
+            // For real exams, we might want a specific order, but for now we'll just return the set.
+            // If the exam defines a specific order via the sources, this preserves it roughly 
+            // (file by file). If we need exact question order, the JSON structure would need to be different.
+            // Assuming random order within the exam subset is NOT desired, but usually exams have a fixed order.
+            // However, our current structure gathers by file. 
+            // Let's shuffle them for now to simulate a "generated" exam from that pool, 
+            // OR keep them as is. Let's keep them as is (by file order) for consistency.
+
+            return allQuestions;
+
+        } catch (error) {
+            console.error("Error fetching exam questions:", error);
+            throw error;
+        }
+    }
 }

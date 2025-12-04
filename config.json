@@ -9,11 +9,10 @@
         },
         {
             "id": "ea-clm",
-            "nombre": "ESTATUTO DE AUTONOMÍA DE CASTILLA LA MANCHA",
+            "nombre": "Estatuto de Autonomía de Castilla-La Mancha",
             "valor": "EA-CLM.json",
             "total_preguntas": 140,
             "icono": "EA-CLM"
         }
-       
     ]
 }

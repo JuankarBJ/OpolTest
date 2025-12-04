@@ -1091,3 +1091,55 @@ input[type="number"]:focus {
 .primary-btn:hover {
     background: var(--primary-hover);
 }
+
+/* Compact Cards for Modal */
+.materia-card.compact {
+    padding: 10px;
+    min-height: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.materia-card.compact label {
+    font-size: 0.9rem;
+    margin: 0;
+    flex: 1;
+}
+
+.materia-card.compact .materia-info {
+    font-size: 0.75rem;
+    margin-top: 0;
+}
+
+/* Styled Tabs */
+#selection-tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+}
+
+.tab-btn {
+    padding: 8px 16px;
+    border: none;
+    background: var(--bg-body);
+    color: var(--text-secondary);
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s;
+    border: 1px solid transparent;
+}
+
+.tab-btn:hover {
+    background: var(--bg-card);
+    border-color: var(--border);
+}
+
+.tab-btn.active {
+    background: var(--primary);
+    color: white;
+    box-shadow: var(--shadow-soft);
+}

@@ -184,8 +184,9 @@ export class UIManager {
         const tabContainer = this.elements.selectionTabs;
 
         tabContainer.innerHTML = `
-            <button class="tab-btn active" data-tab="leyes">Por Leyes</button>
-            <button class="tab-btn" data-tab="temas">Por Temas</button>
+            <button class="tab-btn active" data-tab="leyes">Leyes</button>
+            <button class="tab-btn" data-tab="temas">Temas</button>
+            <button class="tab-btn" data-tab="examenes">Exámenes</button>
         `;
 
         const buttons = tabContainer.querySelectorAll('.tab-btn');
@@ -203,11 +204,11 @@ export class UIManager {
         this.elements.materiasContainer.dataset.mode = 'leyes'; // Track mode
         tests.forEach(test => {
             const card = document.createElement('div');
-            card.classList.add('materia-card');
+            card.classList.add('materia-card', 'compact'); // Added compact class
             card.innerHTML = `
                 <input type="checkbox" id="${test.id}" data-type="ley" data-questions="${test.total_preguntas}" value="${test.valor}">
                 <label for="${test.id}">${test.nombre}</label>
-                <div class="materia-info"><span>${test.total_preguntas} preguntas disponibles</span></div>
+                <div class="materia-info"><span>${test.total_preguntas} pregs.</span></div>
             `;
             this.elements.materiasContainer.appendChild(card);
         });
@@ -223,16 +224,33 @@ export class UIManager {
             const totalQuestions = topic.fuentes.reduce((sum, f) => sum + f.indices.length, 0);
 
             const card = document.createElement('div');
-            card.classList.add('materia-card');
+            card.classList.add('materia-card', 'compact'); // Added compact class
             card.innerHTML = `
                 <input type="checkbox" id="${topic.id}" data-type="tema" data-questions="${totalQuestions}" value="${topic.id}">
                 <label for="${topic.id}">${topic.nombre}</label>
-                <div class="materia-info"><span>${totalQuestions} preguntas disponibles</span></div>
+                <div class="materia-info"><span>${totalQuestions} pregs.</span></div>
             `;
             this.elements.materiasContainer.appendChild(card);
         });
 
         // Re-attach listener since we cleared innerHTML
+        this.elements.materiasContainer.addEventListener('change', () => onSelectionChange());
+    }
+
+    renderExamCards(exams, onSelectionChange) {
+        this.elements.materiasContainer.innerHTML = '';
+        this.elements.materiasContainer.dataset.mode = 'examenes'; // Track mode
+        exams.forEach(exam => {
+            const card = document.createElement('div');
+            card.classList.add('materia-card', 'compact');
+            card.innerHTML = `
+                <input type="checkbox" id="${exam.id}" data-type="examen" data-questions="${exam.total_preguntas}" value="${exam.id}">
+                <label for="${exam.id}">${exam.nombre}</label>
+                <div class="materia-info"><span>${exam.total_preguntas} pregs.</span></div>
+            `;
+            this.elements.materiasContainer.appendChild(card);
+        });
+
         this.elements.materiasContainer.addEventListener('change', () => onSelectionChange());
     }
 

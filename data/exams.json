@@ -1,0 +1,35 @@
+[
+    {
+        "id": "exam-aux-age-2019",
+        "nombre": "Examen Auxiliar AGE 2019",
+        "descripcion": "Examen oficial del Cuerpo General Auxiliar de la Administración del Estado, convocatoria 2019.",
+        "total_preguntas": 50,
+        "fuentes": [
+            {
+                "archivo": "data/CE.json",
+                "indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ]
+            },
+            {
+                "archivo": "data/EA-CLM.json",
+                "indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ]
+    }
+]
