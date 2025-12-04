@@ -53,25 +53,44 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Render Tabs
             uiManager.renderTabs((tab) => {
+                // Always show mode selector
+                uiManager.elements.modeSelectorContainer.classList.remove('hidden');
+
                 if (tab === 'leyes') {
-                    uiManager.renderMateriaCards(configData, updateAvailableQuestions);
-                    // Show mode selector for laws
-                    uiManager.elements.modeSelectorContainer.classList.remove('hidden');
+                    uiManager.renderMateriaCards(configData, () => {
+                        updateAvailableQuestions();
+                        uiManager.updateSelectionSummary();
+                    });
                 } else {
-                    uiManager.renderTopicCards(topicsData, updateAvailableQuestions);
-                    // Hide mode selector for topics (always random for now)
-                    uiManager.elements.modeSelectorContainer.classList.add('hidden');
+                    uiManager.renderTopicCards(topicsData, () => {
+                        updateAvailableQuestions();
+                        uiManager.updateSelectionSummary();
+                    });
+                    // Only hide block selector initially (will be shown by updateAvailableQuestions if needed)
                     uiManager.hideBlockSelector();
                 }
                 updateAvailableQuestions();
+                uiManager.updateSelectionSummary();
             });
 
             // Initial Render (Leyes)
-            uiManager.renderMateriaCards(configData, updateAvailableQuestions);
+            uiManager.renderMateriaCards(configData, () => {
+                updateAvailableQuestions();
+                uiManager.updateSelectionSummary();
+            });
+
             uiManager.renderModeSelector((mode) => {
                 currentMode = mode;
                 updateAvailableQuestions();
             });
+
+            // Initialize Preset Buttons
+            uiManager.renderPresetButtons((val) => {
+                // Handle preset click
+                updateAvailableQuestions();
+            });
+
+            uiManager.updateSelectionSummary();
 
             // XML Upload Handler
             const uploadBtn = document.createElement('button');
@@ -133,12 +152,22 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Event Handlers ---
 
     function updateAvailableQuestions() {
-        const { checkedBoxes } = uiManager.getSelectedOptions();
+        const { checkedBoxes, mode } = uiManager.getSelectedOptions();
 
         if (checkedBoxes.length === 1 && currentMode === 'fixed') {
-            // Show block selector
-            const config = configData.find(t => t.id === checkedBoxes[0].id);
-            const total = parseInt(config.total_preguntas, 10);
+            // Show block selector for both Laws and Topics
+            const id = checkedBoxes[0].id;
+            let total = 0;
+
+            if (mode === 'leyes') {
+                const config = configData.find(t => t.id === id);
+                total = parseInt(config.total_preguntas, 10);
+            } else {
+                const topic = topicsData.find(t => t.id === id);
+                // Calculate total from sources
+                total = topic.fuentes.reduce((sum, f) => sum + f.indices.length, 0);
+            }
+
             uiManager.renderBlockSelector(total, currentBlockSize, () => { });
             uiManager.updateAvailableCount(total); // Just to enable button
         } else {
@@ -272,7 +301,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Capture block index BEFORE showLoading() wipes the DOM
         let blockIndex = 0;
-        if (mode === 'leyes' && currentMode === 'fixed' && checkedBoxes.length === 1) {
+        if (currentMode === 'fixed' && checkedBoxes.length === 1) {
             const blockSelect = document.getElementById('block-select');
             if (blockSelect) {
                 blockIndex = parseInt(blockSelect.value, 10);
@@ -287,7 +316,15 @@ document.addEventListener('DOMContentLoaded', () => {
             if (mode === 'temas') {
                 // Topic Mode
                 const topicIds = checkedBoxes.map(box => box.id);
-                questions = await DataManager.fetchQuestionsByTopic(topicIds, numQuestions);
+
+                if (currentMode === 'fixed' && checkedBoxes.length === 1) {
+                    // Fixed Block Mode (Topic)
+                    questions = await DataManager.fetchQuestionsByTopic(topicIds, numQuestions, blockIndex, currentBlockSize);
+                } else {
+                    // Random Mode (Topic)
+                    questions = await DataManager.fetchQuestionsByTopic(topicIds, numQuestions);
+                }
+
             } else if (currentMode === 'fixed' && checkedBoxes.length === 1) {
                 // Fixed Block Mode (Leyes)
                 const config = configData.find(t => t.id === checkedBoxes[0].id);

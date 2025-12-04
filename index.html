@@ -25,10 +25,15 @@
     <main>
         <div id="setup-container">
             <section class="setup-section">
-                <h2>1. Selecciona las Materias</h2>
-                <div id="materias-container">
-                    <!-- Cards injected by JS -->
+                <h2>1. Selección de Materias</h2>
+
+                <div id="selection-summary" class="selection-summary">
+                    <p>No hay materias seleccionadas.</p>
                 </div>
+
+                <button id="open-selection-modal" class="action-btn">
+                    🔍 Seleccionar Leyes o Temas
+                </button>
             </section>
 
             <section class="setup-section">
@@ -43,11 +48,11 @@
                 </div>
 
                 <div class="config-controls">
-                    <label for="num-questions-input">Número de preguntas:</label>
-                    <div class="slider-container">
-                        <input type="range" id="num-questions-slider" min="10" max="100" value="25" step="5">
-                        <input type="number" id="num-questions-input" min="10" max="100" value="25" step="5">
+                    <label>Número de preguntas:</label>
+                    <div id="preset-buttons-container" class="preset-buttons">
+                        <!-- Buttons injected by JS -->
                     </div>
+                    <input type="hidden" id="num-questions-input" value="30">
                     <small>Total de preguntas disponibles: <strong id="total-available-questions">0</strong></small>
                 </div>
 
@@ -56,6 +61,27 @@
             </section>
 
             <button id="start-button" disabled>Generar Test</button>
+        </div>
+
+        <!-- Selection Modal -->
+        <div id="selection-modal" class="modal hidden">
+            <div class="modal-content large-modal">
+                <div class="modal-header">
+                    <h3>Seleccionar Contenido</h3>
+                    <button id="close-selection-modal" class="close-btn">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div id="selection-tabs">
+                        <!-- Tabs injected by JS -->
+                    </div>
+                    <div id="materias-container">
+                        <!-- Cards injected by JS -->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button id="confirm-selection" class="primary-btn">Confirmar Selección</button>
+                </div>
+            </div>
         </div>
 
         <div id="quiz-page-layout" class="hidden">

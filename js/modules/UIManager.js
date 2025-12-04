@@ -4,7 +4,8 @@ export class UIManager {
             setupContainer: document.getElementById('setup-container'),
             materiasContainer: document.getElementById('materias-container'),
             totalAvailable: document.getElementById('total-available-questions'),
-            slider: document.getElementById('num-questions-slider'),
+            // Removed slider, added preset container
+            presetButtonsContainer: document.getElementById('preset-buttons-container'),
             input: document.getElementById('num-questions-input'),
             startButton: document.getElementById('start-button'),
             quizLayout: document.getElementById('quiz-page-layout'),
@@ -26,33 +27,52 @@ export class UIManager {
 
             modeSelectorContainer: document.getElementById('mode-selector-container'),
             blockSelectorContainer: document.getElementById('block-selector-container'),
-            fileInput: document.getElementById('xml-upload')
+            fileInput: document.getElementById('xml-upload'),
+
+            // Phase 5: Modal Selection
+            selectionModal: document.getElementById('selection-modal'),
+            openSelectionBtn: document.getElementById('open-selection-modal'),
+            closeSelectionBtn: document.getElementById('close-selection-modal'),
+            confirmSelectionBtn: document.getElementById('confirm-selection'),
+            selectionSummary: document.getElementById('selection-summary'),
+            selectionTabs: document.getElementById('selection-tabs')
         };
 
         this.bindEvents();
     }
 
     bindEvents() {
-        // Sync slider and input
-        const sync = (e) => {
-            let value = parseInt(e.target.value, 10);
-            const max = parseInt(this.elements.input.max, 10);
-            const min = parseInt(this.elements.input.min, 10);
-            if (isNaN(value)) value = min;
-            if (value > max) value = max;
-            if (value < min) value = min;
-            this.elements.slider.value = value;
-            this.elements.input.value = value;
-        };
-        this.elements.slider.addEventListener('input', sync);
-        this.elements.input.addEventListener('input', sync);
+        // Modal Selection Events
+        if (this.elements.openSelectionBtn) {
+            this.elements.openSelectionBtn.addEventListener('click', () => {
+                this.elements.selectionModal.classList.remove('hidden');
+            });
+        }
+        if (this.elements.closeSelectionBtn) {
+            this.elements.closeSelectionBtn.addEventListener('click', () => {
+                this.elements.selectionModal.classList.add('hidden');
+            });
+        }
+        if (this.elements.confirmSelectionBtn) {
+            this.elements.confirmSelectionBtn.addEventListener('click', () => {
+                this.elements.selectionModal.classList.add('hidden');
+                this.updateSelectionSummary();
+            });
+        }
 
-        // Modal closing
+        // Modal closing (General & Selection)
         this.elements.modal.addEventListener('click', (e) => {
             if (e.target === this.elements.modal) this.hideModal();
         });
+        this.elements.selectionModal.addEventListener('click', (e) => {
+            if (e.target === this.elements.selectionModal) this.elements.selectionModal.classList.add('hidden');
+        });
+
         window.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && this.elements.modal.classList.contains('visible')) this.hideModal();
+            if (e.key === 'Escape') {
+                if (this.elements.modal.classList.contains('visible')) this.hideModal();
+                if (!this.elements.selectionModal.classList.contains('hidden')) this.elements.selectionModal.classList.add('hidden');
+            }
         });
     }
 
@@ -119,15 +139,49 @@ export class UIManager {
         }
     }
 
-    renderTabs(onTabChange) {
-        // Create tabs if they don't exist
-        let tabContainer = document.getElementById('selection-tabs');
-        if (!tabContainer) {
-            tabContainer = document.createElement('div');
-            tabContainer.id = 'selection-tabs';
-            tabContainer.className = 'selection-tabs';
-            this.elements.setupContainer.insertBefore(tabContainer, this.elements.materiasContainer.parentElement);
+    renderPresetButtons(onChange) {
+        const presets = [10, 20, 30, 40, 50, 60, 70];
+        this.elements.presetButtonsContainer.innerHTML = '';
+
+        presets.forEach(num => {
+            const btn = document.createElement('button');
+            btn.className = 'preset-btn';
+            btn.textContent = num;
+            btn.dataset.value = num;
+            if (num === 30) btn.classList.add('active'); // Default
+
+            btn.addEventListener('click', () => {
+                // Update active state
+                this.elements.presetButtonsContainer.querySelectorAll('.preset-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                // Update hidden input
+                this.elements.input.value = num;
+                onChange(num);
+            });
+
+            this.elements.presetButtonsContainer.appendChild(btn);
+        });
+    }
+
+    updateSelectionSummary() {
+        const { checkedBoxes, mode } = this.getSelectedOptions();
+        const count = checkedBoxes.length;
+        const type = mode === 'leyes' ? (count === 1 ? 'Ley' : 'Leyes') : (count === 1 ? 'Tema' : 'Temas');
+
+        if (count === 0) {
+            this.elements.selectionSummary.innerHTML = '<p>No hay materias seleccionadas.</p>';
+        } else {
+            const names = checkedBoxes.map(box => box.nextElementSibling.textContent).join(', ');
+            this.elements.selectionSummary.innerHTML = `
+                <p><strong>${count} ${type} seleccionada${count > 1 ? 's' : ''}:</strong> ${names}</p>
+            `;
         }
+    }
+
+    renderTabs(onTabChange) {
+        // Use the container inside the modal
+        const tabContainer = this.elements.selectionTabs;
 
         tabContainer.innerHTML = `
             <button class="tab-btn active" data-tab="leyes">Por Leyes</button>
@@ -184,18 +238,35 @@ export class UIManager {
 
     updateAvailableCount(count) {
         this.elements.totalAvailable.textContent = count;
-        const validCount = count > 0 ? count : 1;
 
-        this.elements.slider.max = validCount;
-        this.elements.input.max = validCount;
-        this.elements.slider.min = count > 0 ? 1 : 1;
-        this.elements.input.min = count > 0 ? 1 : 1;
+        // Update preset buttons availability
+        const buttons = this.elements.presetButtonsContainer.querySelectorAll('.preset-btn');
+        let maxAvailable = 0;
 
+        buttons.forEach(btn => {
+            const val = parseInt(btn.dataset.value, 10);
+            if (val > count) {
+                btn.disabled = true;
+                btn.style.opacity = '0.5';
+                btn.classList.remove('active');
+            } else {
+                btn.disabled = false;
+                btn.style.opacity = '1';
+                maxAvailable = Math.max(maxAvailable, val);
+            }
+        });
+
+        // Ensure current selection is valid
         let currentVal = parseInt(this.elements.input.value, 10);
-        if (currentVal > validCount || currentVal < 1) {
-            const newVal = count > 0 ? Math.min(25, count) : 1;
-            this.elements.input.value = newVal;
-            this.elements.slider.value = newVal;
+        if (currentVal > count) {
+            // Select the largest possible button
+            const validBtns = Array.from(buttons).filter(b => !b.disabled);
+            if (validBtns.length > 0) {
+                const lastBtn = validBtns[validBtns.length - 1];
+                lastBtn.click();
+            } else {
+                this.elements.input.value = 0;
+            }
         }
 
         this.elements.startButton.disabled = (count === 0 || parseInt(this.elements.input.value, 10) < 1);

@@ -66,7 +66,7 @@ export class DataManager {
         }
     }
 
-    static async fetchQuestionsByTopic(topicIds, numQuestions) {
+    static async fetchQuestionsByTopic(topicIds, numQuestions, blockIndex = null, blockSize = 30) {
         // topicIds: array of strings (e.g., ["tema1", "tema3"])
         try {
             const topics = await this.loadTopics();
@@ -102,9 +102,17 @@ export class DataManager {
             const questionSubsets = await Promise.all(promises);
             const allQuestions = questionSubsets.flat();
 
-            // Randomize and limit
-            allQuestions.sort(() => Math.random() - 0.5);
-            return allQuestions.slice(0, numQuestions);
+            if (blockIndex !== null) {
+                // Block Mode: Slice specific range
+                // Note: Questions are NOT randomized in block mode to ensure consistency
+                const start = blockIndex * blockSize;
+                const end = start + blockSize;
+                return allQuestions.slice(start, end);
+            } else {
+                // Random Mode: Randomize and limit
+                allQuestions.sort(() => Math.random() - 0.5);
+                return allQuestions.slice(0, numQuestions);
+            }
 
         } catch (error) {
             console.error("Error fetching questions by topic:", error);
