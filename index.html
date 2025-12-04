@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OpoTest Pro - Plataforma de Tests</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <header>
@@ -25,11 +27,21 @@
             <section class="setup-section">
                 <h2>1. Selecciona las Materias</h2>
                 <div id="materias-container">
-                    </div>
+                    <!-- Cards injected by JS -->
+                </div>
             </section>
 
             <section class="setup-section">
                 <h2>2. Configura tu Test</h2>
+
+                <div id="mode-selector-container">
+                    <!-- Mode toggle injected by JS -->
+                </div>
+
+                <div id="block-selector-container" class="hidden">
+                    <!-- Block select injected by JS -->
+                </div>
+
                 <div class="config-controls">
                     <label for="num-questions-input">Número de preguntas:</label>
                     <div class="slider-container">
@@ -38,33 +50,57 @@
                     </div>
                     <small>Total de preguntas disponibles: <strong id="total-available-questions">0</strong></small>
                 </div>
+
+                <!-- Hidden file input for XML -->
+                <input type="file" id="xml-upload" accept=".xml" style="display:none;">
             </section>
 
             <button id="start-button" disabled>Generar Test</button>
         </div>
 
-        <div id="quiz-page-layout" class="hidden"> 
+        <div id="quiz-page-layout" class="hidden">
             <div id="quiz-main-content">
                 <div id="quiz-header">
                     <h2 id="quiz-title">Test en Progreso</h2>
                 </div>
                 <div id="all-questions-container">
-                    </div>
+                    <!-- Questions injected by JS -->
+                </div>
             </div>
 
             <div id="quiz-sidebar">
                 <h3>Preguntas</h3>
                 <div id="question-grid">
-                    </div>
-                <div id="finish-button-container">
-                    <button id="finish-button">Finalizar y Corregir</button>
+                    <!-- Grid items injected by JS -->
+                </div>
+                <div id="sidebar-actions" class="hidden">
+                    <!-- Quiz Mode Buttons -->
+                    <button id="action-save" class="sidebar-btn hidden" title="Guardar Progreso">💾 Guardar</button>
+                    <button id="action-finish" class="sidebar-btn hidden" title="Finalizar Test">🏁 Corregir</button>
+
+                    <!-- Review Mode Buttons -->
+                    <button id="action-redo" class="sidebar-btn hidden" title="Rehacer este test">🔄 Rehacer</button>
+                    <button id="action-retry-failed" class="sidebar-btn hidden" title="Repetir solo fallos">⚠️ Repetir
+                        Fallos</button>
+                    <button id="action-export-xml" class="sidebar-btn hidden" title="Exportar a XML">📂 Exportar
+                        XML</button>
+
+                    <!-- Common -->
+                    <button id="action-exit" class="sidebar-btn" title="Salir">❌ Salir</button>
                 </div>
             </div>
         </div>
-        
+
+        <div id="fab-container" class="hidden">
+            <button id="fab-save" class="fab-btn" title="Guardar / Exportar">💾</button>
+            <button id="fab-finish" class="fab-btn" title="Finalizar Test">🏁</button>
+            <button id="fab-exit" class="fab-btn" title="Salir">❌</button>
+        </div>
+
         <div id="modal-overlay" class="hidden">
             <div id="results-container">
-                </div>
+                <!-- Results injected by JS -->
+            </div>
         </div>
     </main>
 
@@ -72,6 +108,7 @@
         <p>&copy; 2025 OpoTest Pro. Todos los derechos reservados.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script type="module" src="js/main.js"></script>
 </body>
+
 </html>
