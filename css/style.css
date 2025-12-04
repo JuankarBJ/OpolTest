@@ -733,16 +733,19 @@ input[type="number"]:focus {
         right: 0;
         width: 100%;
         border-radius: 20px 20px 0 0;
-        z-index: 100;
         padding: 0 15px 15px 15px;
         box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.2);
         max-height: 80vh;
         display: flex;
         flex-direction: column;
         transition: transform 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
-        transform: translateY(calc(100% - 50px));
-        z-index: 9999;
+        transform: translateY(calc(100% - 60px));
+        /* Show a bit more of the header */
+        z-index: 90;
+        /* Below Header (100) and Modal (1000) */
         will-change: transform;
+        border-top: 1px solid var(--primary-light);
+        /* Distinct separator */
     }
 
     #quiz-sidebar.expanded {
