@@ -168,11 +168,9 @@ document.addEventListener('DOMContentLoaded', () => {
             uiManager.hideBlockSelector();
             if (checkedBoxes.length === 1) {
                 const exam = examsData.find(e => e.id === checkedBoxes[0].id);
-                uiManager.updateAvailableCount(exam.total_preguntas);
-                // Force input to exam total
+                // Force input to exam total and update UI
                 uiManager.elements.input.value = exam.total_preguntas;
-                // Update preset buttons visually to show full exam selected? 
-                // Or just disable them? Let's disable them effectively by setting total.
+                uiManager.updateAvailableCount(exam.total_preguntas);
             } else {
                 uiManager.updateAvailableCount(0);
             }
@@ -194,7 +192,10 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             uiManager.renderBlockSelector(total, currentBlockSize, () => { });
-            uiManager.updateAvailableCount(total); // Just to enable button
+
+            // Force input to block size for Fixed Mode
+            uiManager.elements.input.value = currentBlockSize;
+            uiManager.updateAvailableCount(total);
         } else {
             // Random mode or multiple selection
             uiManager.hideBlockSelector();
