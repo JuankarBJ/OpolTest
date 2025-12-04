@@ -35,7 +35,13 @@ export class UIManager {
             closeSelectionBtn: document.getElementById('close-selection-modal'),
             confirmSelectionBtn: document.getElementById('confirm-selection'),
             selectionSummary: document.getElementById('selection-summary'),
-            selectionTabs: document.getElementById('selection-tabs')
+            selectionTabs: document.getElementById('selection-tabs'),
+
+            // Mobile Toggle
+            mobileToggle: document.getElementById('mobile-sidebar-toggle'),
+            toggleIcon: document.getElementById('toggle-icon'),
+            toggleText: document.getElementById('toggle-text'),
+            quizSidebar: document.getElementById('quiz-sidebar')
         };
 
         this.bindEvents();
@@ -74,6 +80,16 @@ export class UIManager {
                 if (!this.elements.selectionModal.classList.contains('hidden')) this.elements.selectionModal.classList.add('hidden');
             }
         });
+
+        // Mobile Sidebar Toggle
+        if (this.elements.mobileToggle) {
+            this.elements.mobileToggle.addEventListener('click', () => {
+                this.elements.quizSidebar.classList.toggle('expanded');
+                const isExpanded = this.elements.quizSidebar.classList.contains('expanded');
+                this.elements.toggleIcon.textContent = isExpanded ? '▼' : '▲';
+                this.elements.toggleText.textContent = isExpanded ? 'Ocultar Preguntas' : 'Mostrar Preguntas';
+            });
+        }
     }
 
     renderModeSelector(onChange) {

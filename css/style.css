@@ -729,27 +729,84 @@ input[type="number"]:focus {
     #quiz-sidebar {
         position: fixed;
         bottom: 0;
-        top: auto;
+        left: 0;
+        right: 0;
         width: 100%;
         border-radius: 20px 20px 0 0;
-        z-index: 50;
-        padding: 15px;
-        box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+        z-index: 100;
+        padding: 0 15px 15px 15px;
+        box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.2);
+        max-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        transition: transform 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+        transform: translateY(calc(100% - 50px));
+    }
+
+    #quiz-sidebar.expanded {
+        transform: translateY(0);
+    }
+
+    /* Toggle Button */
+    #mobile-sidebar-toggle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        padding: 12px;
+        cursor: pointer;
+        color: var(--primary);
+        font-weight: 700;
+        font-size: 0.9rem;
+        border-bottom: 1px solid var(--bg-body);
+        margin-bottom: 10px;
+    }
+
+    #mobile-sidebar-toggle.hidden {
+        display: flex !important;
+    }
+
+    #quiz-sidebar h3 {
+        display: none;
     }
 
     #question-grid {
         display: flex;
-        overflow-x: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        overflow-y: auto;
+        max-height: 50vh;
         padding-bottom: 10px;
     }
 
     .grid-item {
         flex: 0 0 40px;
         height: 40px;
+        font-size: 0.9rem;
+    }
+
+    #sidebar-actions {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: auto;
+        padding-top: 10px;
+        border-top: 1px solid var(--bg-body);
+    }
+
+    .sidebar-btn {
+        flex: 1;
+        padding: 12px;
+        font-size: 0.9rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
     }
 
     #quiz-main-content {
-        margin-bottom: 140px;
+        margin-bottom: 80px;
     }
 }
 
