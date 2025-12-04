@@ -741,6 +741,8 @@ input[type="number"]:focus {
         flex-direction: column;
         transition: transform 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
         transform: translateY(calc(100% - 50px));
+        z-index: 9999;
+        will-change: transform;
     }
 
     #quiz-sidebar.expanded {
@@ -807,6 +809,42 @@ input[type="number"]:focus {
 
     #quiz-main-content {
         margin-bottom: 80px;
+    }
+
+    /* --- Compact Mobile Styles --- */
+    .question-block {
+        margin-bottom: 25px;
+        padding-bottom: 25px;
+    }
+
+    .question-header {
+        gap: 12px;
+        margin-bottom: 15px;
+    }
+
+    .question-number {
+        font-size: 1.3rem;
+    }
+
+    .question-text {
+        font-size: 0.95rem;
+        line-height: 1.45;
+    }
+
+    .options-group {
+        gap: 8px;
+    }
+
+    .options-group label {
+        padding: 10px 14px;
+        font-size: 0.9rem;
+        gap: 10px;
+    }
+
+    .options-group label b {
+        width: 26px;
+        height: 26px;
+        font-size: 0.75rem;
     }
 }
 
