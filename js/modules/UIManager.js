@@ -119,19 +119,66 @@ export class UIManager {
         }
     }
 
+    renderTabs(onTabChange) {
+        // Create tabs if they don't exist
+        let tabContainer = document.getElementById('selection-tabs');
+        if (!tabContainer) {
+            tabContainer = document.createElement('div');
+            tabContainer.id = 'selection-tabs';
+            tabContainer.className = 'selection-tabs';
+            this.elements.setupContainer.insertBefore(tabContainer, this.elements.materiasContainer.parentElement);
+        }
+
+        tabContainer.innerHTML = `
+            <button class="tab-btn active" data-tab="leyes">Por Leyes</button>
+            <button class="tab-btn" data-tab="temas">Por Temas</button>
+        `;
+
+        const buttons = tabContainer.querySelectorAll('.tab-btn');
+        buttons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                buttons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                onTabChange(btn.dataset.tab);
+            });
+        });
+    }
+
     renderMateriaCards(tests, onSelectionChange) {
         this.elements.materiasContainer.innerHTML = '';
+        this.elements.materiasContainer.dataset.mode = 'leyes'; // Track mode
         tests.forEach(test => {
             const card = document.createElement('div');
             card.classList.add('materia-card');
             card.innerHTML = `
-                <input type="checkbox" id="${test.id}" data-questions="${test.total_preguntas}" value="${test.valor}">
+                <input type="checkbox" id="${test.id}" data-type="ley" data-questions="${test.total_preguntas}" value="${test.valor}">
                 <label for="${test.id}">${test.nombre}</label>
                 <div class="materia-info"><span>${test.total_preguntas} preguntas disponibles</span></div>
             `;
             this.elements.materiasContainer.appendChild(card);
         });
 
+        this.elements.materiasContainer.addEventListener('change', () => onSelectionChange());
+    }
+
+    renderTopicCards(topics, onSelectionChange) {
+        this.elements.materiasContainer.innerHTML = '';
+        this.elements.materiasContainer.dataset.mode = 'temas'; // Track mode
+        topics.forEach(topic => {
+            // Calculate total questions for this topic
+            const totalQuestions = topic.fuentes.reduce((sum, f) => sum + f.indices.length, 0);
+
+            const card = document.createElement('div');
+            card.classList.add('materia-card');
+            card.innerHTML = `
+                <input type="checkbox" id="${topic.id}" data-type="tema" data-questions="${totalQuestions}" value="${topic.id}">
+                <label for="${topic.id}">${topic.nombre}</label>
+                <div class="materia-info"><span>${totalQuestions} preguntas disponibles</span></div>
+            `;
+            this.elements.materiasContainer.appendChild(card);
+        });
+
+        // Re-attach listener since we cleared innerHTML
         this.elements.materiasContainer.addEventListener('change', () => onSelectionChange());
     }
 
@@ -157,7 +204,8 @@ export class UIManager {
     getSelectedOptions() {
         const checkedBoxes = Array.from(this.elements.materiasContainer.querySelectorAll('input[type="checkbox"]:checked'));
         const numQuestions = parseInt(this.elements.input.value, 10);
-        return { checkedBoxes, numQuestions };
+        const mode = this.elements.materiasContainer.dataset.mode || 'leyes';
+        return { checkedBoxes, numQuestions, mode };
     }
 
     showLoading() {

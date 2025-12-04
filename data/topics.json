@@ -1,0 +1,91 @@
+[
+    {
+        "id": "tema1",
+        "nombre": "Tema 1: La Constitución (I)",
+        "fuentes": [
+            {
+                "archivo": "CE.json",
+                "indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ]
+            }
+        ]
+    },
+    {
+        "id": "tema2",
+        "nombre": "Tema 2: La Constitución (II)",
+        "fuentes": [
+            {
+                "archivo": "CE.json",
+                "indices": [
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                ]
+            }
+        ]
+    },
+    {
+        "id": "tema3",
+        "nombre": "Tema 3: Estatuto de Autonomía",
+        "fuentes": [
+            {
+                "archivo": "EA-CLM.json",
+                "indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ]
+            }
+        ]
+    },
+    {
+        "id": "tema4",
+        "nombre": "Tema 4: Repaso General (Mixto)",
+        "fuentes": [
+            {
+                "archivo": "CE.json",
+                "indices": [
+                    20,
+                    21,
+                    22,
+                    23,
+                    24
+                ]
+            },
+            {
+                "archivo": "EA-CLM.json",
+                "indices": [
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                ]
+            }
+        ]
+    }
+]

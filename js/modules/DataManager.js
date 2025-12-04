@@ -55,4 +55,60 @@ export class DataManager {
             throw error;
         }
     }
+    static async loadTopics() {
+        try {
+            const response = await fetch('data/topics.json');
+            if (!response.ok) throw new Error('Failed to load topics');
+            return await response.json();
+        } catch (error) {
+            console.error("Error loading topics:", error);
+            throw error;
+        }
+    }
+
+    static async fetchQuestionsByTopic(topicIds, numQuestions) {
+        // topicIds: array of strings (e.g., ["tema1", "tema3"])
+        try {
+            const topics = await this.loadTopics();
+            const selectedTopics = topics.filter(t => topicIds.includes(t.id));
+
+            // Gather all source requests
+            // We need to fetch files and extract specific indices
+            const fileRequests = {}; // "file.json": [index1, index2...]
+
+            selectedTopics.forEach(topic => {
+                topic.fuentes.forEach(fuente => {
+                    if (!fileRequests[fuente.archivo]) {
+                        fileRequests[fuente.archivo] = new Set();
+                    }
+                    fuente.indices.forEach(idx => fileRequests[fuente.archivo].add(idx));
+                });
+            });
+
+            // Fetch files and extract questions
+            const promises = Object.keys(fileRequests).map(async (filePath) => {
+                const response = await fetch(filePath);
+                if (!response.ok) throw new Error(`Failed to load ${filePath}`);
+                const allQuestions = await response.json();
+                const indices = Array.from(fileRequests[filePath]);
+
+                // Extract only requested indices
+                return indices.map(idx => {
+                    if (allQuestions[idx]) return allQuestions[idx];
+                    return null;
+                }).filter(q => q !== null);
+            });
+
+            const questionSubsets = await Promise.all(promises);
+            const allQuestions = questionSubsets.flat();
+
+            // Randomize and limit
+            allQuestions.sort(() => Math.random() - 0.5);
+            return allQuestions.slice(0, numQuestions);
+
+        } catch (error) {
+            console.error("Error fetching questions by topic:", error);
+            throw error;
+        }
+    }
 }

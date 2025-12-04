@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const quizEngine = new QuizEngine();
     const uiManager = new UIManager();
     let configData = [];
+    let topicsData = [];
     let currentMode = 'random'; // 'random' or 'fixed'
     let currentBlockSize = 30;
 
@@ -44,7 +45,28 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
 
-            configData = await DataManager.loadConfig();
+            // Load Data
+            [configData, topicsData] = await Promise.all([
+                DataManager.loadConfig(),
+                DataManager.loadTopics()
+            ]);
+
+            // Render Tabs
+            uiManager.renderTabs((tab) => {
+                if (tab === 'leyes') {
+                    uiManager.renderMateriaCards(configData, updateAvailableQuestions);
+                    // Show mode selector for laws
+                    uiManager.elements.modeSelectorContainer.classList.remove('hidden');
+                } else {
+                    uiManager.renderTopicCards(topicsData, updateAvailableQuestions);
+                    // Hide mode selector for topics (always random for now)
+                    uiManager.elements.modeSelectorContainer.classList.add('hidden');
+                    uiManager.hideBlockSelector();
+                }
+                updateAvailableQuestions();
+            });
+
+            // Initial Render (Leyes)
             uiManager.renderMateriaCards(configData, updateAvailableQuestions);
             uiManager.renderModeSelector((mode) => {
                 currentMode = mode;
@@ -246,11 +268,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     uiManager.elements.startButton.addEventListener('click', async () => {
-        const { checkedBoxes, numQuestions } = uiManager.getSelectedOptions();
+        const { checkedBoxes, numQuestions, mode } = uiManager.getSelectedOptions();
 
         // Capture block index BEFORE showLoading() wipes the DOM
         let blockIndex = 0;
-        if (currentMode === 'fixed' && checkedBoxes.length === 1) {
+        if (mode === 'leyes' && currentMode === 'fixed' && checkedBoxes.length === 1) {
             const blockSelect = document.getElementById('block-select');
             if (blockSelect) {
                 blockIndex = parseInt(blockSelect.value, 10);
@@ -262,8 +284,12 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             let questions = [];
 
-            if (currentMode === 'fixed' && checkedBoxes.length === 1) {
-                // Fixed Block Mode
+            if (mode === 'temas') {
+                // Topic Mode
+                const topicIds = checkedBoxes.map(box => box.id);
+                questions = await DataManager.fetchQuestionsByTopic(topicIds, numQuestions);
+            } else if (currentMode === 'fixed' && checkedBoxes.length === 1) {
+                // Fixed Block Mode (Leyes)
                 const config = configData.find(t => t.id === checkedBoxes[0].id);
 
                 if (!config) throw new Error("Configuración del test no encontrada.");
@@ -272,7 +298,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 console.log(`Loading block ${blockIndex} from ${config.valor}`);
                 questions = await DataManager.fetchQuestionsByBlock(config.valor, blockIndex, currentBlockSize);
             } else {
-                // Random Mode
+                // Random Mode (Leyes)
                 const sources = checkedBoxes.map(box => {
                     const config = configData.find(t => t.id === box.id);
                     return {
@@ -304,6 +330,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
 
                 questions = await DataManager.fetchQuestions(questionsToFetch);
+            }
+
+            if (questions.length === 0) {
+                throw new Error("No se han encontrado preguntas con los criterios seleccionados.");
             }
 
             quizEngine.init(questions);
