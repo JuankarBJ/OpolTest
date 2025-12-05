@@ -15,6 +15,7 @@
             margin-bottom: 20px;
             border-bottom: 2px solid var(--border);
             padding-bottom: 10px;
+            overflow-x: auto;
         }
 
         .tab-btn {
@@ -27,6 +28,7 @@
             cursor: pointer;
             border-radius: 8px;
             transition: all 0.2s;
+            white-space: nowrap;
         }
 
         .tab-btn:hover {
@@ -99,6 +101,7 @@
         }
 
         .form-group input[type="text"],
+        .form-group input[type="number"],
         .form-group input[type="file"] {
             width: 100%;
             padding: 12px;
@@ -106,9 +109,11 @@
             border-radius: 8px;
             font-family: inherit;
             transition: border-color 0.2s;
+            background-color: white;
         }
 
-        .form-group input[type="text"]:focus {
+        .form-group input[type="text"]:focus,
+        .form-group input[type="number"]:focus {
             border-color: var(--primary);
             outline: none;
         }
@@ -154,11 +159,12 @@
             display: flex;
             gap: 10px;
             margin-bottom: 15px;
+            flex-wrap: wrap;
         }
 
         textarea {
             width: 100%;
-            height: 200px;
+            height: 150px;
             padding: 15px;
             border: 2px solid var(--border);
             border-radius: 8px;
@@ -184,6 +190,58 @@
             color: #c62828;
             border: 1px solid var(--danger);
         }
+
+        .tool-card {
+            background: var(--bg-card);
+            padding: 30px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-soft);
+            border: 1px solid var(--border);
+        }
+
+        h2 {
+            color: var(--primary);
+            border-bottom: 2px solid var(--bg-body);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            color: var(--text-secondary);
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        .btn-primary {
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--primary-hover);
+        }
+
+        .btn-secondary {
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            border: 2px solid var(--border);
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
     </style>
 </head>
 
@@ -200,192 +258,168 @@
     </header>
 
     <main>
-        <!-- Sección de Guía -->
-        <section class="setup-section">
-            <h2>📚 Guía de Gestión de Contenido</h2>
-            <p>Selecciona qué tipo de contenido quieres añadir para ver las instrucciones paso a paso.</p>
-
+        <section class="setup-section" style="background: transparent; box-shadow: none; border: none; padding: 0;">
             <div class="tabs">
-                <button class="tab-btn active" onclick="openTab('tab-exam')">Añadir Examen Real</button>
-                <button class="tab-btn" onclick="openTab('tab-law')">Añadir Ley</button>
-                <button class="tab-btn" onclick="openTab('tab-topic')">Añadir Tema</button>
-            </div>
-
-            <!-- Tab: Examen Real -->
-            <div id="tab-exam" class="tab-content active">
-                <h3>Cómo añadir un Examen Oficial</h3>
-                <ul class="step-list">
-                    <li>
-                        <strong>Exportar desde Anki:</strong>
-                        <p>Exporta tu mazo de Anki como "Notas en texto plano (.txt)". Asegúrate de incluir etiquetas si
-                            las usas.</p>
-                    </li>
-                    <li>
-                        <strong>Convertir y Limpiar:</strong>
-                        <p>Usa la herramienta <strong>Conversor Anki</strong> (más abajo en esta página). Sube tu
-                            archivo .txt y procésalo.</p>
-                    </li>
-                    <li>
-                        <strong>Guardar los Datos:</strong>
-                        <p>Descarga el archivo JSON generado (ej: <code>Guadalajara2024.json</code>) y guárdalo en la
-                            carpeta <code>data/</code> del proyecto.</p>
-                    </li>
-                    <li>
-                        <strong>Configurar el Examen:</strong>
-                        <p>En la herramienta de abajo, selecciona las preguntas que quieres incluir y genera el bloque
-                            de configuración.</p>
-                    </li>
-                    <li>
-                        <strong>Actualizar exams.json:</strong>
-                        <p>Abre el archivo <code>data/exams.json</code> y pega el bloque de configuración al final de la
-                            lista (¡no olvides la coma antes!).</p>
-                        <div class="code-block">
-                            [
-                            ...
-                            {
-                            "id": "mi-nuevo-examen",
-                            "nombre": "Examen 2025",
-                            ...
-                            } <span style="color: #ef5350;">&lt;-- ¡Añade esto!</span>
-                            ]
-                        </div>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Tab: Ley -->
-            <div id="tab-law" class="tab-content">
-                <h3>Cómo añadir una nueva Ley (Bloque Completo)</h3>
-                <ul class="step-list">
-                    <li>
-                        <strong>Preparar el JSON:</strong>
-                        <p>Necesitas un archivo JSON con todas las preguntas de la ley. Puedes usar el conversor si
-                            tienes las preguntas en Anki, o crearlo manualmente siguiendo el formato estándar.</p>
-                    </li>
-                    <li>
-                        <strong>Guardar Archivo:</strong>
-                        <p>Guarda el archivo (ej: <code>Ley39.json</code>) en la carpeta <code>data/</code>.</p>
-                    </li>
-                    <li>
-                        <strong>Registrar en config.json:</strong>
-                        <p>Abre <code>config.json</code> y añade una nueva entrada en la lista "tests".</p>
-                        <div class="code-block">
-                            {
-                            "id": "ley-39",
-                            "nombre": "Ley 39/2015 PAC",
-                            "valor": "data/Ley39.json",
-                            "total_preguntas": 150,
-                            "icono": "L39"
-                            }
-                        </div>
-                    </li>
-                    <li>
-                        <strong>(Opcional) Desglosar por Temas:</strong>
-                        <p>Si quieres que aparezca también en el desglose por temas, añade entradas en
-                            <code>data/topics.json</code> apuntando a este archivo y especificando los índices de las
-                            preguntas para cada tema.</p>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Tab: Tema -->
-            <div id="tab-topic" class="tab-content">
-                <h3>Cómo añadir un Tema Específico</h3>
-                <ul class="step-list">
-                    <li>
-                        <strong>Identificar Preguntas:</strong>
-                        <p>Localiza en qué archivo JSON están las preguntas de este tema (puede ser una Ley completa o
-                            un archivo mixto).</p>
-                    </li>
-                    <li>
-                        <strong>Editar topics.json:</strong>
-                        <p>Abre <code>data/topics.json</code> y añade un nuevo objeto.</p>
-                        <div class="code-block">
-                            {
-                            "id": "tema-5",
-                            "nombre": "Tema 5: El Municipio",
-                            "fuentes": [
-                            {
-                            "archivo": "data/LBRL.json",
-                            "indices": [0, 1, 2, 10, 11, ...]
-                            }
-                            ]
-                            }
-                        </div>
-                    </li>
-                    <li>
-                        <strong>Indices:</strong>
-                        <p>Los índices son la posición de la pregunta en el archivo JSON (empezando por 0). Puedes usar
-                            el conversor para ver los índices visualmente.</p>
-                    </li>
-                </ul>
+                <button class="tab-btn active" onclick="openTab('tab-exam')">1. Añadir Examen Real</button>
+                <button class="tab-btn" onclick="openTab('tab-law')">2. Añadir Ley</button>
+                <button class="tab-btn" onclick="openTab('tab-topic')">3. Añadir Tema</button>
             </div>
         </section>
 
-        <!-- Sección de Conversor -->
-        <section class="setup-section">
-            <h2>🛠️ Conversor Anki a JSON</h2>
-            <p>Convierte tus exportaciones de Anki y genera la configuración necesaria.</p>
+        <!-- TAB 1: EXAMEN REAL (ANKI CONVERTER) -->
+        <div id="tab-exam" class="tab-content active">
+            <div class="tool-card">
+                <h2>🏛️ Generador de Examen Real</h2>
+                <p>Convierte un archivo exportado de Anki (.txt) y genera la configuración para <code>exams.json</code>.
+                </p>
 
-            <div class="form-group">
-                <label for="fileInput">1. Archivo de Anki (.txt)</label>
-                <input type="file" id="fileInput" accept=".txt">
-            </div>
-
-            <div class="form-group">
-                <label for="examName">2. Nombre del Examen (Visible en la web)</label>
-                <input type="text" id="examName" placeholder="Ej: Examen Guadalajara 2024">
-            </div>
-
-            <button onclick="processFile()" id="start-button" style="width: auto; padding: 12px 30px;">Procesar
-                Archivo</button>
-            <div id="status"></div>
-
-            <!-- Resultados (Oculto inicialmente) -->
-            <div id="resultsArea" class="hidden"
-                style="margin-top: 30px; border-top: 2px solid var(--bg-body); padding-top: 20px;">
-                <h3>3. Resultados y Descarga</h3>
-                <p>Se han encontrado <strong id="questionCount" style="color: var(--primary);">0</strong> preguntas.</p>
-                <button onclick="downloadDataJSON()" class="nav-button" style="cursor: pointer;">⬇️ Descargar JSON de
-                    Datos</button>
-
-                <h3 style="margin-top: 30px;">4. Configuración del Examen</h3>
-                <p>Selecciona las preguntas que quieres incluir en la configuración:</p>
-
-                <div class="action-bar">
-                    <button class="nav-button" onclick="selectAll()" style="cursor: pointer;">Seleccionar Todas</button>
-                    <button class="nav-button" onclick="deselectAll()" style="cursor: pointer;">Deseleccionar
-                        Todas</button>
-                    <span style="align-self: center; margin-left: auto;">Seleccionadas: <strong
-                            id="selectedCount">0</strong></span>
-                </div>
-
-                <div id="questionGrid" class="grid-container">
-                    <!-- Grid items will be injected here -->
+                <div class="form-group">
+                    <label for="fileInput">1. Archivo de Anki (.txt)</label>
+                    <input type="file" id="fileInput" accept=".txt">
                 </div>
 
                 <div class="form-group">
-                    <label for="examId">ID del Examen (sistema)</label>
-                    <input type="text" id="examId" placeholder="ej: exam-guadalajara-2024">
+                    <label for="examName">2. Nombre del Examen</label>
+                    <input type="text" id="examName" placeholder="Ej: Examen Guadalajara 2024">
+                </div>
+
+                <button onclick="processAnkiFile()" class="btn-primary">Procesar Archivo</button>
+                <div id="ankiStatus"></div>
+
+                <!-- Resultados Anki -->
+                <div id="ankiResults" class="hidden"
+                    style="margin-top: 30px; border-top: 2px solid var(--bg-body); padding-top: 20px;">
+                    <h3>3. Selección de Preguntas</h3>
+                    <p>Se han encontrado <strong id="questionCount" style="color: var(--primary);">0</strong> preguntas.
+                    </p>
+
+                    <div class="action-bar">
+                        <button onclick="downloadDataJSON()" class="btn-secondary">⬇️ Descargar JSON</button>
+                        <button class="btn-secondary" onclick="selectAll('ankiGrid')">Seleccionar Todas</button>
+                        <button class="btn-secondary" onclick="deselectAll('ankiGrid')">Deseleccionar Todas</button>
+                        <span style="align-self: center; margin-left: auto;">Seleccionadas: <strong
+                                id="ankiSelectedCount">0</strong></span>
+                    </div>
+
+                    <div id="ankiGrid" class="grid-container"></div>
+
+                    <div class="form-group">
+                        <label for="examId">ID del Examen</label>
+                        <input type="text" id="examId" placeholder="ej: exam-guadalajara-2024">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="examDesc">Descripción</label>
+                        <input type="text" id="examDesc" placeholder="Breve descripción del examen">
+                    </div>
+
+                    <button onclick="generateExamConfig()" class="btn-primary">Generar Código</button>
+
+                    <div class="form-group" style="margin-top: 20px;">
+                        <label>Copia esto en <code>data/exams.json</code>:</label>
+                        <textarea id="examOutput" readonly onclick="this.select()"></textarea>
+                        <button class="btn-secondary" onclick="copyToClipboard('examOutput')"
+                            style="margin-top: 10px; width: 100%;">Copiar al Portapapeles</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 2: AÑADIR LEY -->
+        <div id="tab-law" class="tab-content">
+            <div class="tool-card">
+                <h2>⚖️ Generador de Ley</h2>
+                <p>Genera el bloque de configuración para añadir una nueva ley a <code>config.json</code>.</p>
+
+                <div class="form-group">
+                    <label for="lawFile">1. Cargar JSON de la Ley (Opcional, para autocompletar)</label>
+                    <input type="file" id="lawFile" accept=".json" onchange="loadLawFile()">
+                    <small style="color: var(--text-muted);">Si cargas el archivo, contaremos las preguntas
+                        automáticamente.</small>
                 </div>
 
                 <div class="form-group">
-                    <label for="examDesc">Descripción</label>
-                    <input type="text" id="examDesc" placeholder="Breve descripción del examen">
+                    <label for="lawId">2. ID de la Ley</label>
+                    <input type="text" id="lawId" placeholder="ej: ley-39-2015">
                 </div>
 
-                <button onclick="generateConfig()" id="start-button"
-                    style="width: auto; padding: 12px 30px; background-color: var(--text-secondary);">Generar
-                    Configuración JSON</button>
+                <div class="form-group">
+                    <label for="lawName">3. Nombre de la Ley</label>
+                    <input type="text" id="lawName" placeholder="ej: Ley 39/2015 PAC">
+                </div>
+
+                <div class="form-group">
+                    <label for="lawPath">4. Ruta del Archivo</label>
+                    <input type="text" id="lawPath" placeholder="ej: data/Ley39.json" value="data/">
+                </div>
+
+                <div class="form-group">
+                    <label for="lawCount">5. Total de Preguntas</label>
+                    <input type="number" id="lawCount" placeholder="0">
+                </div>
+
+                <div class="form-group">
+                    <label for="lawIcon">6. Icono (Texto Corto)</label>
+                    <input type="text" id="lawIcon" placeholder="ej: L39">
+                </div>
+
+                <button onclick="generateLawConfig()" class="btn-primary">Generar Código</button>
 
                 <div class="form-group" style="margin-top: 20px;">
-                    <label for="configOutput">Copia este bloque en <code>data/exams.json</code>:</label>
-                    <textarea id="configOutput" readonly onclick="this.select()"></textarea>
-                    <button class="nav-button" onclick="copyConfig()"
-                        style="margin-top: 10px; width: 100%; cursor: pointer;">Copiar al Portapapeles</button>
+                    <label>Copia esto en <code>config.json</code> (dentro de "tests"):</label>
+                    <textarea id="lawOutput" readonly onclick="this.select()"></textarea>
+                    <button class="btn-secondary" onclick="copyToClipboard('lawOutput')"
+                        style="margin-top: 10px; width: 100%;">Copiar al Portapapeles</button>
                 </div>
             </div>
-        </section>
+        </div>
+
+        <!-- TAB 3: AÑADIR TEMA -->
+        <div id="tab-topic" class="tab-content">
+            <div class="tool-card">
+                <h2>📚 Generador de Tema</h2>
+                <p>Selecciona preguntas de un archivo JSON existente para crear un tema en
+                    <code>data/topics.json</code>.</p>
+
+                <div class="form-group">
+                    <label for="topicSourceFile">1. Cargar Archivo Fuente (JSON)</label>
+                    <input type="file" id="topicSourceFile" accept=".json" onchange="loadTopicSource()">
+                </div>
+
+                <div id="topicWorkArea" class="hidden">
+                    <div class="form-group">
+                        <label for="topicId">2. ID del Tema</label>
+                        <input type="text" id="topicId" placeholder="ej: tema-1-constitucion">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="topicName">3. Nombre del Tema</label>
+                        <input type="text" id="topicName" placeholder="ej: Tema 1: La Constitución">
+                    </div>
+
+                    <h3>4. Selecciona las preguntas para este tema</h3>
+                    <div class="action-bar">
+                        <button class="btn-secondary" onclick="selectAll('topicGrid')">Seleccionar Todas</button>
+                        <button class="btn-secondary" onclick="deselectAll('topicGrid')">Deseleccionar Todas</button>
+                        <span style="align-self: center; margin-left: auto;">Seleccionadas: <strong
+                                id="topicSelectedCount">0</strong></span>
+                    </div>
+
+                    <div id="topicGrid" class="grid-container"></div>
+
+                    <button onclick="generateTopicConfig()" class="btn-primary" style="margin-top: 20px;">Generar
+                        Código</button>
+
+                    <div class="form-group" style="margin-top: 20px;">
+                        <label>Copia esto en <code>data/topics.json</code>:</label>
+                        <textarea id="topicOutput" readonly onclick="this.select()"></textarea>
+                        <button class="btn-secondary" onclick="copyToClipboard('topicOutput')"
+                            style="margin-top: 10px; width: 100%;">Copiar al Portapapeles</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </main>
 
     <footer>
@@ -393,16 +427,19 @@
     </footer>
 
     <script>
-        // --- Tab Logic ---
+        // --- GLOBAL STATE ---
+        let ankiQuestions = [];
+        let topicQuestions = [];
+        let currentTopicFilename = "";
+
+        // --- TABS ---
         function openTab(tabId) {
-            // Hide all contents
             document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
-            // Deactivate all buttons
             document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
 
-            // Show target
             document.getElementById(tabId).classList.add('active');
-            // Activate button (find button that calls this function with this arg)
+
+            // Activate button
             const btns = document.querySelectorAll('.tab-btn');
             for (let btn of btns) {
                 if (btn.getAttribute('onclick').includes(tabId)) {
@@ -411,100 +448,29 @@
             }
         }
 
-        // --- Converter Logic ---
-        let parsedQuestions = [];
-        let currentFileName = "";
-
-        function processFile() {
-            const fileInput = document.getElementById('fileInput');
-            const examNameInput = document.getElementById('examName');
-            const resultsArea = document.getElementById('resultsArea');
-
-            if (!fileInput.files.length) {
-                showStatus('Por favor, selecciona un archivo.', 'error');
-                return;
-            }
-
-            const examName = examNameInput.value.trim() || "Examen Importado";
-            const file = fileInput.files[0];
-            currentFileName = file.name.replace(/\.txt$/i, '');
-
-            const reader = new FileReader();
-
-            reader.onload = function (e) {
-                try {
-                    const content = e.target.result;
-                    parsedQuestions = parseAnkiContent(content, examName);
-
-                    if (parsedQuestions.length === 0) {
-                        showStatus('No se encontraron preguntas válidas.', 'error');
-                        resultsArea.classList.add('hidden');
-                        return;
-                    }
-
-                    showStatus(`¡Éxito! Procesadas ${parsedQuestions.length} preguntas.`, 'success');
-
-                    document.getElementById('questionCount').textContent = parsedQuestions.length;
-                    resultsArea.classList.remove('hidden');
-
-                    const safeId = 'exam-' + examName.toLowerCase().replace(/[^a-z0-9]/g, '-');
-                    document.getElementById('examId').value = safeId;
-                    document.getElementById('examDesc').value = `Examen oficial: ${examName}`;
-
-                    renderGrid(parsedQuestions.length);
-                    selectAll();
-
-                } catch (err) {
-                    console.error(err);
-                    showStatus('Error al procesar el archivo: ' + err.message, 'error');
-                }
-            };
-
-            reader.readAsText(file);
+        // --- UTILS ---
+        function copyToClipboard(elementId) {
+            const copyText = document.getElementById(elementId);
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            navigator.clipboard.writeText(copyText.value).then(() => {
+                alert("Copiado al portapapeles");
+            });
         }
 
-        function parseAnkiContent(data, defaultTopic) {
-            const lines = data.split('\n');
-            const questions = [];
-
-            for (const line of lines) {
-                if (!line.trim() || line.startsWith('#')) continue;
-
-                const parts = line.split('\t');
-                if (parts.length < 8) continue;
-
-                let questionText = parts[2].trim();
-                questionText = questionText.replace(/^\d+[\.\-\s]+/, '');
-
-                let tags = [];
-                const lastCol = parts[parts.length - 1].trim();
-                if (lastCol) {
-                    tags = lastCol.split(' ');
-                }
-
-                const question = {
-                    id: questions.length + 1,
-                    tema: parts[1] || defaultTopic,
-                    pregunta: questionText,
-                    opciones: {
-                        "a": parts[3],
-                        "b": parts[4],
-                        "c": parts[5],
-                        "d": parts[6]
-                    },
-                    respuestaCorrecta: parts[7].toLowerCase(),
-                    explicacion: "",
-                    tags: tags
-                };
-                questions.push(question);
+        function showStatus(elementId, msg, type) {
+            const statusDiv = document.getElementById(elementId);
+            if (statusDiv) {
+                statusDiv.textContent = msg;
+                statusDiv.className = 'status-msg ' + type;
+            } else {
+                alert(msg);
             }
-            return questions;
         }
 
-        function renderGrid(count) {
-            const grid = document.getElementById('questionGrid');
+        function renderGrid(containerId, count, onClickCallback) {
+            const grid = document.getElementById(containerId);
             grid.innerHTML = '';
-
             for (let i = 0; i < count; i++) {
                 const item = document.createElement('div');
                 item.className = 'grid-item';
@@ -512,93 +478,198 @@
                 item.dataset.index = i;
                 item.onclick = function () {
                     this.classList.toggle('selected');
-                    updateSelectedCount();
+                    if (onClickCallback) onClickCallback();
                 };
                 grid.appendChild(item);
             }
         }
 
-        function selectAll() {
-            const items = document.querySelectorAll('.grid-item');
-            items.forEach(item => item.classList.add('selected'));
-            updateSelectedCount();
+        function selectAll(gridId) {
+            document.querySelectorAll(`#${gridId} .grid-item`).forEach(item => item.classList.add('selected'));
+            updateCounts(gridId);
         }
 
-        function deselectAll() {
-            const items = document.querySelectorAll('.grid-item');
-            items.forEach(item => item.classList.remove('selected'));
-            updateSelectedCount();
+        function deselectAll(gridId) {
+            document.querySelectorAll(`#${gridId} .grid-item`).forEach(item => item.classList.remove('selected'));
+            updateCounts(gridId);
         }
 
-        function updateSelectedCount() {
-            const count = document.querySelectorAll('.grid-item.selected').length;
-            document.getElementById('selectedCount').textContent = count;
+        function updateCounts(gridId) {
+            const count = document.querySelectorAll(`#${gridId} .grid-item.selected`).length;
+            if (gridId === 'ankiGrid') document.getElementById('ankiSelectedCount').textContent = count;
+            if (gridId === 'topicGrid') document.getElementById('topicSelectedCount').textContent = count;
         }
 
-        function downloadDataJSON() {
-            if (!parsedQuestions.length) return;
-            const examName = document.getElementById('examName').value.trim() || "Examen";
-            const safeName = examName.replace(/[^a-z0-9]/gi, '').replace(/\s+/g, '');
-            downloadJSON(parsedQuestions, safeName);
-        }
+        // --- TAB 1: ANKI LOGIC ---
+        function processAnkiFile() {
+            const fileInput = document.getElementById('fileInput');
+            const examNameInput = document.getElementById('examName');
 
-        function downloadJSON(data, filename) {
-            const jsonStr = JSON.stringify(data, null, 4);
-            const blob = new Blob([jsonStr], { type: 'application/json' });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = filename + '.json';
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
-            URL.revokeObjectURL(url);
-        }
-
-        function generateConfig() {
-            const selectedItems = document.querySelectorAll('.grid-item.selected');
-            const indices = Array.from(selectedItems).map(item => parseInt(item.dataset.index));
-
-            if (indices.length === 0) {
-                alert("Por favor, selecciona al menos una pregunta.");
+            if (!fileInput.files.length) {
+                showStatus('ankiStatus', 'Por favor, selecciona un archivo.', 'error');
                 return;
             }
 
-            const examName = document.getElementById('examName').value.trim();
-            const examId = document.getElementById('examId').value.trim();
-            const examDesc = document.getElementById('examDesc').value.trim();
-            const safeFileName = examName.replace(/[^a-z0-9]/gi, '').replace(/\s+/g, '') + '.json';
+            const examName = examNameInput.value.trim() || "Examen Importado";
+            const file = fileInput.files[0];
+
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                try {
+                    ankiQuestions = parseAnkiContent(e.target.result, examName);
+                    if (ankiQuestions.length === 0) throw new Error("No se encontraron preguntas");
+
+                    showStatus('ankiStatus', `¡Éxito! ${ankiQuestions.length} preguntas procesadas.`, 'success');
+                    document.getElementById('questionCount').textContent = ankiQuestions.length;
+                    document.getElementById('ankiResults').classList.remove('hidden');
+
+                    // Auto-fill inputs
+                    const safeId = 'exam-' + examName.toLowerCase().replace(/[^a-z0-9]/g, '-');
+                    document.getElementById('examId').value = safeId;
+                    document.getElementById('examDesc').value = `Examen oficial: ${examName}`;
+
+                    renderGrid('ankiGrid', ankiQuestions.length, () => updateCounts('ankiGrid'));
+                    selectAll('ankiGrid');
+
+                } catch (err) {
+                    showStatus('ankiStatus', 'Error: ' + err.message, 'error');
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        function parseAnkiContent(data, defaultTopic) {
+            // Reusing the parsing logic
+            const lines = data.split('\n');
+            const questions = [];
+            for (const line of lines) {
+                if (!line.trim() || line.startsWith('#')) continue;
+                const parts = line.split('\t');
+                if (parts.length < 8) continue;
+
+                let qText = parts[2].trim().replace(/^\d+[\.\-\s]+/, '');
+                let tags = parts[parts.length - 1].trim() ? parts[parts.length - 1].trim().split(' ') : [];
+
+                questions.push({
+                    id: questions.length + 1,
+                    tema: parts[1] || defaultTopic,
+                    pregunta: qText,
+                    opciones: { "a": parts[3], "b": parts[4], "c": parts[5], "d": parts[6] },
+                    respuestaCorrecta: parts[7].toLowerCase(),
+                    explicacion: "",
+                    tags: tags
+                });
+            }
+            return questions;
+        }
+
+        function downloadDataJSON() {
+            if (!ankiQuestions.length) return;
+            const name = document.getElementById('examName').value.trim() || "Examen";
+            const safeName = name.replace(/[^a-z0-9]/gi, '').replace(/\s+/g, '');
+            const blob = new Blob([JSON.stringify(ankiQuestions, null, 4)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = safeName + '.json';
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        function generateExamConfig() {
+            const selected = document.querySelectorAll('#ankiGrid .grid-item.selected');
+            const indices = Array.from(selected).map(item => parseInt(item.dataset.index));
+
+            if (!indices.length) return alert("Selecciona al menos una pregunta");
+
+            const name = document.getElementById('examName').value.trim();
+            const safeName = name.replace(/[^a-z0-9]/gi, '').replace(/\s+/g, '') + '.json';
 
             const config = {
-                "id": examId,
-                "nombre": examName,
-                "descripcion": examDesc,
+                "id": document.getElementById('examId').value.trim(),
+                "nombre": name,
+                "descripcion": document.getElementById('examDesc').value.trim(),
                 "total_preguntas": indices.length,
+                "fuentes": [{ "archivo": "data/" + safeName, "indices": indices }]
+            };
+
+            document.getElementById('examOutput').value = JSON.stringify(config, null, 4);
+        }
+
+        // --- TAB 2: LAW LOGIC ---
+        function loadLawFile() {
+            const file = document.getElementById('lawFile').files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                try {
+                    const json = JSON.parse(e.target.result);
+                    if (Array.isArray(json)) {
+                        document.getElementById('lawCount').value = json.length;
+                        // Try to guess name from filename
+                        const name = file.name.replace('.json', '');
+                        document.getElementById('lawPath').value = 'data/' + file.name;
+                        if (!document.getElementById('lawId').value) document.getElementById('lawId').value = name.toLowerCase();
+                    }
+                } catch (err) {
+                    alert("Error al leer JSON: " + err.message);
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        function generateLawConfig() {
+            const config = {
+                "id": document.getElementById('lawId').value.trim(),
+                "nombre": document.getElementById('lawName').value.trim(),
+                "valor": document.getElementById('lawPath').value.trim(),
+                "total_preguntas": parseInt(document.getElementById('lawCount').value) || 0,
+                "icono": document.getElementById('lawIcon').value.trim()
+            };
+            document.getElementById('lawOutput').value = JSON.stringify(config, null, 4);
+        }
+
+        // --- TAB 3: TOPIC LOGIC ---
+        function loadTopicSource() {
+            const file = document.getElementById('topicSourceFile').files[0];
+            if (!file) return;
+
+            currentTopicFilename = file.name;
+
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                try {
+                    topicQuestions = JSON.parse(e.target.result);
+                    if (!Array.isArray(topicQuestions)) throw new Error("El archivo no es una lista de preguntas");
+
+                    document.getElementById('topicWorkArea').classList.remove('hidden');
+                    renderGrid('topicGrid', topicQuestions.length, () => updateCounts('topicGrid'));
+
+                } catch (err) {
+                    alert("Error: " + err.message);
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        function generateTopicConfig() {
+            const selected = document.querySelectorAll('#topicGrid .grid-item.selected');
+            const indices = Array.from(selected).map(item => parseInt(item.dataset.index));
+
+            if (!indices.length) return alert("Selecciona preguntas para el tema");
+
+            const config = {
+                "id": document.getElementById('topicId').value.trim(),
+                "nombre": document.getElementById('topicName').value.trim(),
                 "fuentes": [
                     {
-                        "archivo": "data/" + safeFileName,
+                        "archivo": "data/" + currentTopicFilename,
                         "indices": indices
                     }
                 ]
             };
-
-            const output = JSON.stringify(config, null, 4);
-            document.getElementById('configOutput').value = output;
-        }
-
-        function copyConfig() {
-            const copyText = document.getElementById("configOutput");
-            copyText.select();
-            copyText.setSelectionRange(0, 99999);
-            navigator.clipboard.writeText(copyText.value).then(() => {
-                showStatus("Copiado al portapapeles", "success");
-            });
-        }
-
-        function showStatus(msg, type) {
-            const statusDiv = document.getElementById('status');
-            statusDiv.textContent = msg;
-            statusDiv.className = 'status-msg ' + type;
+            document.getElementById('topicOutput').value = JSON.stringify(config, null, 4);
         }
     </script>
 </body>

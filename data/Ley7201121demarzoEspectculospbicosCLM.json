@@ -1,0 +1,2978 @@
+[
+    {
+        "id": 1,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según la exposición de motivos, la Ley 7/2011, de Espectáculos Públicos de Castilla-La Mancha, se fundamenta en la competencia exclusiva que el Estatuto de Autonomía atribuye a la Junta de Comunidades en su artículo:",
+        "opciones": {
+            "a": "31.1.19.º sobre la adecuada utilización del ocio.",
+            "b": "31.1.23.º sobre espectáculos públicos.",
+            "c": "Ambas respuestas son correctas.",
+            "d": "Ninguna de las respuestas es correcta."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 2,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme a la exposición de motivos de la Ley 7/2011, el régimen general establecido para la celebración de espectáculos públicos y la apertura de establecimientos es la:",
+        "opciones": {
+            "a": "licencia municipal previa.",
+            "b": "autorización previa de la Junta de Comunidades.",
+            "c": "comunicación previa.",
+            "d": "declaración responsable."
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 3,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con la estructura descrita en la exposición de motivos, la Ley 7/2011 consta de:",
+        "opciones": {
+            "a": "5 Títulos y un anexo.",
+            "b": "4 Títulos y dos anexos.",
+            "c": "6 Títulos y un anexo.",
+            "d": "5 Títulos sin anexos."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 4,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según la exposición de motivos de la Ley 7/2011, la Comisión Regional de espectáculos públicos, actividades recreativas y establecimientos públicos de Castilla-La Mancha se regula en el:",
+        "opciones": {
+            "a": "Título II.",
+            "b": "Título III.",
+            "c": "Título IV.",
+            "d": "Título V."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 5,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "La regulación de la vigilancia, inspección y régimen sancionador, según la estructura descrita en la exposición de motivos de la Ley 7/2011, se encuentra en el:",
+        "opciones": {
+            "a": "Título II.",
+            "b": "Título III.",
+            "c": "Título IV.",
+            "d": "Título V."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 6,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme a la Disposición final cuarta, mencionada en la exposición de motivos, la Ley 7/2011 entró en vigor:",
+        "opciones": {
+            "a": "al día siguiente de su publicación en el «Diario Oficial de Castilla-La Mancha».",
+            "b": "a los veinte días siguientes al de su publicación en el «Diario Oficial de Castilla-La Mancha».",
+            "c": "al mes siguiente de su publicación en el «Diario Oficial de Castilla-La Mancha».",
+            "d": "el 1 de enero del año siguiente a su publicación."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 7,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 1.2.a) de la Ley 7/2011, se entiende por espectáculo público todo acontecimiento organizado con el fin de congregar a quienes acuden para presenciar una actuación, representación, exhibición o proyección de naturaleza:",
+        "opciones": {
+            "a": "artística, cultural o deportiva.",
+            "b": "lúdica, festiva o social.",
+            "c": "artística, musical o teatral.",
+            "d": "cultural, popular o tradicional."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 8,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 1.2.b) de la Ley 7/2011, se entiende por actividad recreativa toda actividad cuyo objeto principal es implicar al público a participar en ella o de ofrecerle servicios con finalidad de:",
+        "opciones": {
+            "a": "formación y cultura.",
+            "b": "ocio, entretenimiento y diversión.",
+            "c": "competición y esparcimiento.",
+            "d": "desarrollo personal y social."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 9,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 1.2.c) de la Ley 7/2011, un establecimiento público es cualquier local, recinto o instalación de concurrencia pública que puede ser:",
+        "opciones": {
+            "a": "fijo o de temporada.",
+            "b": "fijo, portátil o desmontable.",
+            "c": "de titularidad pública o privada.",
+            "d": "urbano o rústico."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 10,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 2.2 de la Ley 7/2011, el catálogo de espectáculos, actividades y establecimientos que figura como anexo de la ley tiene carácter:",
+        "opciones": {
+            "a": "exhaustivo y cerrado.",
+            "b": "orientativo y no vinculante.",
+            "c": "mínimo y obligatorio.",
+            "d": "no exhaustivo."
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 11,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 2.3 de la Ley 7/2011, ¿cuál de las siguientes celebraciones está EXCLUIDA de su ámbito de aplicación?",
+        "opciones": {
+            "a": "Un concierto en una plaza pública.",
+            "b": "Una verbena popular organizada por un ayuntamiento.",
+            "c": "Una boda celebrada en un restaurante abierto a la concurrencia pública.",
+            "d": "Las celebraciones privadas de carácter familiar o social que no estén abiertas a la concurrencia pública."
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 12,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 2.5 de la Ley 7/2011, las actividades y espectáculos deportivos, turísticos, pirotécnicos y de juego se regirán por su legislación específica y por lo dispuesto en esta Ley de forma:",
+        "opciones": {
+            "a": "preferente.",
+            "b": "supletoria.",
+            "c": "excluyente.",
+            "d": "coordinada."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 13,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 2.6 de la Ley 7/2011, los espectáculos taurinos en cualquiera de sus manifestaciones serán objeto de:",
+        "opciones": {
+            "a": "regulación en el anexo de esta ley.",
+            "b": "regulación en los reglamentos de desarrollo de esta ley.",
+            "c": "regulación reglamentaria específica.",
+            "d": "las ordenanzas municipales de cada localidad."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 14,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 3.1 de la Ley 7/2011, quedan prohibidos los espectáculos públicos o actividades recreativas que:",
+        "opciones": {
+            "a": "tengan ánimo de lucro.",
+            "b": "se realicen en horario nocturno.",
+            "c": "inciten o fomenten la violencia, el racismo o la xenofobia.",
+            "d": "no cuenten con patrocinadores."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 15,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 3.2 de la Ley 7/2011, el consumo de bebidas alcohólicas al aire libre en reuniones de grupo queda prohibido en las localidades cuyo Ayuntamiento:",
+        "opciones": {
+            "a": "así lo determine expresamente.",
+            "b": "tenga más de 5.000 habitantes.",
+            "c": "no disponga de una zona habilitada para ello.",
+            "d": "lo acuerde con el Consejo de Gobierno."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 16,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 4 de la Ley 7/2011, ¿cuál de las siguientes NO es una competencia de la Administración de la Comunidad Autónoma?",
+        "opciones": {
+            "a": "Establecer el horario general de los establecimientos públicos.",
+            "b": "Autorizar los espectáculos y festejos taurinos.",
+            "c": "Establecer horarios especiales con motivo de fiestas patronales.",
+            "d": "Autorizar actividades recreativas cuyo desarrollo discurra por más de un término municipal."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 17,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 4.i) de la Ley 7/2011, corresponde a la Administración de la Comunidad Autónoma autorizar las actividades recreativas o deportivas cuyo desarrollo:",
+        "opciones": {
+            "a": "tenga un aforo superior a 500 personas.",
+            "b": "discurra por más de un término municipal de la Comunidad Autónoma.",
+            "c": "requiera un plan de autoprotección.",
+            "d": "se celebre en instalaciones de titularidad autonómica."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 18,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 5.1.c) de la Ley 7/2011, corresponde a los Ayuntamientos establecer horarios especiales de apertura y cierre con motivo de fiestas patronales, debiendo en todo caso:",
+        "opciones": {
+            "a": "solicitar autorización previa a la Comunidad Autónoma.",
+            "b": "comunicarlo previamente a la Comunidad Autónoma.",
+            "c": "publicarlo en el Diario Oficial de Castilla-La Mancha.",
+            "d": "obtener informe favorable de la Subdelegación del Gobierno."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 19,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 5.2.b) de la Ley 7/2011, corresponde a los Ayuntamientos recibir declaraciones responsables u otorgar licencias para el desarrollo de espectáculos públicos en vías públicas y zonas de dominio público de:",
+        "opciones": {
+            "a": "titularidad autonómica.",
+            "b": "su titularidad.",
+            "c": "cualquier titularidad, previo informe.",
+            "d": "titularidad estatal."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 20,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 7.1 de la Ley 7/2011, como regla general, para la celebración de espectáculos públicos y la apertura de establecimientos será necesaria:",
+        "opciones": {
+            "a": "la obtención de una licencia municipal.",
+            "b": "la obtención de una autorización autonómica.",
+            "c": "la presentación de una declaración responsable.",
+            "d": "la presentación de una comunicación previa."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 21,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 7.2.a) de la Ley 7/2011, se necesita obtener autorización o licencia para la apertura de establecimientos públicos con un aforo:",
+        "opciones": {
+            "a": "igual o superior a 150 personas.",
+            "b": "superior a 150 personas.",
+            "c": "igual o superior a 200 personas.",
+            "d": "superior a 200 personas."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 22,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 7.2 de la Ley 7/2011, ¿cuál de las siguientes NO es una de las razones imperiosas de interés general que motivan la necesidad de obtener autorización o licencia?",
+        "opciones": {
+            "a": "La seguridad pública.",
+            "b": "La protección del medio ambiente.",
+            "c": "La eficiencia económica.",
+            "d": "La conservación del patrimonio histórico y artístico."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 23,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 7.2.b) de la Ley 7/2011, la celebración de espectáculos que requieran la utilización de instalaciones o estructuras eventuales, portátiles o desmontables necesitará:",
+        "opciones": {
+            "a": "declaración responsable.",
+            "b": "comunicación previa.",
+            "c": "autorización o licencia.",
+            "d": "informe técnico favorable."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 24,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 7.3 de la Ley 7/2011, ¿cuál de los siguientes establecimientos queda sujeto a declaración responsable con independencia de su aforo?",
+        "opciones": {
+            "a": "Discotecas y salas de baile.",
+            "b": "Pubs y bares especiales.",
+            "c": "Cines, teatros y auditorios.",
+            "d": "Salones de bodas y convenciones."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 25,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 7.4.b) de la Ley 7/2011, quedan exentos de licencia o declaración responsable los espectáculos de interés artístico o cultural que se lleven a cabo ocasionalmente con un aforo reducido de hasta:",
+        "opciones": {
+            "a": "30 personas.",
+            "b": "50 personas.",
+            "c": "75 personas.",
+            "d": "100 personas."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 26,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 7.5 de la Ley 7/2011, cuando en el establecimiento público exista una especial situación de riesgo, por disponer de algún recinto catalogado de riesgo alto, necesitará:",
+        "opciones": {
+            "a": "una declaración responsable especial.",
+            "b": "la autorización o licencia municipal correspondiente.",
+            "c": "un plan de autoprotección supervisado por la JCCM.",
+            "d": "un seguro de responsabilidad civil de mayor cuantía."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 27,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 8.2 de la Ley 7/2011, la declaración responsable deberá presentarse:",
+        "opciones": {
+            "a": "con un mes de antelación al inicio de la actividad.",
+            "b": "con quince días de antelación al inicio de la actividad.",
+            "c": "antes del inicio del espectáculo o actividad y/o apertura.",
+            "d": "en el mismo momento de la apertura o inicio."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 28,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 8.5 de la Ley 7/2011, una alteración sustancial es toda variación de un elemento esencial del espectáculo, actividad o establecimiento, con el fin de determinar si procede:",
+        "opciones": {
+            "a": "revocar la declaración inicial.",
+            "b": "emitir nueva declaración responsable.",
+            "c": "solicitar una licencia complementaria.",
+            "d": "suspender la actividad temporalmente."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 29,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 9.4 de la Ley 7/2011, como regla general, las licencias y autorizaciones concedidas serán:",
+        "opciones": {
+            "a": "intransferibles.",
+            "b": "transmisibles, previa autorización.",
+            "c": "transmisibles, salvo que se hayan concedido teniendo en cuenta las características particulares de los sujetos.",
+            "d": "transmisibles, comunicándolo en el plazo de un año."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 30,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 9.5 de la Ley 7/2011, los cambios de titularidad de una licencia requieren:",
+        "opciones": {
+            "a": "una nueva licencia.",
+            "b": "una autorización de transmisión.",
+            "c": "la presentación de una declaración responsable.",
+            "d": "una notificación por escrito al órgano competente."
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 31,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 10.2 de la Ley 7/2011, el plazo general para resolver y notificar una solicitud de autorización o licencia será de:",
+        "opciones": {
+            "a": "un mes.",
+            "b": "tres meses.",
+            "c": "seis meses.",
+            "d": "un año."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 32,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 10.2 de la Ley 7/2011, en el caso de pruebas deportivas, el plazo para resolver y notificar la autorización será de:",
+        "opciones": {
+            "a": "un mes.",
+            "b": "dos meses.",
+            "c": "tres meses.",
+            "d": "seis meses."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 33,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 10.3 de la Ley 7/2011, si transcurrido el plazo para resolver una solicitud de licencia no se ha notificado la resolución, el interesado podrá entender:",
+        "opciones": {
+            "a": "desestimada la solicitud por silencio negativo.",
+            "b": "que debe presentar una nueva solicitud.",
+            "c": "otorgada la autorización o licencia solicitada.",
+            "d": "que el procedimiento ha caducado."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 34,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 11.1 de la Ley 7/2011, para la concesión de licencias en edificios de valor cultural que no cumplan plenamente las condiciones técnicas, serán necesarios informes favorables previos de los órganos autonómicos competentes en espectáculos públicos y en:",
+        "opciones": {
+            "a": "urbanismo.",
+            "b": "protección civil.",
+            "c": "turismo.",
+            "d": "patrimonio histórico de Castilla-La Mancha."
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 35,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 13 de la Ley 7/2011, en el acceso a los locales deberá exhibirse una placa normalizada en lugar visible y legible desde el exterior, con los datos de la licencia, el horario y:",
+        "opciones": {
+            "a": "el nombre del titular.",
+            "b": "la fecha de concesión de la licencia.",
+            "c": "el aforo máximo permitido.",
+            "d": "el capital del seguro de responsabilidad civil."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 36,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 16.1 de la Ley 7/2011, el otorgamiento de la licencia municipal de funcionamiento requerirá, necesariamente, la previa:",
+        "opciones": {
+            "a": "presentación de un plan de autoprotección.",
+            "b": "contratación del seguro a que se refiere el artículo 21.",
+            "c": "obtención de la licencia de obras.",
+            "d": "aprobación del plan de evacuación."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 37,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 16.5 de la Ley 7/2011, la inactividad durante un período ininterrumpido de seis meses podrá determinar:",
+        "opciones": {
+            "a": "la suspensión de la licencia.",
+            "b": "la revocación de la licencia.",
+            "c": "la caducidad de la licencia.",
+            "d": "la necesidad de presentar una nueva declaración responsable."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 38,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 17.3 de la Ley 7/2011, en el procedimiento de licencia, el informe técnico de la JCCM se entenderá favorable si el Ayuntamiento no recibe comunicación expresa en el plazo de:",
+        "opciones": {
+            "a": "un mes.",
+            "b": "dos meses.",
+            "c": "tres meses.",
+            "d": "seis meses."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 39,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 17.3 de la Ley 7/2011, el informe técnico de los órganos de la JCCM sobre una licencia municipal será vinculante cuando:",
+        "opciones": {
+            "a": "resulte favorable a la concesión.",
+            "b": "afecte a establecimientos con aforo superior a 50 personas.",
+            "c": "resulte desfavorable a la concesión de la licencia solicitada.",
+            "d": "se emita fuera de plazo."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 40,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 19.1 de la Ley 7/2011, la celebración de espectáculos en espacio abierto y en la vía pública requerirá, como norma general:",
+        "opciones": {
+            "a": "declaración responsable.",
+            "b": "licencia municipal.",
+            "c": "autorización autonómica.",
+            "d": "comunicación previa."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 41,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 4.f) de la Ley 7/2011, la Administración de la Comunidad Autónoma podrá ejercer de forma subsidiaria las competencias de policía e inspección de los municipios cuando:",
+        "opciones": {
+            "a": "estos no dispongan de personal suficiente.",
+            "b": "el municipio lo solicite expresamente.",
+            "c": "no lo hayan ejecutado en tiempo y forma, tras haber sido instados para ello.",
+            "d": "se trate de espectáculos de interés regional."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 42,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 5.1.e) de la Ley 7/2011, los órganos de la Administración de la JCCM podrán complementar la actividad inspectora de los municipios en los supuestos en que:",
+        "opciones": {
+            "a": "se determine reglamentariamente.",
+            "b": "lo acuerde la Comisión Regional de Espectáculos Públicos.",
+            "c": "lo solicite el Pleno del Ayuntamiento.",
+            "d": "exista un riesgo grave para la seguridad pública."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 43,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 6.3 de la Ley 7/2011, la Administración Regional podrá prestar colaboración y apoyo técnico a los municipios, previa solicitud, para el ejercicio de las funciones de inspección, en especial a los:",
+        "opciones": {
+            "a": "de mayor población.",
+            "b": "de menor población.",
+            "c": "declarados de interés turístico.",
+            "d": "con término municipal extenso."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 44,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 8.8 de la Ley 7/2011, las declaraciones responsables para la celebración de espectáculos a realizar en acto único se extinguirán:",
+        "opciones": {
+            "a": "un año después de su celebración.",
+            "b": "con la celebración del espectáculo o actividad.",
+            "c": "cuando se presente la declaración de un nuevo espectáculo.",
+            "d": "por resolución expresa de la administración competente."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 45,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 9.8 de la Ley 7/2011, las licencias y autorizaciones podrán ser revocadas únicamente cuando:",
+        "opciones": {
+            "a": "el titular sea sancionado por una infracción grave.",
+            "b": "los incumplimientos no puedan ser subsanables.",
+            "c": "lo solicite un tercio de los vecinos afectados.",
+            "d": "cambie la normativa municipal."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 46,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 12.2 de la Ley 7/2011, los Ayuntamientos, con carácter previo al otorgamiento de la licencia de funcionamiento, deberán:",
+        "opciones": {
+            "a": "comprobar la solvencia económica del titular.",
+            "b": "exigir las autorizaciones correspondientes de otras administraciones.",
+            "c": "realizar un trámite de información pública.",
+            "d": "solicitar informe a la Jefatura Provincial de Tráfico."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 47,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 14.2 de la Ley 7/2011, el derecho de información de los interesados se extiende a la comunicación de los datos de contacto de las autoridades competentes, las vías de recurso y los datos de:",
+        "opciones": {
+            "a": "las empresas de seguros especializadas.",
+            "b": "los técnicos competentes para elaborar proyectos.",
+            "c": "asociaciones u organizaciones a las que pueden dirigirse para obtener ayuda práctica.",
+            "d": "los Cuerpos y Fuerzas de Seguridad."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 48,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 15.2 de la Ley 7/2011, el incumplimiento de los requisitos establecidos en una declaración responsable podrá determinar, previa audiencia al interesado, la:",
+        "opciones": {
+            "a": "revocación de la declaración.",
+            "b": "multa coercitiva.",
+            "c": "clausura o suspensión temporal del establecimiento.",
+            "d": "anulación de la actividad."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 49,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 19.3 de la Ley 7/2011, a los efectos de este artículo, se entenderá por espacio abierto aquella zona que, sin tener una estructura definida, se habilite para realizar espectáculos y que debe:",
+        "opciones": {
+            "a": "contar con un cerramiento perimetral.",
+            "b": "tener una superficie mínima de 500 m2.",
+            "c": "estar perfectamente delimitada en zona de espectadores y de actividad.",
+            "d": "disponer de gradas para el público."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 50,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 4.h) de la Ley 7/2011, la Comunidad Autónoma emitirá informes preceptivos previos y vinculantes en materia de patrimonio cultural y medioambiental, cuando el espectáculo, actividad o establecimiento afecte a:",
+        "opciones": {
+            "a": "cualquier edificio de más de 50 años.",
+            "b": "un bien incluido en alguna de las categorías de protección previstas en las normativas sectoriales.",
+            "c": "zonas declaradas de especial interés turístico.",
+            "d": "el centro histórico de cualquier municipio."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 51,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 20.2 de la Ley 7/2011, ¿cuál de los siguientes NO es un requisito que deben comprender las condiciones de los establecimientos públicos?",
+        "opciones": {
+            "a": "Plan de autoprotección y de actuación ante emergencias.",
+            "b": "Protección del medio ambiente urbano y natural.",
+            "c": "Estudio de viabilidad económica y rentabilidad.",
+            "d": "Condiciones de accesibilidad universal."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 52,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 21.1 de la Ley 7/2011, los titulares de las licencias, así como quienes realicen declaraciones responsables, deberán tener suscrito un seguro que cubra:",
+        "opciones": {
+            "a": "los daños al material y a las instalaciones.",
+            "b": "la responsabilidad civil por daños a personal, asistentes y terceros.",
+            "c": "la suspensión o cancelación del evento.",
+            "d": "el lucro cesante en caso de clausura."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 53,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 21.2 de la Ley 7/2011, cuando la actividad se celebre en un local, el seguro deberá incluir, además, el riesgo de incendio y los daños derivados de:",
+        "opciones": {
+            "a": "la calidad acústica del evento.",
+            "b": "la cancelación por causas meteorológicas.",
+            "c": "las condiciones del local o las instalaciones.",
+            "d": "los hurtos o robos que puedan sufrir los asistentes."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 54,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 21.4 de la Ley 7/2011, la contratación del seguro es obligatoria:",
+        "opciones": {
+            "a": "antes de la solicitud de la licencia o de realizar la declaración responsable.",
+            "b": "en el momento de la solicitud de la licencia o de realizar la declaración responsable.",
+            "c": "antes del inicio de la actividad.",
+            "d": "en el plazo de un mes desde el inicio de la actividad."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 55,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 22 de la Ley 7/2011, los espectáculos que por su naturaleza, aforo o incidencia deberán disponer de especiales medidas de seguridad o de un servicio de vigilancia y control de acceso serán determinados por:",
+        "opciones": {
+            "a": "Orden de la Consejería competente.",
+            "b": "Decreto de los Ayuntamientos.",
+            "c": "el Consejo de Gobierno, reglamentariamente.",
+            "d": "la Comisión Regional de Espectáculos Públicos."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 56,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 24.1 de la Ley 7/2011, los Ayuntamientos de la región deberán establecer un registro de:",
+        "opciones": {
+            "a": "asistentes a espectáculos públicos.",
+            "b": "organizadores y de establecimientos.",
+            "c": "artistas y ejecutantes.",
+            "d": "empresas de seguridad y vigilancia."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 57,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 24.2 de la Ley 7/2011, los Ayuntamientos comunicarán los asientos que practiquen en su registro de organizadores y establecimientos al órgano competente en materia de espectáculos públicos de:",
+        "opciones": {
+            "a": "la Diputación Provincial.",
+            "b": "la Subdelegación del Gobierno.",
+            "c": "la Administración de la Comunidad Autónoma.",
+            "d": "el Ministerio de Cultura."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 58,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 25.1.f) de la Ley 7/2011, ¿cuál de la siguiente información NO es obligatorio disponer en lugar visible al público?",
+        "opciones": {
+            "a": "Limitaciones de entrada a menores.",
+            "b": "El precio de las consumiciones.",
+            "c": "El aforo máximo.",
+            "d": "La existencia de hojas de reclamaciones."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 59,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 25.1.f).9º de la Ley 7/2011, el Plan de emergencia o autoprotección deberá estar a la entrada del local en un cajetín específico rotulado como:",
+        "opciones": {
+            "a": "«Plan de Autoprotección».",
+            "b": "«Información de Seguridad».",
+            "c": "«USO EXCLUSIVO EMERGENCIAS o USO EXCLUSIVO BOMBEROS».",
+            "d": "«Documentación del Local»."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 60,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 25.2.a) de la Ley 7/2011, los organizadores tienen la obligación de devolver las cantidades pagadas por los espectadores en los casos de:",
+        "opciones": {
+            "a": "modificación o suspensión del espectáculo o actividad anunciada.",
+            "b": "mala calidad acústica o visual del espectáculo.",
+            "c": "inclemencias meteorológicas que no impidan la celebración.",
+            "d": "cambio de uno de los artistas secundarios."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 61,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 26.1 de la Ley 7/2011, se consideran artistas o ejecutantes las personas que intervienen en el espectáculo ante el público, con independencia de que su participación:",
+        "opciones": {
+            "a": "sea principal o secundaria.",
+            "b": "sea individual o en grupo.",
+            "c": "tenga o no carácter retribuido.",
+            "d": "esté previamente ensayada."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 62,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 26.3 de la Ley 7/2011, la intervención de artistas menores de edad estará condicionada y sometida a los permisos que establezca la legislación:",
+        "opciones": {
+            "a": "de espectáculos públicos.",
+            "b": "laboral y de protección del menor.",
+            "c": "de educación y cultura.",
+            "d": "municipal sobre eventos públicos."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 63,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 27 de la Ley 7/2011, ¿cuál de los siguientes NO es un derecho de los espectadores y asistentes?",
+        "opciones": {
+            "a": "Derecho a que el espectáculo se desarrolle en su integridad.",
+            "b": "Derecho a ser admitido en las mismas condiciones objetivas que cualquier otro usuario.",
+            "c": "Derecho a la devolución del dinero si el espectáculo no es de su agrado.",
+            "d": "Derecho a que la empresa le facilite las hojas de reclamaciones."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 64,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 28.1.c) de la Ley 7/2011, los espectadores tienen la obligación de abstenerse de portar armas, material pirotécnico o:",
+        "opciones": {
+            "a": "alimentos o bebidas del exterior.",
+            "b": "equipos de grabación de audio o vídeo.",
+            "c": "exhibir símbolos, prendas u objetos que inciten a la violencia.",
+            "d": "animales de compañía."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 65,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 29.1 de la Ley 7/2011, los titulares de los establecimientos podrán establecer condiciones objetivas de admisión que, en ningún caso, deberán:",
+        "opciones": {
+            "a": "estar justificadas por motivos de seguridad.",
+            "b": "implicar algún tipo de discriminación.",
+            "c": "limitar el aforo del local.",
+            "d": "ser comunicadas previamente al Ayuntamiento."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 66,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 29.2 de la Ley 7/2011, las condiciones de admisión deberán figurar en lugar visible en los accesos de los establecimientos, en las taquillas y en:",
+        "opciones": {
+            "a": "las páginas web de venta de entradas.",
+            "b": "la publicidad o propaganda del espectáculo o actividad.",
+            "c": "las hojas de reclamaciones.",
+            "d": "el interior del local junto a la barra."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 67,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 30.1.b) de la Ley 7/2011, queda prohibida la entrada y permanencia de menores de 18 años en salas de fiesta, salas de baile y discotecas. No obstante, se permite la entrada en sesiones para menores a los mayores de:",
+        "opciones": {
+            "a": "doce años y menores de dieciocho.",
+            "b": "catorce años y menores de dieciocho.",
+            "c": "quince años y menores de dieciocho.",
+            "d": "dieciséis años y menores de dieciocho."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 68,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 30.4 de la Ley 7/2011, queda prohibida cualquier forma de promoción o publicidad que incite a los menores al consumo de bebidas alcohólicas mediante:",
+        "opciones": {
+            "a": "anuncios en radio o televisión.",
+            "b": "la promesa de regalos, bonificaciones y cualquiera otra ventaja de análoga naturaleza.",
+            "c": "el patrocinio de eventos deportivos.",
+            "d": "la utilización de personajes de ficción."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 69,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 32 de la Ley 7/2011, el horario general de los espectáculos y establecimientos públicos se determinará por orden de:",
+        "opciones": {
+            "a": "los Ayuntamientos.",
+            "b": "la consejería competente en materia de espectáculos públicos.",
+            "c": "el Consejo de Gobierno a propuesta de los Ayuntamientos.",
+            "d": "la Comisión Regional de Espectáculos Públicos."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 70,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 33.1 de la Ley 7/2011, la publicidad de los espectáculos deberá contener necesariamente la clase de espectáculo, fecha, horario, lugar, precios y:",
+        "opciones": {
+            "a": "el aforo del local.",
+            "b": "la clasificación por edades.",
+            "c": "denominación y domicilio del organizador.",
+            "d": "el nombre de los artistas principales."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 71,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 34 de la Ley 7/2011, ¿cuál de los siguientes datos debe contener obligatoriamente una entrada?",
+        "opciones": {
+            "a": "El NIF del organizador.",
+            "b": "La hora de apertura de puertas.",
+            "c": "El número de orden.",
+            "d": "El nombre de la empresa de seguridad."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 72,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 35 de la Ley 7/2011, ¿cuál de los siguientes aspectos relativos a la venta de localidades NO se determinará reglamentariamente?",
+        "opciones": {
+            "a": "La autorización de venta comisionada con recargo.",
+            "b": "El precio máximo de las entradas.",
+            "c": "El régimen de la venta por abonos.",
+            "d": "Las condiciones de la venta telemática de entradas."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 73,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 20.2.g) de la Ley 7/2011, es un requisito que deben cumplir los establecimientos públicos tener un:",
+        "opciones": {
+            "a": "seguro de responsabilidad civil.",
+            "b": "Plan de autoprotección y de actuación ante emergencias.",
+            "c": "contrato con una empresa de seguridad.",
+            "d": "servicio de admisión específico."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 74,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 23.1 de la Ley 7/2011, los espectáculos públicos podrán ser organizados por las personas físicas o jurídicas que figuren inscritos en:",
+        "opciones": {
+            "a": "el Registro Mercantil.",
+            "b": "el Registro Autonómico de Organizadores.",
+            "c": "el registro al que se refiere el artículo siguiente.",
+            "d": "el censo de actividades económicas."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 75,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 25.1.c) de la Ley 7/2011, los organizadores tienen la obligación de permitir y facilitar las inspecciones que efectúen:",
+        "opciones": {
+            "a": "exclusivamente los agentes de la Policía Local.",
+            "b": "únicamente los funcionarios de la Consejería competente.",
+            "c": "los agentes o funcionarios habilitados para ello.",
+            "d": "el personal del servicio de bomberos."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 76,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 27.d) de la Ley 7/2011, los espectadores tienen derecho a ser admitidos en el establecimiento siempre que la capacidad del aforo lo permita y:",
+        "opciones": {
+            "a": "no vistan de forma inadecuada.",
+            "b": "no concurra alguna de las causas de exclusión por razones de seguridad o alteración del orden.",
+            "c": "abonen un suplemento en la entrada.",
+            "d": "lleguen antes de la hora de comienzo del espectáculo."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 77,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 28.1.a) de la Ley 7/2011, los espectadores tienen la obligación de ocupar sus localidades o permanecer en las zonas que la empresa señale para el público, sin:",
+        "opciones": {
+            "a": "introducir comida o bebida.",
+            "b": "hacer fotografías o vídeos.",
+            "c": "invadir las zonas destinadas a otros fines.",
+            "d": "abandonar el recinto antes de la finalización."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 78,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 28.3 de la Ley 7/2011, cuando la empresa observe el incumplimiento de las obligaciones por parte del público, solicitará el auxilio de:",
+        "opciones": {
+            "a": "el personal de seguridad privada.",
+            "b": "los organizadores del evento.",
+            "c": "los agentes de la autoridad.",
+            "d": "el responsable de sala."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 79,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 30.2 de la Ley 7/2011, a los menores que accedan a establecimientos de espectáculos públicos no se les podrá vender ni suministrar:",
+        "opciones": {
+            "a": "bebidas energéticas.",
+            "b": "bebidas alcohólicas ni productos del tabaco.",
+            "c": "alimentos con alto contenido en azúcar.",
+            "d": "entradas para futuros eventos para adultos."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 80,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 31 de la Ley 7/2011, salvo circunstancias excepcionales, todos los espectáculos públicos comenzarán a la hora:",
+        "opciones": {
+            "a": "indicada en la licencia municipal.",
+            "b": "anunciada.",
+            "c": "de apertura del establecimiento.",
+            "d": "que decida el artista."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 81,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 24.1.b) de la Ley 7/2011, en el registro municipal de establecimientos se hará mención, al menos, de sus titulares, denominación, emplazamiento, actividad y:",
+        "opciones": {
+            "a": "capital social.",
+            "b": "aforo.",
+            "c": "número de empleados.",
+            "d": "fecha de la última inspección."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 82,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 25.1.e) de la Ley 7/2011, los organizadores tienen la obligación de mantener y ofrecer los espectáculos anunciados, salvo en:",
+        "opciones": {
+            "a": "aquellos casos justificados que impidan su celebración.",
+            "b": "caso de baja afluencia de público.",
+            "c": "caso de que otro evento de mayor interés coincida en fecha.",
+            "d": "aquellos casos en que se decida cambiar el programa."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 83,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 27.g) de la Ley 7/2011, los espectadores y asistentes tienen derecho a ser informados sobre:",
+        "opciones": {
+            "a": "el plan de viabilidad del evento.",
+            "b": "el curriculum de los artistas.",
+            "c": "las vías de evacuación que determine el Plan de Autoprotección.",
+            "d": "el coste de producción del espectáculo."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 84,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 29.2 de la Ley 7/2011, en las localidades o entradas se incluirá la siguiente frase:",
+        "opciones": {
+            "a": "«La empresa no se hace responsable...».",
+            "b": "«Prohibida la entrada a menores».",
+            "c": "«Reservado el derecho de admisión».",
+            "d": "«Consulte las condiciones de acceso»."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 85,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 34 de la Ley 7/2011, las entradas deberán contener, entre otros datos, el lugar, fecha, hora de inicio y:",
+        "opciones": {
+            "a": "hora de apertura de puertas.",
+            "b": "hora aproximada de finalización.",
+            "c": "duración de los descansos.",
+            "d": "hora de cierre del recinto."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 86,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 33.2 de la Ley 7/2011, las empresas de publicidad o de artes gráficas, cuando así sea requerido por la Administración, deberán justificar:",
+        "opciones": {
+            "a": "la veracidad de la publicidad.",
+            "b": "los datos identificativos de las empresas o particulares contratantes.",
+            "c": "el coste de la campaña publicitaria.",
+            "d": "el cumplimiento de la normativa de imagen corporativa."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 87,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 25.1.k) de la Ley 7/2011, los organizadores tienen la obligación de evitar que se produzcan ruidos y molestias desde el establecimiento público que afecten a:",
+        "opciones": {
+            "a": "las zonas comunes del establecimiento.",
+            "b": "el interior del local.",
+            "c": "el exterior del local.",
+            "d": "el desarrollo de la actividad."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 88,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 30.1.c) de la Ley 7/2011, sin perjuicio de las limitaciones de las disposiciones específicas, la Administración determinará las condiciones de entrada y permanencia de los menores de 18 años en:",
+        "opciones": {
+            "a": "cines y teatros.",
+            "b": "bares especiales.",
+            "c": "recintos feriales.",
+            "d": "salas de conciertos."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 89,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 28.1.g) de la Ley 7/2011, los espectadores y asistentes tienen la obligación de:",
+        "opciones": {
+            "a": "respetar el horario de cierre.",
+            "b": "no acceder con mochilas o bolsos grandes.",
+            "c": "permanecer en su localidad durante todo el espectáculo.",
+            "d": "consumir en el establecimiento."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 90,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 24.3 de la Ley 7/2011, se crea el Registro Autonómico de Organizadores y Establecimientos Públicos elaborado con los datos aportados por:",
+        "opciones": {
+            "a": "la Consejería competente.",
+            "b": "los propios organizadores.",
+            "c": "las Cortes de Castilla-La Mancha.",
+            "d": "los Ayuntamientos."
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 91,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 36.1 de la Ley 7/2011, la Comisión Regional de espectáculos públicos, actividades recreativas y establecimientos públicos de Castilla-La Mancha se crea como órgano:",
+        "opciones": {
+            "a": "ejecutivo y de control.",
+            "b": "consultivo, de estudio, coordinación y asesoramiento.",
+            "c": "sancionador y de mediación.",
+            "d": "legislativo y de propuesta normativa."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 92,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 36.2 de la Ley 7/2011, la presidencia de la Comisión Regional de espectáculos públicos la ostentará:",
+        "opciones": {
+            "a": "el Presidente de la Junta de Comunidades.",
+            "b": "el Director General competente en la materia.",
+            "c": "la persona titular de la consejería competente en materia de espectáculos públicos.",
+            "d": "un jurista de reconocido prestigio elegido por las Cortes."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 93,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 37.a) de la Ley 7/2011, la Comisión Regional de espectáculos públicos informará con carácter preceptivo:",
+        "opciones": {
+            "a": "las licencias de apertura de establecimientos con aforo superior a 1000 personas.",
+            "b": "los proyectos de disposiciones de carácter general referidas a espectáculos públicos.",
+            "c": "las sanciones por infracciones muy graves.",
+            "d": "los planes de autoprotección de los locales."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 94,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 38 de la Ley 7/2011, la composición, organización y régimen de funcionamiento de la Comisión Regional se determinará por:",
+        "opciones": {
+            "a": "Orden de la Consejería competente.",
+            "b": "Ley de las Cortes de Castilla-La Mancha.",
+            "c": "Acuerdo del Consejo de Gobierno.",
+            "d": "Decreto del Consejo de Gobierno."
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 95,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 39.1 de la Ley 7/2011, los funcionarios habilitados para las actividades inspectoras, en el ejercicio de sus funciones, tendrán el carácter de:",
+        "opciones": {
+            "a": "colaboradores de la autoridad.",
+            "b": "agentes de la autoridad.",
+            "c": "inspectores delegados.",
+            "d": "personal de apoyo técnico."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 96,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 41.1 de la Ley 7/2011, las multas coercitivas se podrán imponer en los términos del artículo 99 de la:",
+        "opciones": {
+            "a": "Ley de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.",
+            "b": "Ley Reguladora de las Bases del Régimen Local.",
+            "c": "Ley de la Jurisdicción Contencioso-Administrativa.",
+            "d": "Ley General Tributaria."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 97,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 41.3 de la Ley 7/2011, las multas coercitivas sucesivas para asegurar el cumplimiento de un acto no excederán de:",
+        "opciones": {
+            "a": "150 euros.",
+            "b": "300 euros.",
+            "c": "500 euros.",
+            "d": "600 euros."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 98,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 42.1 de la Ley 7/2011, ¿cuál de las siguientes NO es una medida provisional previa que pueda acordar el órgano competente antes de iniciar un expediente?",
+        "opciones": {
+            "a": "Clausura del local o establecimiento.",
+            "b": "Suspensión de la licencia.",
+            "c": "Multa por el doble del importe de la entrada.",
+            "d": "Decomiso de los bienes relacionados con el espectáculo."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 99,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 42.3 de la Ley 7/2011, las medidas provisionales previas serán acordadas mediante resolución motivada, previa audiencia al interesado por un plazo de:",
+        "opciones": {
+            "a": "cinco días.",
+            "b": "diez días.",
+            "c": "quince días.",
+            "d": "un mes."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 100,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 42.3 de la Ley 7/2011, en caso de urgencia debidamente justificada, el plazo de audiencia para adoptar medidas provisionales previas quedará reducido a:",
+        "opciones": {
+            "a": "un día.",
+            "b": "dos días.",
+            "c": "tres días.",
+            "d": "cinco días."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 101,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 42.4 de la Ley 7/2011, las medidas provisionales previas deberán ser confirmadas, modificadas o levantadas en el acuerdo de inicio del expediente en el plazo de:",
+        "opciones": {
+            "a": "diez días.",
+            "b": "quince días.",
+            "c": "veinte días.",
+            "d": "un mes."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 102,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 43.1 de la Ley 7/2011, ¿quiénes pueden adoptar medidas provisionales inmediatas sin audiencia previa en casos de urgencia absoluta?",
+        "opciones": {
+            "a": "El Alcalde.",
+            "b": "El Consejero competente.",
+            "c": "Los agentes de los cuerpos y fuerzas de seguridad.",
+            "d": "El jefe del servicio de inspección."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 103,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 43.2 de la Ley 7/2011, los agentes que adopten medidas provisionales inmediatas deben comunicarlo al órgano competente en el plazo de:",
+        "opciones": {
+            "a": "doce horas.",
+            "b": "veinticuatro horas.",
+            "c": "cuarenta y ocho horas.",
+            "d": "setenta y dos horas."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 104,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 44.2 de la Ley 7/2011, las infracciones administrativas en materia de espectáculos públicos se clasifican en:",
+        "opciones": {
+            "a": "leves, graves y muy graves.",
+            "b": "ordinarias y extraordinarias.",
+            "c": "muy graves, graves y leves.",
+            "d": "de simple inobservancia y de resultado."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 105,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 45 de la Ley 7/2011, ¿cuál de las siguientes infracciones se considera MUY GRAVE?",
+        "opciones": {
+            "a": "La superación del aforo máximo cuando suponga un grave riesgo pero no se produzcan daños.",
+            "b": "La reapertura de establecimientos afectados por resolución de clausura o suspensión firme.",
+            "c": "La negativa de los artistas a actuar sin causa justificada.",
+            "d": "El ejercicio del derecho de admisión de forma arbitraria."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 106,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 45.8 de la Ley 7/2011, se considera infracción muy grave la comisión de una infracción grave, cuando se hubiera sido sancionado por resolución firme en el plazo de un año, por:",
+        "opciones": {
+            "a": "una o más infracciones graves.",
+            "b": "dos o más infracciones graves.",
+            "c": "tres o más infracciones graves.",
+            "d": "una infracción grave y dos leves."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 107,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 45.4 de la Ley 7/2011, la superación del aforo máximo se considera infracción muy grave cuando suponga un grave riesgo para la seguridad y:",
+        "opciones": {
+            "a": "se superen en más de un 50% las plazas.",
+            "b": "se celebre en horario nocturno.",
+            "c": "se produzcan accidentes o incidentes con resultado de daños o lesiones.",
+            "d": "no se disponga de servicio de vigilancia."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 108,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 46 de la Ley 7/2011, ¿cuál de las siguientes infracciones se considera GRAVE?",
+        "opciones": {
+            "a": "La celebración de espectáculos expresamente prohibidos por la ley.",
+            "b": "La falta de limpieza e higiene en los locales.",
+            "c": "La dedicación de establecimientos a actividades distintas de aquellas para las que estuviesen autorizados.",
+            "d": "La falta de hojas de reclamaciones."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 109,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 46.4 de la Ley 7/2011, la superación del aforo máximo se considera infracción grave cuando suponga un grave riesgo para la seguridad y:",
+        "opciones": {
+            "a": "no se produzcan accidentes o incidentes con resultado de daños o lesiones.",
+            "b": "se superen en más de un 20% las plazas.",
+            "c": "se prolongue por más de una hora.",
+            "d": "se notifique por los agentes de la autoridad."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 110,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 46.9 de la Ley 7/2011, el ejercicio del derecho de admisión de forma arbitraria, discriminatoria o abusiva es una infracción:",
+        "opciones": {
+            "a": "leve.",
+            "b": "grave.",
+            "c": "muy grave.",
+            "d": "que no conlleva sanción, solo la obligación de permitir el acceso."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 111,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 46.14 de la Ley 7/2011, se considera un incumplimiento grave del horario de apertura o cierre el anticipo o retraso en:",
+        "opciones": {
+            "a": "más de treinta minutos.",
+            "b": "más de cuarenta y cinco minutos.",
+            "c": "más de sesenta minutos.",
+            "d": "más de noventa minutos."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 112,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 46.23 de la Ley 7/2011, negar el acceso al establecimiento a los agentes de la autoridad o funcionarios del servicio de inspección es una infracción:",
+        "opciones": {
+            "a": "leve.",
+            "b": "grave.",
+            "c": "muy grave.",
+            "d": "que puede constituir un delito de desobediencia."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 113,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 47 de la Ley 7/2011, ¿cuál de las siguientes infracciones se considera LEVE?",
+        "opciones": {
+            "a": "El incumplimiento de las condiciones de insonorización.",
+            "b": "La falta de hojas de reclamaciones o la negativa a facilitarlas.",
+            "c": "La suspensión del espectáculo sin causa justificada.",
+            "d": "Permitir el acceso a menores donde lo tienen prohibido."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 114,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 47.11 de la Ley 7/2011, el incumplimiento de los horarios de apertura o cierre se considera infracción leve cuando el anticipo o retraso es:",
+        "opciones": {
+            "a": "inferior a treinta minutos.",
+            "b": "entre quince y cuarenta y cinco minutos.",
+            "c": "entre treinta y sesenta minutos.",
+            "d": "superior a sesenta minutos."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 115,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 48.2 de la Ley 7/2011, los titulares de los establecimientos y los organizadores serán responsables solidarios de las infracciones cometidas por quienes intervengan en el espectáculo o estén bajo su dependencia, cuando:",
+        "opciones": {
+            "a": "actúen con dolo o culpa grave.",
+            "b": "incumplan el deber de prevenir la infracción.",
+            "c": "no los identifiquen ante la autoridad.",
+            "d": "la infracción sea calificada como muy grave."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 116,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 48.4 de la Ley 7/2011, cuando exista una pluralidad de responsables a título individual y no fuera posible determinar el grado de participación de cada uno, responderán:",
+        "opciones": {
+            "a": "el que figure como titular de la licencia.",
+            "b": "de forma mancomunada.",
+            "c": "todos ellos de forma solidaria.",
+            "d": "el que tuviera mayor beneficio económico."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 117,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 39.3 de la Ley 7/2011, los titulares de los establecimientos están obligados a permitir a los funcionarios de inspección el libre acceso a los establecimientos y:",
+        "opciones": {
+            "a": "únicamente a las zonas de público.",
+            "b": "a sus diversas dependencias.",
+            "c": "solo a las zonas de personal y almacenes.",
+            "d": "a las oficinas, previa cita."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 118,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 41.2 de la Ley 7/2011, las multas coercitivas son:",
+        "opciones": {
+            "a": "sustitutivas de las sanciones pecuniarias.",
+            "b": "incompatibles con las sanciones pecuniarias.",
+            "c": "independientes de las sanciones pecuniarias y compatibles con ellas.",
+            "d": "una medida previa a la imposición de sanciones pecuniarias."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 119,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 42.2.c) de la Ley 7/2011, es un supuesto que justifica la adopción de medidas provisionales previas la celebración de espectáculos en establecimientos que carezcan de licencias o:",
+        "opciones": {
+            "a": "carezcan del seguro exigido por la presente Ley.",
+            "b": "no dispongan de plan de evacuación.",
+            "c": "tengan el aforo completo.",
+            "d": "no hayan comunicado el evento al ayuntamiento."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 120,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 43.2 de la Ley 7/2011, el órgano competente para adoptar las medidas provisionales previas deberá confirmar, modificar o revocar las medidas inmediatas adoptadas por los agentes en el plazo de:",
+        "opciones": {
+            "a": "cuarenta y ocho horas.",
+            "b": "tres días.",
+            "c": "cinco días.",
+            "d": "diez días."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 121,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 45.1 de la Ley 7/2011, se considera infracción muy grave la permisividad o tolerancia de actividades o acciones ilegales en relación con:",
+        "opciones": {
+            "a": "el juego no autorizado.",
+            "b": "la prostitución.",
+            "c": "la venta ambulante no autorizada.",
+            "d": "el consumo o tráfico de drogas."
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 122,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 46.1 de la Ley 7/2011, la celebración de espectáculos sin la correspondiente licencia, autorización o declaración responsable se considera infracción grave cuando:",
+        "opciones": {
+            "a": "no se deriven situaciones de grave riesgo para las personas o bienes.",
+            "b": "el aforo sea inferior a 150 personas.",
+            "c": "la actividad no tenga ánimo de lucro.",
+            "d": "sea la primera vez que se comete la infracción."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 123,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 47.4 de la Ley 7/2011, la superación del aforo máximo autorizado se considera infracción leve cuando:",
+        "opciones": {
+            "a": "no suponga un grave riesgo para la seguridad.",
+            "b": "el exceso no supere el 10% del aforo.",
+            "c": "el evento se celebre al aire libre.",
+            "d": "dure menos de una hora."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 124,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 40 de la Ley 7/2011, de cada actuación inspectora se levantará acta, cuya primera copia se entregará a:",
+        "opciones": {
+            "a": "el agente que la levanta.",
+            "b": "la autoridad competente.",
+            "c": "el interesado.",
+            "d": "el registro del ayuntamiento."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 125,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 41.3 de la Ley 7/2011, en la imposición de multas coercitivas sucesivas, el importe podrá aumentarse hasta el 50% a partir de la:",
+        "opciones": {
+            "a": "primera.",
+            "b": "segunda.",
+            "c": "tercera.",
+            "d": "cuarta."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 126,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 45.11 de la Ley 7/2011, la resistencia, coacción, amenaza o cualquier forma de presión ejercida sobre los agentes de la autoridad o funcionarios de inspección es una infracción:",
+        "opciones": {
+            "a": "grave.",
+            "b": "muy grave.",
+            "c": "que puede ser constitutiva de delito.",
+            "d": "que conlleva la clausura inmediata del local."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 127,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 46.19 de la Ley 7/2011, la comisión de una infracción leve se convierte en infracción grave cuando el autor hubiera sido sancionado por resolución firme, en el plazo de un año, por:",
+        "opciones": {
+            "a": "una o más infracciones leves.",
+            "b": "dos o más infracciones leves.",
+            "c": "tres o más infracciones leves.",
+            "d": "una infracción leve de la misma naturaleza."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 128,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 47.9 de la Ley 7/2011, la reventa de entradas no autorizada es una infracción:",
+        "opciones": {
+            "a": "muy grave.",
+            "b": "grave.",
+            "c": "leve.",
+            "d": "que solo es sancionable si se realiza con sobreprecio."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 129,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 48.1 de la Ley 7/2011, serán responsables de las infracciones las personas físicas o jurídicas titulares, los organizadores, los artistas y:",
+        "opciones": {
+            "a": "los proveedores.",
+            "b": "los patrocinadores.",
+            "c": "los asistentes o espectadores.",
+            "d": "las empresas de seguridad."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 130,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 37.b) de la Ley 7/2011, una de las atribuciones de la Comisión Regional de espectáculos públicos es la formulación de mociones, propuestas y emisión de informes sobre:",
+        "opciones": {
+            "a": "la cuantía de las sanciones a imponer.",
+            "b": "la interpretación, aplicación y modificación de las disposiciones que regulan los espectáculos públicos.",
+            "c": "la concesión de licencias para aforos superiores a 2.000 personas.",
+            "d": "la idoneidad de los planes de autoprotección."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 131,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 49.1.a) de la Ley 7/2011, las infracciones tipificadas como muy graves serán sancionadas con multa de:",
+        "opciones": {
+            "a": "3.001 a 60.000 euros.",
+            "b": "6.001 a 150.000 euros.",
+            "c": "30.001 a 600.000 euros.",
+            "d": "60.001 a 1.200.000 euros."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 132,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 49.1.b) de la Ley 7/2011, las infracciones tipificadas como graves serán sancionadas con multa de:",
+        "opciones": {
+            "a": "151 a 15.000 euros.",
+            "b": "301 a 30.000 euros.",
+            "c": "601 a 60.000 euros.",
+            "d": "1.001 a 100.000 euros."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 133,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 49.1.c) de la Ley 7/2011, las infracciones tipificadas como leves serán sancionadas con multa de:",
+        "opciones": {
+            "a": "hasta 150 euros.",
+            "b": "hasta 300 euros.",
+            "c": "hasta 600 euros.",
+            "d": "hasta 1.000 euros."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 134,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 50.1.a) de la Ley 7/2011, las infracciones muy graves podrán conllevar la sanción de clausura del local o establecimiento por un período máximo de:",
+        "opciones": {
+            "a": "seis meses.",
+            "b": "un año.",
+            "c": "dos años.",
+            "d": "cinco años."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 135,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 50.2.b) de la Ley 7/2011, las infracciones graves podrán conllevar la sanción de suspensión o prohibición de la actividad por un período máximo de:",
+        "opciones": {
+            "a": "tres meses.",
+            "b": "seis meses.",
+            "c": "un año.",
+            "d": "dos años."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 136,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 50.3 de la Ley 7/2011, procederá la imposición acumulativa de sanciones en aquellos supuestos que impliquen grave alteración de la seguridad o contravengan las disposiciones en materia de:",
+        "opciones": {
+            "a": "protección de consumidores y usuarios.",
+            "b": "protección de menores.",
+            "c": "higiene y salubridad.",
+            "d": "accesibilidad universal."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 137,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 51.1 de la Ley 7/2011, ¿cuál de los siguientes NO es un criterio para graduar las sanciones?",
+        "opciones": {
+            "a": "La trascendencia económica o social de la infracción.",
+            "b": "El beneficio económico obtenido por el infractor.",
+            "c": "La existencia de reiteración.",
+            "d": "La negligencia o intencionalidad."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 138,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 51.1.c) de la Ley 7/2011, a efectos de graduación de sanciones, se entenderá como reiteración la comisión en el plazo de dos años de una o varias infracciones sancionadas por:",
+        "opciones": {
+            "a": "sentencia judicial firme.",
+            "b": "resolución firme en vía administrativa.",
+            "c": "denuncia de un agente de la autoridad.",
+            "d": "informe técnico desfavorable."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 139,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 52.1 de la Ley 7/2011, el plazo de prescripción de las infracciones leves será de:",
+        "opciones": {
+            "a": "seis meses.",
+            "b": "un año.",
+            "c": "dos años.",
+            "d": "tres años."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 140,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 52.1 de la Ley 7/2011, el plazo de prescripción de las infracciones graves será de:",
+        "opciones": {
+            "a": "un año.",
+            "b": "dos años.",
+            "c": "tres años.",
+            "d": "cuatro años."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 141,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 52.1 de la Ley 7/2011, el plazo de prescripción de las infracciones muy graves será de:",
+        "opciones": {
+            "a": "un año.",
+            "b": "dos años.",
+            "c": "tres años.",
+            "d": "cinco años."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 142,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 52.3 de la Ley 7/2011, la prescripción de infracciones se interrumpe por la iniciación, con conocimiento del interesado, del procedimiento sancionador, reanudándose el plazo si el expediente estuviera paralizado durante más de:",
+        "opciones": {
+            "a": "quince días por causa no imputable al presunto responsable.",
+            "b": "un mes por causa no imputable al presunto responsable.",
+            "c": "dos meses por cualquier causa.",
+            "d": "tres meses por causa no imputable al presunto responsable."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 143,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 52.4 de la Ley 7/2011, las sanciones impuestas por infracciones graves prescribirán a los:",
+        "opciones": {
+            "a": "seis meses.",
+            "b": "un año.",
+            "c": "dos años.",
+            "d": "tres años."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 144,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 52.5 de la Ley 7/2011, el plazo de prescripción de las sanciones comenzará a contarse desde:",
+        "opciones": {
+            "a": "la fecha de la comisión de la infracción.",
+            "b": "la fecha de la notificación de la denuncia.",
+            "c": "el día siguiente a aquel en que adquiera firmeza la resolución.",
+            "d": "el día siguiente a la finalización del plazo de pago voluntario."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 145,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 53.1 de la Ley 7/2011, como regla general, la incoación, instrucción y resolución de los procedimientos sancionadores por faltas leves y graves corresponderán a:",
+        "opciones": {
+            "a": "las Delegaciones Provinciales de la JCCM.",
+            "b": "la Consejería competente en materia de espectáculos públicos.",
+            "c": "los Ayuntamientos de la región.",
+            "d": "la Comisión Regional de Espectáculos Públicos."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 146,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 53.1 de la Ley 7/2011, la competencia para sancionar las faltas leves y graves corresponderá a la Junta de Comunidades cuando la infracción se impute a los mismos Ayuntamientos o se cometa en materia de:",
+        "opciones": {
+            "a": "protección de menores.",
+            "b": "festejos taurinos.",
+            "c": "ruidos y contaminación acústica.",
+            "d": "grandes eventos con aforo superior a 5.000 personas."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 147,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 53.2 de la Ley 7/2011, la resolución de los expedientes sancionadores por faltas muy graves corresponderá a:",
+        "opciones": {
+            "a": "el Consejo de Gobierno.",
+            "b": "el Presidente de la Junta de Comunidades.",
+            "c": "la persona titular de la consejería competente en la materia.",
+            "d": "el Director General competente en la materia."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 148,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 53.5 de la Ley 7/2011, cuando en una denuncia se reflejen varias infracciones de distinta gravedad, la competencia se atribuirá al órgano que tenga potestad respecto de:",
+        "opciones": {
+            "a": "la infracción que conlleve mayor sanción económica.",
+            "b": "la infracción de naturaleza más grave.",
+            "c": "la primera infracción que se describa en el acta.",
+            "d": "la infracción que afecte a un mayor número de personas."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 149,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 55.1 de la Ley 7/2011, si en cualquier momento del procedimiento se estima que los hechos pudieran ser constitutivos de ilícito penal, se comunicarán a:",
+        "opciones": {
+            "a": "el Juez de Instrucción.",
+            "b": "la Audiencia Provincial.",
+            "c": "el Ministerio Fiscal.",
+            "d": "el Tribunal Superior de Justicia."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 150,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 55.3 de la Ley 7/2011, el órgano competente acordará la suspensión del procedimiento sancionador hasta que recaiga resolución judicial si estimase que existe identidad de:",
+        "opciones": {
+            "a": "sujeto, hecho y fundamento.",
+            "b": "sujeto y hecho.",
+            "c": "hecho y fundamento.",
+            "d": "sujeto y fundamento."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 151,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 55.5 de la Ley 7/2011, los hechos declarados probados por sentencia penal firme:",
+        "opciones": {
+            "a": "vincularán a los órganos administrativos respecto a los procedimientos sancionadores.",
+            "b": "no vincularán a los órganos administrativos.",
+            "c": "vincularán solo si la sentencia es condenatoria.",
+            "d": "podrán ser revisados en el procedimiento administrativo."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 152,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 56.1 de la Ley 7/2011, una vez iniciado el expediente sancionador, el órgano competente podrá acordar las medidas provisionales imprescindibles para:",
+        "opciones": {
+            "a": "asegurar el cobro de la posible multa.",
+            "b": "evitar la alarma social.",
+            "c": "asegurar el cumplimiento de la sanción o evitar la comisión de nuevas infracciones.",
+            "d": "garantizar el derecho de defensa del interesado."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 153,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 56.3 de la Ley 7/2011, las medidas provisionales acordadas una vez iniciado el expediente se adoptarán previa audiencia al interesado por un plazo de:",
+        "opciones": {
+            "a": "dos días.",
+            "b": "cinco días.",
+            "c": "diez días.",
+            "d": "quince días."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 154,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 56.5 de la Ley 7/2011, las medidas provisionales acordadas durante la tramitación del procedimiento se extinguirán:",
+        "opciones": {
+            "a": "transcurrido el plazo de 6 meses.",
+            "b": "cuando se interponga recurso contra ellas.",
+            "c": "de oficio, a petición del interesado.",
+            "d": "con la resolución que ponga fin al procedimiento sancionador."
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 155,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 49.2 de la Ley 7/2011, para evitar que una infracción resulte beneficiosa para el infractor, la cuantía de la sanción pecuniaria podrá ser incrementada hasta:",
+        "opciones": {
+            "a": "el 50% por encima del límite máximo.",
+            "b": "el doble del valor del beneficio derivado de su comisión.",
+            "c": "el triple del valor del beneficio derivado de su comisión.",
+            "d": "la cuantía que determine la autoridad sancionadora sin límite."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 156,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 50.1.c) de la Ley 7/2011, una infracción muy grave puede conllevar la inhabilitación para la organización de espectáculos por un período máximo de:",
+        "opciones": {
+            "a": "seis meses.",
+            "b": "un año.",
+            "c": "dos años.",
+            "d": "cinco años."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 157,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 51.2 de la Ley 7/2011, los criterios de graduación de las sanciones (trascendencia, negligencia, etc.) no se aplicarán cuando:",
+        "opciones": {
+            "a": "la infracción sea leve.",
+            "b": "el infractor no sea reincidente.",
+            "c": "hayan sido empleados para incrementar la gravedad de la infracción.",
+            "d": "la sanción sea únicamente pecuniaria."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 158,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el artículo 52.2 de la Ley 7/2011, en las infracciones derivadas de una actividad continuada, la fecha inicial del cómputo de la prescripción será la de:",
+        "opciones": {
+            "a": "la iniciación de la actividad.",
+            "b": "la finalización de la actividad o la del último acto.",
+            "c": "la inspección que detectó la infracción.",
+            "d": "la notificación de la denuncia."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 159,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al artículo 54 de la Ley 7/2011, los expedientes sancionadores se tramitarán por el procedimiento que se determine y, en su defecto, por el establecido en el Reglamento aprobado por el:",
+        "opciones": {
+            "a": "Real Decreto 1398/1993, de 4 de agosto.",
+            "b": "Real Decreto 248/1998, de 20 de febrero.",
+            "c": "Real Decreto 320/1994, de 25 de febrero.",
+            "d": "Real Decreto Legislativo 6/2015, de 30 de octubre."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 160,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el artículo 53.3 de la Ley 7/2011, la Administración de la Comunidad Autónoma podrá asumir las competencias sancionadoras de los Ayuntamientos por faltas graves en caso de inactividad de estos, previo:",
+        "opciones": {
+            "a": "acuerdo del Consejo de Gobierno.",
+            "b": "informe de la Comisión Regional de Espectáculos Públicos.",
+            "c": "requerimiento a los mismos.",
+            "d": "acuerdo del Pleno municipal solicitándolo."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 161,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el Anexo de la Ley 7/2011, ¿cuál de los siguientes se clasifica como un Espectáculo Público y no como una Actividad Recreativa?",
+        "opciones": {
+            "a": "Verbenas y similares.",
+            "b": "Baile.",
+            "c": "Teatro.",
+            "d": "Juegos recreativos."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 162,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al Catálogo del Anexo de la Ley 7/2011, ¿cuál de las siguientes opciones NO se considera una Actividad Recreativa?",
+        "opciones": {
+            "a": "Juegos de suerte, envite y azar.",
+            "b": "Karaoke.",
+            "c": "Festejos taurinos populares.",
+            "d": "Circo."
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 163,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el Anexo de la Ley 7/2011, los &quot;Cines de verano o al aire libre&quot; se clasifican dentro de los establecimientos públicos de espectáculos públicos, en el subgrupo de:",
+        "opciones": {
+            "a": "De esparcimiento y diversión.",
+            "b": "Deportivos.",
+            "c": "Culturales y artísticos.",
+            "d": "Otros locales e instalaciones asimilables."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 164,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el Anexo de la Ley 7/2011, las &quot;Discotecas y salas de baile&quot; se encuadran dentro de los establecimientos públicos de actividades recreativas, concretamente en el subgrupo de:",
+        "opciones": {
+            "a": "Establecimientos recreativos.",
+            "b": "Establecimientos de ocio y diversión.",
+            "c": "Bares especiales.",
+            "d": "Establecimientos de baile."
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 165,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al Catálogo del Anexo, los &quot;Parques acuáticos&quot; se mencionan en la clasificación de establecimientos públicos de actividades recreativas dentro de dos subgrupos:",
+        "opciones": {
+            "a": "Establecimientos recreativos y Establecimientos de ocio y diversión.",
+            "b": "Establecimientos de atracciones recreativas y Establecimientos deportivo-recreativos.",
+            "c": "Establecimientos recreativos y Establecimientos de atracciones recreativas.",
+            "d": "Establecimientos de atracciones recreativas y Establecimientos de hostelería y restauración."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 166,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el Anexo, los &quot;Cafés-espectáculos&quot; se consideran un establecimiento público de espectáculos públicos, clasificado en el subgrupo de:",
+        "opciones": {
+            "a": "Culturales y artísticos.",
+            "b": "De esparcimiento y diversión.",
+            "c": "Deportivos.",
+            "d": "Establecimientos de hostelería y restauración."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 167,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el Anexo, ¿cuál de los siguientes establecimientos NO pertenece al subgrupo de &quot;Establecimientos de hostelería y restauración&quot;?",
+        "opciones": {
+            "a": "Salones de banquetes.",
+            "b": "Bares con ambientación musical.",
+            "c": "Chocolaterías, heladerías, salones de té.",
+            "d": "Tabernas y bodegas."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 168,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al Anexo, una &quot;Senda ciclable&quot; se define como una vía para peatones y ciclos, segregada del tráfico motorizado, y que discurre por:",
+        "opciones": {
+            "a": "el arcén de una carretera convencional.",
+            "b": "adosada a la calzada.",
+            "c": "espacios abiertos, parques, jardines o bosques.",
+            "d": "zonas urbanas pacificadas."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 169,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el Anexo, ¿cuál es la diferencia principal entre una Autopista y una Autovía según sus definiciones?",
+        "opciones": {
+            "a": "La autopista siempre es de peaje y la autovía no.",
+            "b": "La autovía puede tener cruces a nivel y la autopista no.",
+            "c": "La autopista no tiene acceso a propiedades colindantes y la autovía tiene acceso limitado.",
+            "d": "La autovía tiene calzadas separadas y la autopista puede no tenerlas."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 170,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según la definición del Anexo, un &quot;Tren de carretera&quot; es un automóvil constituido por:",
+        "opciones": {
+            "a": "un vehículo de motor acoplado a un semirremolque.",
+            "b": "un tractocamión y un semirremolque.",
+            "c": "un vehículo de motor enganchado a un remolque.",
+            "d": "dos vehículos rígidos unidos por una sección articulada."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 171,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al Anexo de la ley, las &quot;Salas de juventud&quot; se clasifican dentro de los:",
+        "opciones": {
+            "a": "Establecimientos recreativos.",
+            "b": "Establecimientos para actividades culturales y sociales.",
+            "c": "Establecimientos de baile.",
+            "d": "Clubes especiales."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 172,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el Anexo, los &quot;Espectáculos taurinos&quot; y los &quot;Festejos taurinos populares&quot; se clasifican, respectivamente, como:",
+        "opciones": {
+            "a": "Espectáculo Público y Actividad Recreativa.",
+            "b": "Actividad Recreativa y Espectáculo Público.",
+            "c": "Ambos como Espectáculos Públicos.",
+            "d": "Ambos como Actividades Recreativas."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 173,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el Anexo de la ley, una &quot;Vía ciclista segregada del tráfico motorizado, con trazado independiente de las carreteras&quot; se denomina:",
+        "opciones": {
+            "a": "Carril-bici.",
+            "b": "Acera-bici.",
+            "c": "Senda ciclable.",
+            "d": "Pista-bici."
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 174,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al Anexo, ¿cuál de los siguientes establecimientos se clasifica como &quot;Establecimiento para actividades culturales y sociales&quot;?",
+        "opciones": {
+            "a": "Cine-clubes.",
+            "b": "Salas de conciertos.",
+            "c": "Ludotecas.",
+            "d": "Salones de celebraciones infantiles."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 175,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con la definición del Anexo, la inmovilización de un vehículo que no se encuentra en situación de detención o parada es un:",
+        "opciones": {
+            "a": "estacionamiento.",
+            "b": "aparcamiento indebido.",
+            "c": "inmovilización voluntaria.",
+            "d": "bloqueo."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 176,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el Anexo, un &quot;Carril-bici protegido&quot; es un carril-bici que:",
+        "opciones": {
+            "a": "está vigilado por cámaras de seguridad.",
+            "b": "discurre por una acera ancha.",
+            "c": "tiene prioridad semafórica en los cruces.",
+            "d": "está provisto de elementos laterales que lo separan físicamente del resto de la calzada."
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 177,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al Anexo, ¿en qué categoría de establecimientos públicos se incluyen las &quot;Galerías de tiro&quot;?",
+        "opciones": {
+            "a": "Culturales y artísticos.",
+            "b": "De esparcimiento y diversión.",
+            "c": "Deportivos.",
+            "d": "Establecimientos recreativos."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 178,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "De acuerdo con el Anexo, la actividad de &quot;Catering&quot; se clasifica como:",
+        "opciones": {
+            "a": "un Espectáculo Público.",
+            "b": "una Actividad Recreativa.",
+            "c": "un Establecimiento de hostelería y restauración.",
+            "d": "un servicio auxiliar no catalogado."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 179,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Según el Anexo, los &quot;Centros de Interpretación de espacios naturales protegidos&quot; se encuadran en el subgrupo de:",
+        "opciones": {
+            "a": "Establecimientos para actividades culturales y sociales.",
+            "b": "Establecimientos recreativos.",
+            "c": "Establecimientos para actividades zoológicas, botánicas y geológicas.",
+            "d": "Establecimientos deportivo-recreativos."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 180,
+        "tema": "Ley 7/2011 Espectáculos CLM",
+        "pregunta": "Conforme al Catálogo del Anexo, los &quot;Museos&quot;, &quot;Bibliotecas&quot; y &quot;Salas de exposiciones&quot; se clasifican como:",
+        "opciones": {
+            "a": "Establecimientos recreativos.",
+            "b": "Establecimientos de espectáculos públicos culturales y artísticos.",
+            "c": "Establecimientos para actividades culturales y sociales.",
+            "d": "Establecimientos de ocio y diversión."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 181,
+        "tema": "Ley 7/2011 Espectáculos CLM (Estructura)",
+        "pregunta": "¿Cuál es la denominación y fecha correctas de la ley que regula los espectáculos públicos en Castilla-La Mancha?",
+        "opciones": {
+            "a": "Ley 11/2007, de 21 de marzo.",
+            "b": "Ley 7/2011, de 25 de septiembre.",
+            "c": "Ley 7/2011, de 21 de marzo.",
+            "d": "Ley 11/2003, de 21 de marzo."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 182,
+        "tema": "Ley 7/2011 Espectáculos CLM (Estructura)",
+        "pregunta": "Según su índice, la Ley 7/2011, de 21 de marzo, se estructura en un Título Preliminar y:",
+        "opciones": {
+            "a": "tres Títulos numerados.",
+            "b": "cuatro Títulos numerados.",
+            "c": "cinco Títulos numerados.",
+            "d": "seis Títulos numerados."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 183,
+        "tema": "Ley 7/2011 Espectáculos CLM (Estructura)",
+        "pregunta": "¿Cómo se denomina el Título II de la Ley 7/2011, de Espectáculos Públicos de Castilla-La Mancha?",
+        "opciones": {
+            "a": "Declaraciones responsables, autorizaciones y licencias.",
+            "b": "Organización y desarrollo de espectáculos públicos y actividades recreativas.",
+            "c": "Comisión Regional de espectáculos públicos.",
+            "d": "Vigilancia, inspección y régimen sancionador."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 184,
+        "tema": "Ley 7/2011 Espectáculos CLM (Estructura)",
+        "pregunta": "La regulación sobre la &quot;Comisión Regional de espectáculos públicos, actividades recreativas y establecimientos públicos&quot; se encuentra en la Ley 7/2011 en su:",
+        "opciones": {
+            "a": "Título I.",
+            "b": "Título II.",
+            "c": "Título III.",
+            "d": "Título IV."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 185,
+        "tema": "Ley 7/2011 Espectáculos CLM (Estructura)",
+        "pregunta": "¿Cuántos artículos componen el articulado principal de la Ley 7/2011, de 21 de marzo?",
+        "opciones": {
+            "a": "48 artículos.",
+            "b": "52 artículos.",
+            "c": "56 artículos.",
+            "d": "60 artículos."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    },
+    {
+        "id": 186,
+        "tema": "Ley 7/2011 Espectáculos CLM (Estructura)",
+        "pregunta": "Además del articulado, la Ley 7/2011, de Espectáculos Públicos, finaliza su estructura con varias disposiciones transitorias, varias disposiciones finales y:",
+        "opciones": {
+            "a": "un glosario de términos.",
+            "b": "dos anexos.",
+            "c": "un anexo.",
+            "d": "ningún anexo."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Ley.7-2011"
+        ]
+    }
+]

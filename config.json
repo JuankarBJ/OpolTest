@@ -13,6 +13,13 @@
             "valor": "data/EA-CLM.json",
             "total_preguntas": 140,
             "icono": "EA-CLM"
+        },
+        {
+            "id": "ley-7/2011-espectaculos",
+            "nombre": "Ley 7/2011 de Espectáculos Públicos de Castilla-La Mancha",
+            "valor": "data/Ley7201121demarzoEspectculospbicosCLM.json",
+            "total_preguntas": 186,
+            "icono": "EspPubCLM"
         }
     ]
 }
