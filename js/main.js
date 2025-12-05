@@ -46,6 +46,22 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
 
+            // Check for Repeat Exam Request
+            const repeatQuestions = StorageManager.loadRepeatExam();
+            if (repeatQuestions) {
+                StorageManager.clearRepeatExam(); // Consume the flag
+                quizEngine.init(repeatQuestions);
+                uiManager.startQuizDisplay();
+                uiManager.renderQuestions(repeatQuestions);
+                uiManager.toggleActions(true, 'quiz');
+                bindActionEvents();
+
+                uiManager.bindAnswerEvents((index, value) => {
+                    quizEngine.saveAnswer(index, value);
+                });
+                return; // Skip normal setup
+            }
+
             // Load Data
             [configData, topicsData, examsData] = await Promise.all([
                 DataManager.loadConfig(),
@@ -281,6 +297,17 @@ document.addEventListener('DOMContentLoaded', () => {
         const results = quizEngine.calculateResults();
         StorageManager.saveFailedQuestions(results.failedQuestions);
         StorageManager.clearSession();
+
+        // Save to History
+        StorageManager.saveExamResult({
+            date: new Date().toISOString(),
+            score: results.finalGrade,
+            correct: results.correct,
+            incorrect: results.incorrect,
+            unanswered: results.unanswered,
+            total: results.total,
+            questions: quizEngine.questions // Save questions to allow repeating exact test
+        });
 
         // Generate Results HTML
         let breakdownHTML = '<ul class="results-breakdown">';
