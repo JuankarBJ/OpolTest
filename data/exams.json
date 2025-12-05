@@ -61,5 +61,23 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "exam-guadalajara-2024",
+        "nombre": "Examen Guadalajara 2024",
+        "descripcion": "Examen oficial de Guadalajara 2024.",
+        "total_preguntas": 5,
+        "fuentes": [
+            {
+                "archivo": "data/Guadalajara2024.json",
+                "indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ]
     }
 ]

@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Según lo dispuesto en el artículo 20.1 de la Constitución Española, se reconoce y protege el derecho:",
+        "opciones": {
+            "a": "Al honor",
+            "b": "A la seguridad",
+            "c": "A la libertad de cátedra",
+            "d": "A elegir libremente su residencia"
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "TestReal"
+        ]
+    },
+    {
+        "id": 2,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Según lo dispuesto en el artículo 167.3 de la Constitución Española, aprobada la reforma por las Cortes Generales, será sometida a referéndum para su ratificación cuando así lo soliciten, dentro de los quince días siguientes a su aprobación:",
+        "opciones": {
+            "a": "Mayoría absoluta de los miembros de cualquiera de las Cámaras",
+            "b": "Mayoría de dos tercios de cada una de las Cámaras.",
+            "c": "Mayoría de dos tercios del Congreso.",
+            "d": "Una décima parte de los miembros de cualquiera de las Cámaras."
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 3,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Según lo dispuesto en el artículo 62 de la Constitución, corresponde al Rey (SEÑALA LA INCORRECTA):",
+        "opciones": {
+            "a": "Nombrar y separar a los miembros del Gobierno, a propuesta del Presidente del Congreso.",
+            "b": "Convocar a referéndum en los casos previstos en la Constitución",
+            "c": "Expedir los decretos acordados en el Consejo de Ministros, conferir los empleos civiles y militares y conceder honores y distinciones con arreglo a las leyes.",
+            "d": "Ejercer el derecho de gracia con arreglo a la ley, que no podrá autorizar indultos generales"
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 4,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Según lo dispuesto en el artículo 80 de la Constitución Española, las sesiones plenarias de las Cámaras serán públicas, salvo acuerdo en contrario de cada Cámara, adoptado por:",
+        "opciones": {
+            "a": "Mayoría de dos tercios o con arreglo al Raglamento",
+            "b": "Mayoría absoluta o con arreglo al Reglamento",
+            "c": "Mayoría simple o con arreglo al Reglamento",
+            "d": "Ninguna es correcta."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 5,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Según lo dispuesto en el artículo 159.1 de la Constitución Española, el Tribunal Constitucional se compone:",
+        "opciones": {
+            "a": "De 12 miembros nombrados por el Rey; de ellos, cuatro a propuesta del Congreso por mayoría de tres quintos de sus miembros; cuatro a propuesta del Senado, con idéntica mayoría; dos a propuesta del Gobierno, y dos a propuesta del Consejo General del Poder Judicial.",
+            "b": "De 12 miembros nombrados por el Rey; de ellos, cuatro a propuesta del Congreso por mayoría de dos tercios de sus miembros; cuatro a propuesta del Senado, con idéntica mayoría; dos a propuesta del Gobierno, y dos a propuesta del Consejo General del Poder Judicial.",
+            "c": "De 12 miembros nombrados por el Rey; de ellos, cuatro a propuesta del Congreso por mayoría absoluta de sus miembros; cuatro a propuesta del Senado, con idéntica mayoría; dos a propuesta del Gobierno, y dos a propuesta del Consejo General del Poder Judicial.",
+            "d": "De 16 miembros nombrados por el Rey; de ellos, cuatro a propuesta del Congreso por mayoría de dos tercios de sus miembros; cuatro a propuesta del Senado, con idéntica mayoría; cuatro a propuesta del Gobierno, y cuatro a propuesta del Consejo General del Poder Judicial."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    }
+]
