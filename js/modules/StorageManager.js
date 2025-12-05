@@ -1,6 +1,8 @@
 export class StorageManager {
     static CURRENT_SESSION_KEY = 'opo_current_session';
     static FAILED_QUESTIONS_KEY = 'opo_failed_questions';
+    static EXAM_HISTORY_KEY = 'opo_exam_history';
+    static REPEAT_EXAM_KEY = 'opo_repeat_exam';
 
     // --- LocalStorage: Session ---
 
@@ -57,6 +59,58 @@ export class StorageManager {
         } catch (e) {
             return [];
         }
+    }
+
+    // --- LocalStorage: Exam History ---
+
+    static saveExamResult(result) {
+        try {
+            const history = this.getExamHistory();
+            // Add timestamp if not present
+            if (!result.date) result.date = new Date().toISOString();
+
+            // Add to beginning of array
+            history.unshift(result);
+
+            // Limit history to last 50 exams to save space
+            if (history.length > 50) history.pop();
+
+            localStorage.setItem(this.EXAM_HISTORY_KEY, JSON.stringify(history));
+        } catch (e) {
+            console.error("Failed to save exam history:", e);
+        }
+    }
+
+    static getExamHistory() {
+        try {
+            const data = localStorage.getItem(this.EXAM_HISTORY_KEY);
+            return data ? JSON.parse(data) : [];
+        } catch (e) {
+            return [];
+        }
+    }
+
+    // --- LocalStorage: Repeat Exam ---
+
+    static saveRepeatExam(questions) {
+        try {
+            localStorage.setItem(this.REPEAT_EXAM_KEY, JSON.stringify(questions));
+        } catch (e) {
+            console.error("Failed to save repeat exam:", e);
+        }
+    }
+
+    static loadRepeatExam() {
+        try {
+            const data = localStorage.getItem(this.REPEAT_EXAM_KEY);
+            return data ? JSON.parse(data) : null;
+        } catch (e) {
+            return null;
+        }
+    }
+
+    static clearRepeatExam() {
+        localStorage.removeItem(this.REPEAT_EXAM_KEY);
     }
 
     // --- XML Export/Import ---
