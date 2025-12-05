@@ -3,14 +3,14 @@
         {
             "id": "ce",
             "nombre": "Constitución Española",
-            "valor": "CE.json",
+            "valor": "data/CE.json",
             "total_preguntas": 370,
             "icono": "CE"
         },
         {
             "id": "ea-clm",
             "nombre": "Estatuto de Autonomía de Castilla-La Mancha",
-            "valor": "EA-CLM.json",
+            "valor": "data/EA-CLM.json",
             "total_preguntas": 140,
             "icono": "EA-CLM"
         }

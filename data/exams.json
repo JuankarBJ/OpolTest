@@ -1,12 +1,12 @@
 [
     {
-        "id": "exam-aux-age-2019",
-        "nombre": "Examen Auxiliar AGE 2019",
-        "descripcion": "Examen oficial del Cuerpo General Auxiliar de la Administración del Estado, convocatoria 2019.",
-        "total_preguntas": 50,
+        "id": "exam-guadalajara-2024",
+        "nombre": "Examen Guadalajara 2024",
+        "descripcion": "Examen oficial de Guadalajara 2024.",
+        "total_preguntas": 90,
         "fuentes": [
             {
-                "archivo": "data/AGE_2019.json",
+                "archivo": "data/Guadalajara2024.json",
                 "indices": [
                     0,
                     1,
@@ -57,25 +57,47 @@
                     46,
                     47,
                     48,
-                    49
-                ]
-            }
-        ]
-    },
-    {
-        "id": "exam-guadalajara-2024",
-        "nombre": "Examen Guadalajara 2024",
-        "descripcion": "Examen oficial de Guadalajara 2024.",
-        "total_preguntas": 5,
-        "fuentes": [
-            {
-                "archivo": "data/Guadalajara2024.json",
-                "indices": [
-                    0,
-                    1,
-                    2,
-                    3,
-                    4
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89
                 ]
             }
         ]

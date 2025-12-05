@@ -82,5 +82,1450 @@
             "Guadalajara2024",
             "TestReal"
         ]
+    },
+    {
+        "id": 6,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Según lo dispuesto en el artículo 136.2 de la Constitución Española, el Tribunal de Cuentas, sin perjuicio de su propia jurisdicción, remitirá a las Cortes Generales:",
+        "opciones": {
+            "a": "Un informe semestral en el que, cuando proceda, comunicará las infracciones o responsabilidades en que, a su juicio, se hubiere incurrido.",
+            "b": "Un informe anual en el que, cuando proceda, comunicará las infracciones o responsabilidades en que, a su juicio, se hubiere incurrido.",
+            "c": "Un informe mensual en el que, cuando proceda, comunicará las infracciones o responsabilidades en que, a su juicio, se hubiere incurrido.",
+            "d": "Ninguna es correcta"
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 7,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Según lo dispuesto en el artículo 102.2 de la Constitución Española, si la acusación contra cualquier miembro del Gobierno fuere por traición o por cualquier delito contra la seguridad del Estado en el ejercicio de sus funciones, sólo podrá ser planteada por iniciativa de:",
+        "opciones": {
+            "a": "La tercera parte de los miembros del Congreso, y con la aprobación de la mayoría absoluta del mismo",
+            "b": "La tercera parte de los miembros del Congreso, y con la aprobación de la mayoría simple del mismo",
+            "c": "La cuarta parte de los miembros del Congreso, y con la aprobación de la mayoría absoluta del mismo",
+            "d": "La cuarta parte de los miembros del Congreso, y con la aprobación de la mayoría simple del mismo"
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 8,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Según el artículo 107 de la Constitución Española, el Consejo de Estado es:",
+        "opciones": {
+            "a": "El supremo órgano preceptivo del Gobierno. Una ley orgánica regulará su composición y competencia",
+            "b": "El supremo órgano consultivo del Gobierno. Una ley ordinaria regulará su composición y competencia",
+            "c": "El supremo órgano consultivo del Gobierno. Un Real Decreto Ley regulará su composición y competencia",
+            "d": "El supremo órgano consultivo del Gobierno. Una ley orgánica regulará su composición y competencia"
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 9,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Según el artículo 113 de la Ley 4/2011, de 10 de marzo, de Empleo Público de Castilla La Mancha, ¿cual de las siguientes NO es una situación administrativa del personal funcionario de carrera?:",
+        "opciones": {
+            "a": "Excedencia por razón de violencia de género",
+            "b": "Excedencia voluntaria por agrupación familiar",
+            "c": "Excedencia forzosa por interés particular",
+            "d": "Servicios especiales"
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 10,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Según la página web del Ayuntamiento de Guadalajara, en 1085, Guadalajara fue conquistada por el rey castellano",
+        "opciones": {
+            "a": "Alfonso VI",
+            "b": "Alfonso VII",
+            "c": "Alfonso X",
+            "d": "Ninguna es correcta"
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 11,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "El Centro Municipal Integrado “Eduardo Guitián” se encuentra situado en:",
+        "opciones": {
+            "a": "Avda. Laguna Grande",
+            "b": "Avda. De el Vado",
+            "c": "Avda. La Tajera",
+            "d": "Avda. Buendía"
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 12,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Según lo dispuesto en el cuadro sancionador al Anexo 7 de la Ordenanza General de Circulación publicado en el Boletín Oficial de la Provincia de Guadalajara número 62 de 30 de marzo de 2021, la sanción por conducir un ciclo, bicicleta de pedaleo asistido o un ciclo de pedaleo asistido sin utilizar remolques o semirremolques, silletas u otros elementos homologados para tal fin, transportando personas y/o mercancías será de:",
+        "opciones": {
+            "a": "200 €",
+            "b": "80 €",
+            "c": "50 €",
+            "d": "100 €"
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 13,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Según el artículo 12.8 de la modificación de la Ordenanza de Tenencia y Protección de Animales del Ayuntamiento de Guadalajara, publicada en el Boletín de la Provincia de Guadalajara número 76 de 21 de abril de 2022, los animales no se pueden dejar solos en el domicilio durante más de:",
+        "opciones": {
+            "a": "Tres días consecutivos",
+            "b": "Un día",
+            "c": "24 horas",
+            "d": "Dos días consecutivos"
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 14,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "¿Qué autonomía garantiza el articulo 140 de la Constitución Española?",
+        "opciones": {
+            "a": "La de los municipios.",
+            "b": "La de las comunidades autónomas que se constituyan.",
+            "c": "La de las provincias.",
+            "d": "Todas ellas."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 15,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Según el Estatuto de Autonomía de Castilla-La Mancha, ¿A quién corresponde solicitar del Gobierno de la Nación la aprobación de proyectos de ley?",
+        "opciones": {
+            "a": "A las Cortes de Castilla-La Mancha.",
+            "b": "Al Consejo de Gobierno.",
+            "c": "Al Presidente de la Junta.",
+            "d": "A la Mesa de las Cortes de Castilla-La Mancha."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 16,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "De las siguientes afirmaciones señale la que no se corresponde con lo previsto en el Estatuto de Autonomía de Castilla-La Mancha:",
+        "opciones": {
+            "a": "El Presidente de la Junta de Comunidades de Castilla-La Mancha dirige la acción del Consejo de Gobierno, coordina las funciones de sus miembros y ostenta la superior representación de la región.",
+            "b": "El Presidente de la Junta de Comunidades será nombrado por el Rey, tras ser elegido por las Cortes de Castilla-La Mancha de entre sus miembros por mayoría absoluta del Pleno de la Cámara.",
+            "c": "De no alcanzarse la mayoría prevista, se someterá la misma propuesta a nueva votación cuarenta y ocho horas después de la anterior y la confianza se entenderá otorgada si obtuviese la mayoría simple.",
+            "d": "Si no se obtiene la mayoría requerida, se tramitarán sin debate sucesivas propuestas y si en ninguna de ellas se llegara, en el plazo de tres meses, a alcanzar la mayoría simple, quedará automáticamente designado el candidato del partido que tenga mayor número de escaños."
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 17,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "El Presidente de la Junta de Comunidades de Castilla-La Mancha puede plantear ante las Cortes de Castilla-La Mancha la cuestión de confianza. De las afirmaciones siguientes señale la correcta:",
+        "opciones": {
+            "a": "El Presidente, previa deliberación del Consejo de Gobierno, puede plantear ante las Cortes de Castilla-La Mancha la cuestión de confianza sobre cualquier tema de interés regional. La confianza se entenderá otorgada cuando vote a favor de la misma la mayoría absoluta de los Diputados.",
+            "b": "Si el Presidente plantease la cuestión de confianza sobre un proyecto de ley, éste se considerará aprobado siempre que vote a favor de la confianza la mayoría simple de los Diputados.",
+            "c": "Si las Cortes de Castilla-La Mancha niegan su confianza al Presidente, éste presentará su dimisión y, a continuación, se procederá a la designación de Presidente de la Junta de Comunidades de conformidad con lo dispuesto en el artículo 15 del Estatuto.",
+            "d": "Todas son falsas."
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 18,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Según el Estatuto de Castilla-La Mancha, quienes hayan presentado una moción de censura no aprobada por las Cortes Regionales:",
+        "opciones": {
+            "a": "No podrán presentar otra hasta que transcurra un año desde la votación de la misma.",
+            "b": "No podrán presentar otra hasta que transcurra un año desde su presentación.",
+            "c": "No podrán presentar otra hasta que transcurra un año desde la votación de la misma. Salvo que la propongan un 15% de los diputados.",
+            "d": "No podrán presentar otra hasta que transcurra un año desde su presentación. Salvo que la propongan un 15% de los diputados."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 19,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Señale cuáles de las siguientes competencias son exclusivas de la Junta de Comunidades de Castilla-La Mancha:",
+        "opciones": {
+            "a": "Régimen local, montes, aprovechamientos y servicios forestales, vías pecuarias, pastos y espacios naturales protegidos.",
+            "b": "Ordenación farmacéutica. Propiedad industrial. Productos farmacéuticos.",
+            "c": "Ordenación del territorio, urbanismo y vivienda.",
+            "d": "Las respuestas a) y c) son correctas."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 20,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "La composición y funciones del Consejo Consultivo de Castilla-La Mancha se regulan:",
+        "opciones": {
+            "a": "En la Ley del Gobierno y del Consejo Consultivo de Castilla-La Mancha.",
+            "b": "En el Estatuto de Castilla-La Mancha.",
+            "c": "La composición viene regulada en el Estatuto de Castilla-La Mancha y sus funciones en el Reglamento de funcionamiento del Consejo Consultivo de Castilla-La Mancha.",
+            "d": "Ninguna es cierta."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 21,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Las competencias de vigilancia, control e inspección, previstas en el Decreto 72/1996, de 30 de abril, del Reglamento de la Ley contra la venta y publicidad de bebidas alcohólicas a menores, se ejercerán:",
+        "opciones": {
+            "a": "Por los Policías locales, los Inspectores locales de consumo u otros Agentes locales de inspección.",
+            "b": "Por los Servicios de Inspección de la Consejería de Sanidad.",
+            "c": "Por las Fuerzas y Cuerpos de Seguridad del Estado.",
+            "d": "Por cualquiera de los anteriores"
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 22,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "No es una competencia autonómica según la ley 7/2011, de 21 de marzo, de Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha:",
+        "opciones": {
+            "a": "Autorizar actividades recreativas o deportivas que se desarrollen en las travesías",
+            "b": "Establecer el horario general de los establecimientos públicos y actividades recreativas sujetos a esta Ley",
+            "c": "Autorizar los espectáculos y festejos taurinos",
+            "d": "Limitar, en su caso, el horario de terrazas o veladores ubicados en espacios públicos, con arreglo a lo establecido en la normativa vigente"
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 23,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Con carácter general, según la Ley 7/2011, de 21 de marzo, de Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha, están exentos de presentar declaración responsable u obtener licencia:",
+        "opciones": {
+            "a": "Los espectáculos públicos y actividades recreativas de carácter extraordinario organizados por el Ayuntamiento con motivo de fiestas y verbenas populares, con independencia de la titularidad del establecimiento o espacio abierto al público donde se llevan a cabo",
+            "b": "Los espectáculos públicos y actividades recreativas de interés artístico o cultural, con un aforo de hasta 50 personas, en el caso de que se lleven a cabo ocasionalmente en espacios abiertos al público o en cualquier tipo de establecimientos públicos",
+            "c": "Los establecimientos abiertos al público que son de titularidad del propio Ayuntamiento",
+            "d": "Todos ellos"
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 24,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "La resolución de los expedientes sancionadores por las faltas muy graves de la ley 7/2011, de 21 de marzo, de Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha corresponderá a:",
+        "opciones": {
+            "a": "la persona titular de la Consejería competente en dicha materia.",
+            "b": "la persona titular de la Dirección General de Protección Ciudadana.",
+            "c": "la persona titular de la Delegación Provincial.",
+            "d": "la persona titular la Corporación Municipal."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 25,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Según la ley 7/2011, de 21 de marzo, de Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha, la falta de limpieza e higiene en los locales:",
+        "opciones": {
+            "a": "No supone infracción",
+            "b": "Es una infracción grave",
+            "c": "Es una infracción leve",
+            "d": "Es una infracción muy grave"
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 26,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Conforme al artículo 129.6 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, en el ejercicio de la iniciativa legislativa y la potestad reglamentaria, las Administraciones Públicas actuarán de acuerdo con el principio de eficiencia, y, en su virtud:",
+        "opciones": {
+            "a": "La iniciativa normativa debe estar justificada por una razón de interés general.",
+            "b": "La iniciativa que se proponga deberá contener la regulación imprescindible para atender la necesidad a cubrir con la norma, tras constatar que no existen otras medidas menos restrictivas de derechos, o que impongan menos obligaciones a los destinatarios.",
+            "c": "La iniciativa normativa se ejercerá de manera coherente con el resto del ordenamiento jurídico, nacional y de la Unión Europea.",
+            "d": "La iniciativa normativa debe evitar cargas administrativas innecesarias o accesorias y racionalizar, en su aplicación, la gestión de los recursos públicos."
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 27,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Conforme al artículo 19.1 del Real Decreto 203/2021, de 30 de marzo, por el que se aprueba el Reglamento de actuación y funcionamiento del sector público por medios electrónicos, las Administraciones Públicas podrán identificarse mediante el uso de un sello electrónico basado en un certificado electrónico cualificado que reúna los requisitos exigidos por la legislación de firma electrónica. Estos certificados electrónicos incluirán:",
+        "opciones": {
+            "a": "El número de identificación civil.",
+            "b": "La denominación correspondiente, en su caso.",
+            "c": "En su caso, la identidad de la persona titular en el caso de los sellos electrónicos de órganos administrativos.",
+            "d": "En todo caso, la identidad de la persona titular en el caso de las firmas electrónicas de órganos administrativos."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 28,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "De acuerdo con el artículo 117.3 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, la ejecución del acto impugnado se entenderá suspendida:",
+        "opciones": {
+            "a": "En cualquier caso.",
+            "b": "Si transcurrido dos meses desde que la solicitud de suspensión haya tenido entrada en el registro electrónico de la Administración u Organismo competente para decidir sobre la misma, el órgano a quien competa resolver el recurso ha dictado y notificado resolución expresa al respecto.",
+            "c": "Si transcurridos dos meses desde que la solicitud de suspensión haya tenido entrada en el registro electrónico de la Administración u Organismo competente para decidir sobre la misma, el órgano a quien competa resolver el recurso no ha dictado y notificado resolución expresa al respecto.",
+            "d": "Si transcurrido un mes desde que la solicitud de suspensión haya tenido entrada en el registro electrónico de la Administración u Organismo competente para decidir sobre la misma, el órgano a quien competa resolver el recurso no ha dictado y notificado resolución expresa al respecto."
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 29,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Conforme al artículo 89.1 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, el órgano instructor resolverá la finalización del procedimiento, con archivo de las actuaciones, sin que sea necesaria la formulación de la propuesta de resolución, cuando en la instrucción procedimiento se ponga de manifiesto que concurre alguna de las siguientes circunstancias, salvo una. Señálela:",
+        "opciones": {
+            "a": "La inexistencia de los hechos que pudieran constituir la infracción.",
+            "b": "Cuando los hechos probados no constituyan, de modo manifiesto, infracción administrativa.",
+            "c": "Cuando no exista o no se haya podido identificar a la persona o personas responsables o bien aparezcan exentos de responsabilidad.",
+            "d": "Cuando se concluyera, en cualquier momento, que ha caducado la infracción."
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 30,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Conforme al artículo 16 de la Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local, respecto a los datos del padrón municipal. una de las siguientes opciones no es correcta. Señálela:",
+        "opciones": {
+            "a": "La inscripción en el Padrón municipal podrá recoger la aportación voluntaria de los datos relativos a la designación de las personas que pueden representar a cada vecino ante la administración municipal a efectos padronales.",
+            "b": "La inscripción en el Padrón municipal podrá recoger la aportación voluntaria de los datos relativos al número de teléfono de contacto.",
+            "c": "La inscripción en el Padrón municipal podrá recoger la aportación voluntaria de los datos relativos a la dirección de correo electrónico.",
+            "d": "La inscripción en el Padrón municipal podrá recoger la aportación voluntaria de los datos relativos al domicilio habitual, con especificación de la referencia catastral."
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 31,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Conforme al artículo 127 de la Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local, la aprobación de los proyectos de ordenanzas y de los reglamentos, incluidos los orgánicos, con excepción de las normas reguladoras del Pleno y sus comisiones, en un Municipio de Gran Población, corresponde a:",
+        "opciones": {
+            "a": "El Alcalde Presidente.",
+            "b": "El Pleno.",
+            "c": "La Junta de Gobierno Local.",
+            "d": "El Concejal Delegado de Recursos humanos."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 32,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Conforme al artículo 29.1 de la vigente Ordenanza de Medidas para Fomentar y Garantizar la Convivencia Ciudadana en el Espacio Público de Guadalajara, la conducta consistente en hacer necesidades fisiológicas, como defecar u orinar en la calle:",
+        "opciones": {
+            "a": "Será constitutiva de infracción leve, y se sancionará con multa de hasta 100 euros.",
+            "b": "Será constitutiva de infracción leve, y se sancionará con multa de hasta 200 euros.",
+            "c": "Será constitutiva de infracción leve, y se sancionará con multa de hasta 300 euros.",
+            "d": "Será constitutiva de infracción leve, y se sancionará con multa de hasta 750 euros"
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 33,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Conforme al artículo 32 de la vigente Ordenanza Reguladora de la Venta Ambulante en el Término Municipal de Guadalajara, constituye una infracción grave:",
+        "opciones": {
+            "a": "No tener a disposición de las personas consumidoras y usuarias las hojas de quejas y reclamaciones, de acuerdo con el modelo establecido en la normativa aplicable.",
+            "b": "La instalación de puestos o el ejercicio de la actividad sin la preceptiva autorización municipal.",
+            "c": "El incumplimiento de las fechas y de los horarios establecidos para la venta.",
+            "d": "La instalación en lugar distinto del autorizado."
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 34,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Conforme al artículo 27 de la vigente Ordenanza Reguladora de las Terrazas y Otras Instalaciones Especiales con Finalidad Lucrativa al Aire Libre Desarrollada por Establecimientos de Restauración y Hostelería, será considerada infracción grave:",
+        "opciones": {
+            "a": "La utilización de mobiliario distinto al autorizado.",
+            "b": "La ocupación de suelo por un número de mesas y sillas cuyo número supere el autorizado, hasta un 20%.",
+            "c": "La realización del aprovechamiento fuera del horario autorizado, en más de treinta minutos.",
+            "d": "La utilización del dominio público sin haber obtenido la correspondiente autorización o en un período no autorizado."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 35,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Conforme al artículo 62 de la vigente Ordenanza de Protección Contra la Contaminación Acústica y Térmica del Ayuntamiento de Guadalajara, es una infracción grave:",
+        "opciones": {
+            "a": "Superar los límites de niveles sonoros máximos permitidos en más de 4 dBA, y hasta en 7 dBA en periodo nocturno o hasta en 10 dBA en periodo diurno o vespertino.",
+            "b": "Transmitir vibraciones cuyo valor del índice Law supere hasta en 4 dB los límites a los que se refiere el artículo 17, en función del uso del edificio.",
+            "c": "Transmitir vibraciones cuyo valor del índice K supere en más de 3 veces el límite reflejado en el Anexo IV, para el caso de emisores de vibraciones instalados con anterioridad a la entrada en vigor de esta Ordenanza.",
+            "d": "Provocar un incremento de la temperatura de los locales o viviendas, próximos o colindantes, superior a 7º C, en las condiciones establecidas en el artículo 31."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 36,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Según el artículo primero de la Ley Orgánica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad, la Seguridad Pública:",
+        "opciones": {
+            "a": "Es competencia exclusiva del Gobierno de la Nación, y su mantenimiento corresponde a las Comunidades Autónomas y a las Corporaciones Locales. Se ejercerá dicho mantenimiento por las distintas Administraciones Públicas a través de las Fuerzas y Cuerpos de Seguridad.",
+            "b": "Es competencia exclusiva del Estado, y su mantenimiento corresponde a las Comunidades Autónomas y Corporaciones Locales. Se ejercerá dicho mantenimiento por las distintas Administraciones Públicas a través de las Fuerzas y Cuerpos de Seguridad del Estado",
+            "c": "Es competencia exclusiva del Estado, y su mantenimiento corresponde al Gobierno de la Nación. Se ejercerá dicho mantenimiento por las distintas Administraciones Públicas a través de las Fuerzas y Cuerpos de Seguridad.",
+            "d": "Ninguna de las anteriores"
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 37,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Según la Ley Orgánica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad, qué órgano ejercerá la competencia de informar las plantillas de los Cuerpos de Policía de las Comunidades Autónomas y sus modificaciones, así como la creación de éstos:",
+        "opciones": {
+            "a": "La Junta de Seguridad",
+            "b": "El Consejo de Política de Seguridad",
+            "c": "El Comité de expertos integrado por ocho representantes, cuatro del Estado y cuatro de las Comunidades Autónomas.",
+            "d": "El órgano de gobierno de la Comunidad Autónoma, a través de la consejería competente"
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 38,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Dentro de la composición de la Comisión de Coordinación de las Policías Locales de la Comunidad Autónoma de Castilla La Mancha, los vocales en representación de los Ayuntamientos de la Región propuestos por la Federación de Municipios y Provincias de Castilla-La Mancha serán…",
+        "opciones": {
+            "a": "Tres representantes de las jefaturas de Cuerpo pertenecientes uno a municipios de más de 50.000 habitantes, otro a municipios con población entre 10.000 y 50.000 habitantes, y otro a municipios de menos de 10.000 habitantes.",
+            "b": "Tres representantes de las jefaturas de Cuerpo pertenecientes uno a municipios de más de 50.000 habitantes, otro a municipios con población entre 20.000 y 50.000 habitantes, y otro a municipios de menos de 20.000 habitantes.",
+            "c": "Nueve, de los cuales tres pertenecerán a municipios de más de 50.000 habitantes, tres a municipios con población entre 10.000 y 50.000 habitantes, y tres a municipios de menos de 10.000 habitantes.",
+            "d": "Nueve, de los cuales tres pertenecerán a municipios de más de 50.000 habitantes, tres a municipios con población entre 20.000 y 50.000 habitantes, y tres a municipios de menos de 20.000 habitantes."
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 39,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "El artículo 50 del Decreto 110/2006, de 17 de octubre, por el que se aprueba el Reglamento de la Ley de Coordinación de Policías Locales de Castilla-La Mancha, establece que en los Ayuntamientos en los que exista Cuerpo de Policía Local, las funciones que la legislación vigente atribuye al mismo...",
+        "opciones": {
+            "a": "Solo podrán realizarse exclusivamente por el personal que integre dicho Cuerpo, sin perjuicio de lo establecido por la legislación estatal y autonómica de general de pertinente aplicación.",
+            "b": "Solo podrán realizarse por el personal que integre dicho Cuerpo, sin perjuicio de lo previsto en relación con las comisiones de servicio de carácter funcional y de lo establecido por la legislación estatal y autonómica de general de pertinente aplicación.",
+            "c": "Solo podrán realizarse por el personal que integre dicho Cuerpo, sin perjuicio de lo previsto en relación con los convenios de colaboración y de lo establecido por la legislación estatal y autonómica de general de pertinente aplicación.",
+            "d": "Solo podrán realizarse por el personal que integre dicho Cuerpo, sin perjuicio de lo previsto en relación con los procesos de movilidad y de lo establecido por la legislación estatal y autonómica de general de pertinente aplicación"
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 40,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "El Decreto por el que se regula el Registro de Policías Locales de la Comunidad Autónoma de castilla-La Mancha es:",
+        "opciones": {
+            "a": "El Decreto 13/2011, de 26 de abril de 2011 y consta de 5 artículos.",
+            "b": "El Decreto 13/2011, de 24 de abril de 2011 y consta de 6 artículos.",
+            "c": "El Decreto 31/2011, de 26 de abril de 2011 y consta de 6 artículos.",
+            "d": "El Decreto 31/2011, de 24 de abril de 2011 y consta de 5 artículos."
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 41,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Según el artículo 386 del Real Decreto de 14 de septiembre de 1882, que aprueba la Ley de Enjuiciamiento Criminal, si el procesado estuviera detenido, se le recibirá la primera declaración dentro del término de…",
+        "opciones": {
+            "a": "Veinticuatro horas, que podrá prorrogarse por otras cuarenta y ocho horas, si mediare causa grave.",
+            "b": "Cuarenta y ocho horas, que podrá prorrogarse por otras veinticuatro horas, si mediare causa grave.",
+            "c": "Cuarenta y ocho horas, sin que pueda prorrogarse.",
+            "d": "No hay plazo determinado ya que se expresará concretamente en la providencia que acordase el Juez, de oficio o a instancia del Ministerio Fiscal."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 42,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "¿Cuál es el artículo de la Ley de Enjuiciamiento Criminal, que establece que los atestados que redactaren y las manifestaciones que hicieren los funcionarios de Policía judicial, a consecuencia de las averiguaciones que hubiesen practicado, se considerarán denuncias para los efectos legales?:",
+        "opciones": {
+            "a": "297",
+            "b": "295",
+            "c": "293",
+            "d": "292"
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 43,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "De acuerdo con los criterios establecidos en la Instrucción nº 7 de 12 de mayo de 1997, de la Secretaria de Estado de Seguridad, sobre elaboración de atestados, señale la opción correcta:",
+        "opciones": {
+            "a": "Las exposiciones contenidas en los atestados tratarán de recoger todos aquellos hechos objetivos y subjetivos que evidencien la realidad, acompañadas las mismas de valoraciones o calificaciones jurídicas",
+            "b": "Las diligencias que conformen el atestado, como consecuencia de las actuaciones practicadas deberán ordenarse cronológicamente, con expresión previa de su contenido, aunque no se indique su resultado.",
+            "c": "En la redacción de los atestados se harán constar actuaciones basadas en conceptos genéricos o no suficientemente fundamentados, tales como «actitud sospechosa» «informaciones recibidas», etc., o descripciones rutinarias similares.",
+            "d": "Cuando fuera conveniente o se trate de investigaciones laboriosas o complejas, el atestado deberá complementarse con una «Diligencia de informe» que exprese, resumidamente, el contenido de las mismas, los resultados obtenidos, así como cuantos datos se estimen convenientes para facilitar el conocimiento global de la investigación realizada"
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 44,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "De acuerdo con el artículo 14 de la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal el cual tipifica el error invencible sobre la ilicitud del hecho constitutivo de la infracción penal…",
+        "opciones": {
+            "a": "Agrava la responsabilidad criminal",
+            "b": "Atenúa la responsabilidad criminal",
+            "c": "Será castigado como imprudente si el error fuera vencible",
+            "d": "Se aplicará la pena inferior en uno o dos grados si el error fuera vencible"
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 45,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "De acuerdo con la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, cuando el que ha resuelto cometer un delito invita a otra u otras personas a participar en él, se define como…",
+        "opciones": {
+            "a": "Conspiración, definida en el artículo 17 de dicha Ley",
+            "b": "Proposición, definida en el artículo 17 de dicha Ley.",
+            "c": "Provocación, definida en el artíuclo18 de dicha Ley.",
+            "d": "Apología, definida en el artículo 18 de dicha Ley."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 46,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "De acuerdo con el artículo 152 apartado 2 de la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, el que por imprudencia menos grave causare alguna de lesiones de los artículos 147.1, 149 o 150, si los hechos se hubieran cometido utilizando un vehículo a motor o un ciclomotor, señale que opción es incorrecta:",
+        "opciones": {
+            "a": "A los efectos del apartado indicado, se reputará en todo caso como imprudencia menos grave aquella no calificada como grave en la que para la producción del hecho haya sido determinante la comisión de alguna de las infracciones muy graves de las normas de tráfico, circulación de vehículos y seguridad vial.",
+            "b": "La última modificación referida a las lesiones por imprudencia menos graves si los hechos se hubieran cometidas utilizando un vehículo a motor o un ciclomotor se realiza por el apartado dos del artículo único de la Ley Orgánica 11/2022, de 13 de septiembre, de modificación del Código Penal en materia de imprudencia en la conducción de vehículos a motor o ciclomotor.",
+            "c": "Además de las penas que correspondan por las lesiones, se impondrá también la pena de privación del derecho a conducir vehículos a motor y ciclomotores de tres a dieciocho meses",
+            "d": "El delito previsto en el apartado indicado solo será perseguible mediante denuncia de la persona agraviada o de su representante legal"
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 47,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "La regulación de los delitos contra la libertad en la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, se encuentra:",
+        "opciones": {
+            "a": "En el Titulo VI del Libro II, dividido en 6 capítulos comprendiendo los artículos del 178 al 194 bis",
+            "b": "En el Titulo VIII del Libro II, dividido en 3 capítulos, comprendiendo los artículos del 163 al 172 quater",
+            "c": "En el Titulo VI del Libro II, dividido en 3 capítulos, comprendiendo los artículos del 163 al 172 quater",
+            "d": "En el Título VIII del Libro II, dividido en 6 capítulos, comprendiendo los artículos del 178 al 194 bis"
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 48,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "De acuerdo con el artículo 184 de la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, el culpable de acoso sexual será castigado con la pena de prisión de uno a dos años e inhabilitación especial para el ejercicio de la profesión, oficio o actividad de dieciocho a veinticuatro meses si hubiera cometido el hecho:",
+        "opciones": {
+            "a": "Prevaliéndose de una situación de superioridad laboral, docente o jerárquica.",
+            "b": "Con el anuncio expreso o tácito de causar a la víctima un mal relacionado con las legítimas expectativas que aquella pueda tener en el ámbito de la indicada relación.",
+            "c": "Sobre persona sujeta a su guarda o custodia.",
+            "d": "Todas las respuestas anteriores son correctas."
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 49,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "La Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género está compuesta por:",
+        "opciones": {
+            "a": "Un título Preliminar, cinco títulos más, un total de 75 artículos, 21 disposiciones adicionales, 2 disposiciones transitorias, 1 disposición derogatoria y 7 disposiciones finales.",
+            "b": "Cinco títulos, un total de 75 artículos, 21 disposiciones adicionales, 2 disposiciones transitorias, 1 disposición derogatoria y 7 disposiciones finales.",
+            "c": "Un título Preliminar, cinco títulos más, un total de 72 artículos, 20 disposiciones adicionales, 2 disposiciones transitorias, 1 disposición derogatoria y 7 disposiciones finales.",
+            "d": "Cinco títulos, un total de 72 artículos, 20 disposiciones adicionales, 2 disposiciones transitorias, 1 disposición derogatoria y 7 disposiciones finales"
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 50,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "De acuerdo con el artículo 197 ter de la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, será castigado con una pena de prisión de seis meses a dos años o multa de tres a dieciocho meses el que, sin estar debidamente autorizado, produzca, adquiera para su uso, importe o, de cualquier modo, facilite a terceros, con la intención de facilitar la comisión de alguno de los delitos a que se refieren los apartados 1 y 2 del artículo 197 o el artículo 197 bis:",
+        "opciones": {
+            "a": "Una contraseña de ordenador, un código de acceso o datos similares que permitan acceder exclusivamente a la totalidad de un sistema de información.",
+            "b": "Un programa informático, concebido o adaptado principalmente para cometer dichos delitos",
+            "c": "Un artificio o instrumento técnico que intercepte transmisiones no públicas de un sistema de información.",
+            "d": "Las respuestas a) y b) son correctas."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 51,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "El reo de hurto está definido en el artículo_______ de la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal:",
+        "opciones": {
+            "a": "233",
+            "b": "234",
+            "c": "235",
+            "d": "236"
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 52,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "En relación con los delitos contra los derechos de los trabajadores, la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, regula como delito el que determinare o favoreciere la emigración de alguna persona a otro país simulando contrato o colocación, o usando de otro engaño semejante, ¿En qué artículo?:",
+        "opciones": {
+            "a": "312",
+            "b": "313",
+            "c": "314",
+            "d": "No se establece dicha regulación como un delito contra los derechos de los trabajadores."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 53,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "El artículo 314 de la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, castiga a quienes produzcan una grave discriminación en el empleo, público o privado, contra alguna persona, y no restablezcan la situación de igualdad ante la ley tras requerimiento o sanción administrativa, reparando los daños económicos que se hayan derivado, serán castigados con la pena de prisión de seis meses a dos años o multa de doce a veinticuatro meses. ¿Cuáles las razones de grave discriminación a las que se refiere dicho artículo?:",
+        "opciones": {
+            "a": "Ideología, religión o creencias, su situación familiar, su pertenencia a una etnia, raza o nación, su origen nacional, su sexo, edad, orientación o identidad sexual o de género, razones de género, de aporofobia o de exclusión social o la enfermedad que padezca o su discapacidad.",
+            "b": "Por ostentar la representación legal o sindical de los trabajadores o por el parentesco con otros trabajadores de la empresa.",
+            "c": "Por el uso de alguna de las lenguas oficiales dentro del Estado español",
+            "d": "Todas las razones de las respuestas anteriores son correctas."
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 54,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Según el apartado 2 del artículo 319 de la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, se impondrá la pena de prisión de uno a tres años, multa de doce a veinticuatro meses, salvo que el beneficio obtenido por el delito fuese superior a la cantidad resultante en cuyo caso la multa será del tanto al triplo del montante de dicho beneficio, e inhabilitación especial para profesión u oficio por tiempo de uno a cuatro años, a los promotores, constructores o técnicos directores que lleven a cabo obras de urbanización, construcción o edificación no autorizables…",
+        "opciones": {
+            "a": "En suelos destinados a viales, zonas verdes, bienes de dominio público o lugares que tengan legal o administrativamente reconocido su valor paisajístico, ecológico, artístico, histórico o cultural.",
+            "b": "En suelos que por su valor paisajístico, ecológico, artístico, histórico o cultural hayan sido considerados de especial protección.",
+            "c": "En el suelo rústico",
+            "d": "En el suelo no urbanizable"
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 55,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Respecto a los delitos de cohecho regulados en la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, indique la conducta que no se incluye en las sancionadas penalmente:",
+        "opciones": {
+            "a": "La autoridad o funcionario público que, en provecho propio o de un tercero, admitiera, por sí o por persona interpuesta, dádiva o regalo que le fueren ofrecidos en consideración a su persona.",
+            "b": "La autoridad o funcionario público que, en provecho propio o de un tercero, aceptare ofrecimiento o promesa para realizar un acto propio de su cargo",
+            "c": "La autoridad o funcionario público que, en provecho propio o de un tercero, recibiere o solicitare, por sí o por persona interpuesta, dádiva, favor o retribución de cualquier clase para realizar en el ejercicio de su cargo un acto contrario a los deberes inherentes al mismo.",
+            "d": "La autoridad o funcionario público que, en provecho propio o de un tercero, por sí o por persona interpuesta, aceptare ofrecimiento o promesa para no realizar un acto o retrasar injustificadamente el que debiera practicar"
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 56,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "De acuerdo con la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, los que causaren daños que interrumpan, obstaculicen o destruyan líneas o instalaciones de telecomunicaciones o la correspondencia postal, incurrirán en un delito:",
+        "opciones": {
+            "a": "De daños agravados",
+            "b": "Contra la seguridad colectiva",
+            "c": "De desórdenes públicos",
+            "d": "Contra el patrimonio"
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 57,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "De acuerdo con el artículo 511 de la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, y en relación con los delitos de odio, se castiga al particular encargado de un servicio público que deniegue a una persona una prestación a la que tenga derecho por razón… (señale la respuesta incorrecta):",
+        "opciones": {
+            "a": "de su ideología, religión o creencias",
+            "b": "de su situación familiar",
+            "c": "racista, antisemita y antigitano.",
+            "d": "de su edad"
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 58,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "De acuerdo el artículo 382 de la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, cuando con los actos sancionados en los artículos 379, 380 y 381 se ocasionare, además del riesgo prevenido, un resultado lesivo constitutivo de delito, cualquiera que sea su gravedad…",
+        "opciones": {
+            "a": "Los Jueces o Tribunales apreciarán tan sólo la infracción más gravemente penada, aplicando la pena superior en grado y condenando, en todo caso, al resarcimiento de la responsabilidad civil que se hubiera originado.",
+            "b": "Los Jueces o Tribunales apreciarán tan sólo la infracción más gravemente penada, aplicando la pena en su mitad superior y condenando, en todo caso, al resarcimiento de la responsabilidad civil que se hubiera originado.",
+            "c": "Los Jueces o Tribunales apreciarán tan sólo la infracción más gravemente penada, y se impondrá en todo caso la pena de privación del derecho a conducir vehículos a motor y ciclomotores prevista en dichos artículos en su mitad superior.",
+            "d": "Los Jueces o Tribunales apreciarán tan sólo la infracción más gravemente penada, y se impondrá en todo caso la pena de privación del derecho a conducir vehículos a motor y ciclomotores prevista en dichos artículos."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 59,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "De acuerdo con el Real Decreto Legislativo 6/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley sobre Tráfico. Circulación de Vehículos a Motor y Seguridad Vial, es competencia que corresponde al Ministerio del Interior:",
+        "opciones": {
+            "a": "La coordinación de la prestación de la asistencia sanitaria en las vías públicas o de uso público.",
+            "b": "Las normas especiales que posibiliten la circulación de vehículos históricos y fomenten la conservación y restauración de los que integran el patrimonio histórico",
+            "c": "La regulación del transporte de personas y, especialmente, el transporte escolar y de menores, a los efectos relacionados con la seguridad vial.",
+            "d": "Todas las respuestas son correctas."
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 60,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "De acuerdo con el artículo 10 del Real Decreto Legislativo 6/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial, quién debe verificar que las placas de matrícula del vehículo no presentan obstáculos que impidan o dificulten su lectura e identificación.",
+        "opciones": {
+            "a": "El conductor.",
+            "b": "El titular.",
+            "c": "En su caso, el arrendatario.",
+            "d": "Las respuestas b) y c) son correctas."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 61,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "De acuerdo con la Sección 4ª del Capítulo VI del Título IV del Reglamento General de Circulación, de las señales de verticales de circulación se divide en las siguientes subsecciones:",
+        "opciones": {
+            "a": "Advertencia de peligro, obligación y orientación.",
+            "b": "Advertencia de peligro, prohibición e indicación",
+            "c": "Advertencia de peligro, prohibición y orientación",
+            "d": "Advertencia de peligro, reglamentación e indicación"
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 62,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "De acuerdo con el anexo III del Real Decreto Legislativo 6/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley sobre Tráfico. Circulación de Vehículos a Motor y Seguridad Vial, los cursos de sensibilización y reeducación vial para aquellos conductores que hayan perdido una parte del crédito inicial de puntos asignados tendrán una duración máxima de:",
+        "opciones": {
+            "a": "30 horas",
+            "b": "15 horas",
+            "c": "25 horas",
+            "d": "10 horas"
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 63,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "El procedimiento sancionador en materia de tráfico, circulación de vehículos a motor y seguridad vial se regula:",
+        "opciones": {
+            "a": "En el Real Decreto 320/1994, de 25 de febrero",
+            "b": "En el Capítulo IV del Título 5 del Real Decreto Legislativo 6/2015, de 30 de octubre.",
+            "c": "En los artículos 83 al 96 del Real Decreto Legislativo 6/2015, de 30 de octubre.",
+            "d": "Todas las respuestas son correctas"
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 64,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "De acuerdo con el apéndice I Anexo XIII de la Orden ICT/155/2020 de 7 de febrero, en modo normal de funcionamiento el etilómetro debe realizar un ciclo de medida compuesto de dos medidas correctas. El resultado del ciclo de medida será:",
+        "opciones": {
+            "a": "la media aritmética de la concentración másica medida de las dos medidas correctas.",
+            "b": "la menor concentración másica medida de las dos medidas correctas.",
+            "c": "la mayor concentración másica medida de las dos medidas correctas.",
+            "d": "el promedio de la concentración másica medida de las dos medidas correctas"
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 65,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "En relación al Registro Nacional de Víctimas de Accidentes de Tráfico del organismo Jefatura Central de Tráfico, qué normativa lo regula:",
+        "opciones": {
+            "a": "El Título VI del Real Decreto Legislativo 6/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley sobre Tráfico. Circulación de Vehículos a Motor y Seguridad Vial.",
+            "b": "La Orden INT/2223/2014, de 27 de octubre",
+            "c": "La Orden INT/2223/2014, de 27 de octubre<br>c)Los artículos 114 y 115 del Real Decreto Legislativo 6/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley sobre Tráfico. Circulación de Vehículos a Motor y Seguridad Vial.",
+            "d": "Todas las respuestas son correctas."
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 66,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Respecto al Real Decreto 818/2009, de 8 de mayo, por el que se aprueba el Reglamento General de Conductores, indique qué opción es la correcta:",
+        "opciones": {
+            "a": "Está formado por cinco títulos, con 79 artículos, 9 anexos, 11 disposiciones adicionales y 12 disposiciones transitorias",
+            "b": "Está formado por cinco títulos, con 79 artículos, 8 anexos, 12 disposiciones adicionales y 11 disposiciones transitorias",
+            "c": "Está formado por cuatro títulos, con 51 artículos, 18 anexos, 11 disposiciones adicionales y 12 disposiciones transitorias",
+            "d": "Está formado por cinco títulos, con 78 artículos, 8 anexos, 12 disposiciones adicionales y 11 disposiciones transitorias"
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 67,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "De acuerdo con el artículo 2 del Real Decreto 818/2009, de 8 de mayo, por el que se aprueba el Reglamento General de Conductores, el permiso internacional para conducir será expedido por:",
+        "opciones": {
+            "a": "El Organismo Autónomo Jefatura Central de Tráfico",
+            "b": "Por las Jefaturas Provinciales de Tráfico",
+            "c": "Por el Ministerio de Asuntos Exteriores y de Cooperación",
+            "d": "Por el Ministro del Interior"
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 68,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "De acuerdo con el artículo 16 del Real Decreto 2822/1998, de 23 de diciembre, por el que se aprueba el Reglamento General de Vehículos, en relación a los dispositivos obligatorios de alumbrado y señalización óptica para vehículos a motor y remolcados, toda motocicleta deberá estar provista de… (señale la opción incorrecta):",
+        "opciones": {
+            "a": "Luces indicadoras de dirección, con señal de emergencia.",
+            "b": "Luz de cruce.",
+            "c": "Catadióptricos traseros no triangulares.",
+            "d": "Luz de placa posterior de matrícula."
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 69,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Los vehículos que se utilicen para los transportes escolar y de menores de acuerdo con el Real Decreto 443/2001 de 27 de abril, deberán estar homologados como correspondientes a la categoría:",
+        "opciones": {
+            "a": "O",
+            "b": "R",
+            "c": "N",
+            "d": "M"
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 70,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "De acuerdo con el artículo 16 de la Ley Orgánica 4/2015, de 30 de marzo, de protección de la seguridad ciudadana, cuando no fuera posible la identificación por cualquier medio, incluida la vía telemática o telefónica, o si la persona se negase a identificarse, los agentes, para impedir la comisión de un delito o al objeto de sancionar una infracción, podrán requerir a quienes no pudieran ser identificados a que les acompañen a las dependencias policiales más próximas en las que se disponga de los medios adecuados para la práctica de esta diligencia, a los solos efectos de su identificación y…",
+        "opciones": {
+            "a": "Por el tiempo estrictamente necesario",
+            "b": "Por un tiempo de seis horas",
+            "c": "Por un tiempo que en ningún caso pueda superar las ocho horas",
+            "d": "Por un tiempo que en ningún caso pueda superar las cuatro horas"
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 71,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Conforme a lo dispuesto en el artículo 173 del Código Penal, la pena por delito de violencia doméstica se impondrá en su mitad superior cuando:",
+        "opciones": {
+            "a": "Se perpetre en presencia de menores",
+            "b": "Se utilicen o no armas para su comisión",
+            "c": "Tenga lugar en la vía pública",
+            "d": "Ninguna de las respuestas anteriores es correcta"
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 72,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Conforme a lo dispuesto en el artículo 490 de la Ley de Enjuiciamiento Criminal, el que intentare cometer un delito, en el momento de ir a cometerlo podrá ser detenido:",
+        "opciones": {
+            "a": "Exclusivamente por miembros de las Fuerzas y Cuerpos de Seguridad del Estado",
+            "b": "Exclusivamente por miembros de las Fuerzas y Cuerpos de Seguridad del Estado y Jueces",
+            "c": "Exclusivamente por miembros de las Fuerzas y Cuerpos de Seguridad del Estado, Jueces, Tribunales y Ministerio Fiscal",
+            "d": "Por cualquier persona"
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 73,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "El ámbito de aplicación de los juicios rápidos será siempre que concurran las circunstancias para su aplicación:",
+        "opciones": {
+            "a": "Delitos cuya pena privativa de libertad no supere los seis años o los once años si es de distinta naturaleza",
+            "b": "Delitos cuya pena privativa de libertad no supere los ocho años o los once años si es de distinta naturaleza",
+            "c": "Delitos cuya pena privativa de libertad no supere los diez años o los once años si es de distinta naturaleza",
+            "d": "Ninguna de las respuestas anteriores es correcta"
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 74,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Las actuaciones del Sistema Nacional de Protección Civil se regirán por los principios de:",
+        "opciones": {
+            "a": "Inclusión",
+            "b": "Participación",
+            "c": "Solidaridad interterritorial",
+            "d": "Todas las respuestas anteriores son correctas"
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 75,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Una petición de datos a una base de datos se denomina:",
+        "opciones": {
+            "a": "Informe",
+            "b": "Consulta",
+            "c": "Formulario",
+            "d": "Tabla"
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 76,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "La Ley para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI es la:",
+        "opciones": {
+            "a": "Ley 4/2021 de 28 de febrero",
+            "b": "Ley 4/2022 de 28 de febrero",
+            "c": "Ley 4/2023 de 28 de febrero",
+            "d": "Ley 4/2024 de 28 de febrero"
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 77,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "El Título I de la Ley para la Igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTB establece:",
+        "opciones": {
+            "a": "Las Disposiciones generales de esta Ley",
+            "b": "Medidas para la igualdad real y efectiva de personas trans",
+            "c": "Actuación de los poderes públicos",
+            "d": "Protección efectiva y reparación frente a la discriminación y la violencia por LGTBIfobia"
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 78,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "Conforme a lo dispuesto en la Ley Orgánica de protección de datos personales y garantía de los derechos digitales las personas tendrán con respecto al ejercicio de los derechos:",
+        "opciones": {
+            "a": "Derecho de acceso",
+            "b": "Derecho a la portabilidad",
+            "c": "Derecho de oposición",
+            "d": "Todas las respuestas anteriores son correctas"
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 79,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "El artículo 2 de la Ley 31/1995 de 8 de noviembre de prevención de riesgos laborales establece que es objeto de esta Ley:",
+        "opciones": {
+            "a": "Promover la seguridad y la salud de los trabajadores mediante la aplicación de medidas y el desarrollo de las actividades necesarias para l prevención de riesgos derivados de su vida cotidiana",
+            "b": "Promover la seguridad y la salud de los trabajadores mediante la aplicación de medidas y el desarrollo de las actividades necesarias para l prevención de riesgos derivados del trabajo",
+            "c": "Promover la seguridad y la salud de los trabajadores mediante la aplicación de medidas y el desarrollo de las actividades necesarias para l prevención de riesgos derivados de su vida cotidiana y del trabajo",
+            "d": "Ninguna de las respuestas anteriores es correcta"
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 80,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "El Capítulo III de la Ley 31/1995 de 8 de noviembre de prevención de riesgos laborales lleva por título:",
+        "opciones": {
+            "a": "Derechos y obligaciones",
+            "b": "Política de materia en prevención de riesgos",
+            "c": "Servicios de prevención",
+            "d": "Consulta y participación"
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 81,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "R.1 - Conforme al artículo 2 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, no tienen la consideración de Administraciones Públicas:",
+        "opciones": {
+            "a": "Cualesquiera organismos públicos y entidades de derecho público vinculados o dependientes de las Administraciones Públicas.",
+            "b": "Las entidades de derecho privado vinculadas o dependientes de las Administraciones Públicas",
+            "c": "Las Entidades que integran la Administración Local",
+            "d": "La Administración General del Estado"
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 82,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "R.2.- Conforme al artículo 5.1 del Real Decreto 203/2021, de 30 de marzo, por el que se aprueba el Reglamento de actuación y funcionamiento del sector público por medios electrónicos, se entiende por portal de internet:",
+        "opciones": {
+            "a": "El punto de acceso electrónico cuya titularidad corresponda a una Administración Pública, organismo público o entidad de derecho privado que permite el acceso a través de internet a la información, pero en ningún caso a la sede electrónica o sede electrónica asociada correspondiente",
+            "b": "Aquella dirección electrónica disponible para la ciudadanía por medio de redes de telecomunicaciones",
+            "c": "El punto mediante el se realizarán todas las actuaciones y trámites referidos a procedimientos o a servicios que requieran la identificación de la Administración Pública y, en su caso, la identificación o firma electrónica de las personas interesadas",
+            "d": "El punto de acceso electrónico cuya titularidad corresponda a una Administración Pública, organismo público o entidad de derecho público que permite el acceso a través de internet a la información, y, en su caso, a la sede electrónica o sede electrónica asociada correspondiente"
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 83,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "R.3.- Conforme al artículo 80.1 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, salvo disposición expresa en contrario, los informes serán:",
+        "opciones": {
+            "a": "Preceptivos y vinculantes",
+            "b": "Facultativos y vinculantes",
+            "c": "Facultativos y no vinculantes.",
+            "d": "Preceptivos y no vinculantes"
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 84,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "R.4.- Conforme al artículo 27 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, respecto del principio de tipicidad, una de las siguientes afirmaciones no es correcta. Señálela:",
+        "opciones": {
+            "a": "Las infracciones administrativas se clasificarán por la Ley en leves, graves y muy graves.",
+            "b": "Únicamente por la comisión de infracciones administrativas podrán imponerse sanciones que, en todo caso, estarán delimitadas por la Ley.",
+            "c": "Las normas definidoras de infracciones y sanciones serán susceptibles de aplicación analógica",
+            "d": "Sólo constituyen infracciones administrativas las vulneraciones del ordenamiento jurídico previstas como tales infracciones por una Ley, sin perjuicio de lo dispuesto para la Administración Local en el Título XI de la Ley 7/1985, de 2 de abril"
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 85,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "R.5.- De acuerdo con las definiciones del Anexo II del Real Decreto 2822/1998, de 23 de diciembre, por el que se aprueba el Reglamento General de Vehículos, cuál de los siguientes vehículos es un automóvil.",
+        "opciones": {
+            "a": "Ciclomotor",
+            "b": "Tranvía",
+            "c": "Vehículo articulado",
+            "d": "Tractor agrícola"
+        },
+        "respuestaCorrecta": "c",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 86,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "R.6.- De acuerdo con el artículo 162 del Reglamento General de Circulación, las señales de orientación se subdividen en:",
+        "opciones": {
+            "a": "De servicio, de dirección, de carril, de localización, de confirmación y de uso específico en poblado",
+            "b": "De preseñalización, de dirección, de identificación de carreteras, de localización, de confirmación y de uso específico en poblado",
+            "c": "De reglamentación, de dirección, de carril, de localización, de confirmación y de servicio",
+            "d": "De indicación general, de dirección, de carril, de localización, de confirmación y de identificación de carreteas"
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 87,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "R.7.- De acuerdo con el artículo 152 del Reglamento General de Circulación, la señal cuyo significado es prohibición de acceso a toda clase de vehículos, tiene nomenclatura:",
+        "opciones": {
+            "a": "R-100",
+            "b": "R-101",
+            "c": "R-102",
+            "d": "R-200"
+        },
+        "respuestaCorrecta": "b",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 88,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "R.8.- De acuerdo con el Reglamento General de Circulación, la señal de reglamentación con nomenclatura R-2 significa:",
+        "opciones": {
+            "a": "Circulación prohibida",
+            "b": "Entrada prohibida",
+            "c": "Ceda el paso",
+            "d": "Detención obligatoria o stop"
+        },
+        "respuestaCorrecta": "d",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 89,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "R.9.- No cometerá un delito de coacciones del artículo 172.1 de la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, el que, sin estar legítimamente autorizado:",
+        "opciones": {
+            "a": "Utilice la violencia para impedir a otro a hacer lo que la ley prohíbe",
+            "b": "Utilice la violencia para impedir a otro a hacer lo que la ley no prohíbe",
+            "c": "Utilice la violencia para obligar a otro a efectuar lo que no quiere, si es un acto justo",
+            "d": "Utilice la violencia para obligar a otro a efectuar lo que no quiere, si es un acto injusto"
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
+    },
+    {
+        "id": 90,
+        "tema": "Examen Guadalajara 2024",
+        "pregunta": "R.10.- De acuerdo con el artículo 156 bis de la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, se entenderá por tráfico de órganos humanos…",
+        "opciones": {
+            "a": "La preparación, preservación, almacenamiento, transporte, traslado, recepción, importación o exportación de órganos ilícitamente extraídos.",
+            "b": "El uso de órganos ilícitamente extraídos con la única finalidad de su trasplante",
+            "c": "La extracción u obtención ilícita de órganos humanos ajenos, siendo ilícita exclusivamente cuando concurra que se haya realizado sin el consentimiento libre, informado y expreso del donante vivo en la forma y con los requisitos previstos legalmente.",
+            "d": "Todas las anteriores son correctas"
+        },
+        "respuestaCorrecta": "a",
+        "explicacion": "",
+        "tags": [
+            "Guadalajara2024",
+            "TestReal"
+        ]
     }
 ]

@@ -4,7 +4,7 @@
         "nombre": "Tema 1: La Constitución (I)",
         "fuentes": [
             {
-                "archivo": "CE.json",
+                "archivo": "data/CE.json",
                 "indices": [
                     0,
                     1,
@@ -25,7 +25,7 @@
         "nombre": "Tema 2: La Constitución (II)",
         "fuentes": [
             {
-                "archivo": "CE.json",
+                "archivo": "data/CE.json",
                 "indices": [
                     10,
                     11,
@@ -46,7 +46,7 @@
         "nombre": "Tema 3: Estatuto de Autonomía",
         "fuentes": [
             {
-                "archivo": "EA-CLM.json",
+                "archivo": "data/EA-CLM.json",
                 "indices": [
                     0,
                     1,
@@ -67,7 +67,7 @@
         "nombre": "Tema 4: Repaso General (Mixto)",
         "fuentes": [
             {
-                "archivo": "CE.json",
+                "archivo": "data/CE.json",
                 "indices": [
                     20,
                     21,
@@ -77,7 +77,7 @@
                 ]
             },
             {
-                "archivo": "EA-CLM.json",
+                "archivo": "data/EA-CLM.json",
                 "indices": [
                     10,
                     11,
